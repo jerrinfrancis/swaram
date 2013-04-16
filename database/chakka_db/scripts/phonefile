@@ -1,0 +1,112 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+import sys 
+
+for file_name in os.listdir("."):
+	if file_name.endswith(".words") :
+		break
+
+fin=open(file_name,'r')
+
+if(len(sys.argv)>1):
+	fname=sys.argv[1]
+else:
+	fname=file_name[0:-6]
+
+fout=open(fname+'.phone','w')
+fil=open(fname+'.filler','w')
+
+vyanjanam=['ക','ഖ','ഗ','ഘ','ങ','ച','ഛ','ജ','ഝ','ഞ','ട','ഠ','ഡ','ഢ','ണ','ത','ഥ','ദ','ധ','ന','പ','ഫ','ബ','ഭ','മ','യ','ര','ല','വ','ശ','ഷ','സ','ഹ','ള','ഴ','റ']
+veng={'അ':'A','ആ':'AA','ഇ':'E','ഈ':'EE','ഉ':'U','ഊ':'UU','ഋ':'RU', 'എ':'EY','ഏ':'EEY','ഐ':'I','ഒ':'O','ഓ':'OO','ഔ':'AW','അം':'AM','ക':'K','ഖ':'KH','ഗ':'G', 'ഘ':'KK','ങ':'NG','ച':'CH','ഛ':'CHH','ജ':'J','ഝ':'CCH','ഞ':'NJ','ട':'D','ഠ':'DD','ഡ':'DH', 'ഢ':'DDH','ണ':'NU','ത':'T','ഥ':'TT','ദ':'DA','ധ':'DDA','ന':'N','പ':'P','ഫ':'PP','ബ':'B','ഭ':'BH','മ':'M', 'യ':'Y','ര':'RA','ല':'L','വ':'V','ശ':'SS','ഷ':'SH','സ':'S','ഹ':'H','ള':'LU','ഴ':'ZH','റ':'RA'}
+vchill={'ല':'IL','ന':'IN','ര':'IR','ണ':'INN','ള':'ILL'}
+kala=['്']
+chillu={'ല':'ല്‍','ണ':'ണ്‍','ര':'ര്‍','ന':'ന്‍','ള':'ള്‍'}
+maathra={'ാ':'AA','ി':'E','ീ':'EE','ു':'U','ൂ':'UU','ൃ':'RU','െ':'EY','േ':'EEY','ൈ':'I','ൊ':'O','ോ':'OO','ൗ':'AW','ം':'AM'}
+flag=0
+phonelist=[]
+
+for line in fin: 
+    index=0
+    output=''
+    
+    while index< len(line):
+
+        if ord(line[index])>128 :
+            if flag==1:
+               flag=0
+            if line[index:index+3] in vyanjanam :
+                if line[index+3:index+6] not in maathra :
+                    if line[index+3:index+6]=='്' :
+                        if line[index+6:index+9]=='‍':
+				if(vchill[line[index:index+3]] not in phonelist):
+					phonelist.append(vchill[line[index:index+3]])
+					print line
+					output=output+vchill[line[index:index+3]]+'\n'
+                        	index=index+9
+                        else:
+				if(veng[line[index:index+3]] not in phonelist):
+					phonelist.append(veng[line[index:index+3]])
+					print line
+                			output=output+veng[line[index:index+3]]+'\n'
+				index=index+6				
+                    else:
+			if(veng[line[index:index+3]] not in phonelist):
+				phonelist.append(veng[line[index:index+3]])
+				print line				
+	                        output=output+veng[line[index:index+3]]+'\n'
+				if('A' not in phonelist):
+					phonelist.append('A')
+					output=output+'A\n'
+                        index=index+3
+                else :
+                    
+		    if(veng[line[index:index+3]] not in phonelist):
+				phonelist.append(veng[line[index:index+3]])
+				print line	
+                    		output=output+veng[line[index:index+3]]+'\n'
+                    
+		    if(maathra[line[index+3:index+6]] not in phonelist):
+				phonelist.append(maathra[line[index+3:index+6]])
+				print line
+				output=output+maathra[line[index+3:index+6]]+'\n'
+
+		    index=index+6
+
+            else:
+                if(line[index:index+3]=='അ' and line[index+3:index+6]=='ം') :
+                    
+		    if('AM' not in phonelist):
+			phonelist.append('AM')
+			print line	
+			output=output+'AM\n'
+                    index=index+6
+                else:
+                    if line[index:index+3]=='ം' :
+			if('AM' not in phonelist):
+				phonelist.append('AM')
+				print line
+				output=output+'AM\n'	
+                        
+                    else:
+                        if(veng[line[index:index+3]] not in phonelist):
+				phonelist.append(veng[line[index:index+3]])
+				print line
+				output=output+veng[line[index:index+3]]+'\n'
+                    index=index+3
+        else:
+		flag=1
+                index=index+1
+
+              
+    
+    fout.write(output)
+
+fout.write('SIL')
+fil.write('<s>		SIL\n')
+fil.write('</s>		SIL\n')
+fil.write('<sil>		SIL')
+fil.close()
+fin.close()
+fout.close()        

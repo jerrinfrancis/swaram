@@ -1,0 +1,61 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+import sys 
+
+for file_name in os.listdir("."):
+	if file_name.endswith(".words") :
+		break
+
+
+names=[]
+train=file_name[:-6]
+
+if (len(sys.argv)>1):
+	for arg in sys.argv[1:]:
+		names.append(arg)
+else:
+	names=['jerrin','vineeth','rahul','arun','akhil','nishana']
+
+
+
+fin=open(file_name,'r')
+ftest=open(train+'_test.transcription','w')
+ftrain=open(train+'_train.transcription','w')
+ftestid=open(train+'_test.fileids','w')
+ftrainid=open(train+'_train.fileids','w')
+
+j=1
+linecount=1
+tag=''
+
+for line in fin:
+	if(line!='\n'):
+		linecount=linecount+1
+
+print names
+
+for i in range(0,len(names)):
+	j=1
+	fin.seek(0)
+	for line in fin:
+		if line!= '\n' and line[0]!='#':
+			if (i==len(names) and j==linecount):
+				output1=line[0:-1]+'('+names[i]+'_'+str(j)+')'
+				output2='<s> '+line[0:-1]+' </s> ('+names[i]+'_'+str(j)+')'
+				output3=tag+'/'+names[i]+'/'+names[i]+'_'+str(j)
+			else:
+				output1=line[0:-1]+'('+names[i]+'_'+str(j)+')\n'
+				output2='<s> '+line[0:-1]+' </s> ('+names[i]+'_'+str(j)+')\n'
+				output3=tag+'/'+names[i]+'/'+names[i]+'_'+str(j)+'\n'
+			
+			ftest.write(output1)
+			ftrain.write(output2)
+			ftestid.write(output3)
+			ftrainid.write(output3)
+			j=j+1
+		elif line[0]=='#' :
+			
+			tag=line[1:-1]
+			j=1

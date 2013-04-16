@@ -1,0 +1,82 @@
+This is CHAKKA, an open source Speech Recogntion System developed for malayalam language.
+This directory contains the scripts and instructions necessary for generating dictionary, 
+phone set and transcription files for training acoustic data.
+
+This distribution is free software, see COPYING for licence.
+ 
+DIRECTORY STRUCTURE
+-------------------
+The directory containing the acoustic data for training is in the following structure:-
+
+wav folder ----> {folders of different data set eg:-bustiming,map etc}--------> { for each data set we have 'n' folders with names of participants } -----> { files in each participant folder is of the form participantname_{1...m}*.wav,where 'm' is the number of samples in that set}
+
+example structure :
+
+wav------>{bustiming, map}			
+		|      |		 
+		|      |
+		|      |-------------------------------------------->{vineeth,arun,rahul}
+		|                                                       |      |    |
+		|----------{vineeth,arun,rahul}             	        |      |    |
+                              |      |     |      			|      |    |
+                              |      |     |      			|      |    |------{rahul_1.wav,rahul_2.wav.......rahul_m.wav} 
+                              |      |     |      			|      |
+ 			      |	     |	   |	 			|      |----------{arun_1.wav,arun_2.wav......,arun_m.wav}
+			      |	     |	   | 	 			|
+		              |      |	   |	 			|----------------{vineeth_1.wav,vineeth_2.wav.....,vineeth_m.wav}
+			      |      |     |------{rahul_1.wav,rahul_2.wav.......rahul_m.wav}
+		              |      |     
+			      |      |----------{arun_1.wav,arun_2.wav......,arun_m.wav}
+			      |
+			      |----------------{vineeth_1.wav,vineeth_2.wav.....,vineeth_m.wav}	
+
+
+
+INPUT FILE STRUCTURE
+--------------------
+The input file for the scripts in the folder should have the name of the form "database_name.words" in the same folder as the scripts are executing from or you can specify the filename as a command Line argument of the script.
+
+The input file should have the following format:
+
+#data-set_name
+data 1
+data 2
+.
+.
+.
+data n
+
+#data-set_name 
+
+data 1
+data 2
+.
+.
+.
+data n
+
+
+For more details check the structure of 'wav' directory and chakka.words in the 'etc' of the chakka database.
+
+
+USAGE                                                    
+-----      
+
+1. Generating the dictionary file ie: 'database-name.dic'
+   execute the script : ./engdict
+   
+
+2. Generating the phoneset and filler file ie: 'database-name.filler'  and 'database-name.phone'
+   execute the script : ./phonefile
+   
+3. Generating the fileids and transcription files ie: 'database-name_train.transcription' , 'database-name_train.fileids' 
+             					      'database-name_test.transcription' , 'database-name_test.fileids'
+   execute the script : ./transfileids participant_name_1 participant_name_2.........
+   eg : ./transfileids vineeth arun rahul
+    
+
+For more details on formats of dictionary, filler ,phone, transcrition and fileid files read the documentation provided in chakka/documentations.
+You can also check out the following link for details : http://cmusphinx.sourceforge.net/wiki/tutorialam
+ 
+
+

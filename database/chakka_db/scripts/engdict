@@ -1,0 +1,80 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+import sys 
+
+for file_name in os.listdir("."):
+	if file_name.endswith(".words") :
+		break
+
+if(len(sys.argv)>1):
+	fname=sys.argv[1]
+else:
+	fname=file_name[:-6]
+
+fin=open(file_name,'r')
+fout=open(fname+'.dic','w')
+words=[]
+
+vyanjanam=['ക','ഖ','ഗ','ഘ','ങ','ച','ഛ','ജ','ഝ','ഞ','ട','ഠ','ഡ','ഢ','ണ','ത','ഥ','ദ','ധ','ന','പ','ഫ','ബ','ഭ','മ','യ','ര','ല','വ','ശ','ഷ','സ','ഹ','ള','ഴ','റ']
+veng={'അ':'A','ആ':'AA','ഇ':'E','ഈ':'EE','ഉ':'U','ഊ':'UU','ഋ':'RU', 'എ':'EY','ഏ':'EEY','ഐ':'I','ഒ':'O','ഓ':'OO','ഔ':'AW','അം':'AM','ക':'K','ഖ':'KH','ഗ':'G', 'ഘ':'KK','ങ':'NG','ച':'CH','ഛ':'CHH','ജ':'J','ഝ':'CCH','ഞ':'NJ','ട':'D','ഠ':'DD','ഡ':'DH', 'ഢ':'DDH','ണ':'NU','ത':'T','ഥ':'TT','ദ':'DA','ധ':'DDA','ന':'N','പ':'P','ഫ':'PP','ബ':'B','ഭ':'BH','മ':'M', 'യ':'Y','ര':'RA','ല':'L','വ':'V','ശ':'SS','ഷ':'SH','സ':'S','ഹ':'H','ള':'LU','ഴ':'ZH','റ':'RA'}
+vchill={'ല':'IL','ന':'IN','ര':'IR','ണ':'INN','ള':'ILL'}
+kala=['്']
+chillu={'ല':'ല്‍','ണ':'ണ്‍','ര':'ര്‍','ന':'ന്‍','ള':'ള്‍'}
+maathra={'ാ':'AA','ി':'E','ീ':'EE','ു':'U','ൂ':'UU','ൃ':'RU','െ':'EY','േ':'EEY','ൈ':'I','ൊ':'O','ോ':'OO','ൗ':'AW','ം':'AM'}
+flag=0
+flag2=0
+
+for line in fin: 
+    index=0
+    output=""
+    if line[0]=='#' or line=='\n' :
+	continue
+    if line.find(' ')!=-1 :
+	continue
+    if line[:-1] in words :
+	continue
+    words.append(line[:-1])
+    while index< len(line):
+
+        if ord(line[index])>128 :
+           
+            if line[index:index+3] in vyanjanam :
+                if line[index+3:index+6] not in maathra :
+                    if line[index+3:index+6]=='്' :
+                        if line[index+6:index+9]=='‍':
+                        	output=output+vchill[line[index:index+3]]+' '
+                        	index=index+9
+                        else:
+                		output=output+veng[line[index:index+3]]+' '
+				index=index+6				
+                    else:
+                        output=output+veng[line[index:index+3]]+' '+'A '
+                        index=index+3
+                else :
+                    
+                    output=output+veng[line[index:index+3]]+' '+maathra[line[index+3:index+6]]+' '
+                    index=index+6
+
+            else:
+                if(line[index:index+3]=='അ' and line[index+3:index+6]=='ം') :
+                    output=output+'AM '
+                    index=index+6
+                else:
+                    if line[index:index+3]=='ം' :
+                        output=output+'AM '
+                    else:
+                        output=output+veng[line[index:index+3]]+' '
+                    index=index+3
+        else:
+		flag=1
+                index=index+1
+
+		
+    output=line[:-1]+'\t\t\t'+output+'\n'          
+    
+    fout.write(output)
+
+fin.close()
+fout.close()        
