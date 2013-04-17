@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <title>ചക്ക</title>
+        <link href="default.css" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARhfr_Srg-YB8kwuarXNlbyBJmHAK3goo&sensor=false"></script>
+        <script src="mapData.js"></script>
+    </head>
+    <body onload = "initialize()">
+        <div id="control">
+            <strong>Start:</strong>
+            <select id="start" onchange= "calcRoute()">
+                <option value="Thampanoor, Thiruvananthapuram, Kerala">തമ്പാനൂര്‍</option>
+                <option value="Attingal, Thiruvananthapuram, Kerala">ആറ്റിങ്ങല്‍</option>
+                <option value="Sreekariyam, Thiruvananthapuram, Kerala">സ്രീകാര്യം</option>
+                <option value="East Fort, Thiruvananthapuram, Kerala">കിഴക്കേകോട്ട</option>
+                <option value="Peroorkada, Thiruvananthapuram, Kerala">പേരൂര്‍കട</option>
+                <option value="Pattom, Thiruvananthapuram, Kerala">പട്ടം</option>
+                <option value="Palayam, Thiruvananthapuram, Kerala">പാളയം</option>
+                <option value="Kattakada, Thiruvananthapuram, Kerala">കാട്ടാകട</option>
+                <option value="Venjaramoodu, Kerala">വെഞ്ഞാറമൂട്</option>
+                <option value="Medical College, Thiruvananthapuram, Kerala">മെടിക്കല്‍കോളേജ്</option>
+            </select>
+            <strong>End:</strong>
+            <select id="end" onchange = "calcRoute()">
+                <option value="Thampanoor, Thiruvananthapuram, Kerala">തമ്പാനൂര്‍</option>
+                <option value="Attingal, Thiruvananthapuram, Kerala">ആറ്റിങ്ങല്‍</option>
+                <option value="Sreekariyam, Thiruvananthapuram, Kerala">സ്രീകാര്യം</option>
+                <option value="East Fort, Thiruvananthapuram, Kerala">കിഴക്കേകോട്ട</option>
+                <option value="Peroorkada, Thiruvananthapuram, Kerala">പേരൂര്‍കട</option>
+                <option value="Pattom, Thiruvananthapuram, Kerala">പട്ടം</option>
+                <option value="Palayam, Thiruvananthapuram, Kerala">പാളയം</option>
+                <option value="Kattakada, Thiruvananthapuram, Kerala">കാട്ടാകട</option>
+                <option value="Venjaramoodu, Kerala">വെഞ്ഞാറമൂട്</option>
+                <option value="Medical College, Thiruvananthapuram, Kerala">മെടിക്കല്‍കോളേജ്</option>
+            </select>
+            <input type ="text" id="startplace" disabled="disabled" value ="സ്ഥലം ഒന്ന് മാറ്റണം">
+            <input type ="text" id="search" disabled="disabled" value="തിരയുക">
+        </div>
+        <div id="map-canvas"></div>
+    </body>
+</html>

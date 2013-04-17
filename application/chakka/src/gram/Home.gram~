@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Malayalam Digits example
+ */
+
+grammar Main;
+
+public <Main> = ( /100/ ബസ്സ്സമയം | /100/  വിക്കിപീഡിയ | /1/ അടയ്ക്കുക | /100/  "സഞ്ചാരമാര്‍ഗ്ഗം" | /100/ "പ്രധാനവാര്‍ത്തകള്‍") ;

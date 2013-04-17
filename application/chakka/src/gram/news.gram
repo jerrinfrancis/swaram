@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Chakka_News
+ */
+
+grammar news;
+ 
+public <news> = ( മാത്രുഭൂമി | "ഇന്ത്യാവിഷന്‍" | (ദി ) (ഹിന്ദു ) | "പ്രധാനവാര്‍ത്തകള്‍" | അടയ്ക്കുക);

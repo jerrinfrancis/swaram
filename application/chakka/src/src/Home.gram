@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Malayalam Digits example
+ */
+
+grammar Home;
+
+public <Home> = (  /1/ അടയ്ക്കുക | /100/  തുടങ്ങുക ) ;
