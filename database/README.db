@@ -1,0 +1,7 @@
+--------------------------------DATABASE FOLDER--------------------------------
+
+This folder contains all the voice data collected  for various applications that has been developed under "SWARAM". The voice data is organised under different folders with application name as the folder name Eg: folder "chakka" in "database" folder contains all the voice data collected for the project chakka.
+
+Transcription, dictionary, phone and filler files are bundeled along with the 
+voice data in each database folder. Application specific scripts to generate the above mentioned files are also available under the database folder. 
+
