@@ -1,0 +1,1131 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/libexec/sphinxtrain/init_mixw \
+	-src_moddeffn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef \
+	-src_ts2cbfn .cont. \
+	-src_mixwfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights \
+	-src_meanfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means \
+	-src_varfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances \
+	-src_tmatfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices \
+	-dest_moddeffn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef \
+	-dest_ts2cbfn .cont. \
+	-dest_mixwfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/mixture_weights \
+	-dest_meanfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/means \
+	-dest_varfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/variances \
+	-dest_tmatfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/transition_matrices \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dest_meanfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/means
+-dest_mixwfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/mixture_weights
+-dest_moddeffn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef
+-dest_tmatfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/transition_matrices
+-dest_ts2cbfn		.cont.
+-dest_varfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/variances
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-src_meanfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means
+-src_mixwfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights
+-src_moddeffn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+-src_tmatfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices
+-src_ts2cbfn		.cont.
+-src_varfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances
+
+INFO: main.c(262): Reading src /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 45 total models defined (45 base, 0 tri)
+INFO: model_def_io.c(575): 180 total states
+INFO: model_def_io.c(576): 135 total tied states
+INFO: model_def_io.c(577): 135 total tied CI states
+INFO: model_def_io.c(578): 45 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(279): Generating continous ts2cb mapping
+INFO: main.c(300): Reading src /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights
+INFO: s3mixw_io.c(116): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights [135x1x1 array]
+INFO: main.c(309): Reading src /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices
+INFO: s3tmat_io.c(115): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices [45x3x4 array]
+INFO: main.c(319): Reading src /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means
+INFO: s3gau_io.c(166): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means [135x1x1 array]
+INFO: main.c(343): Reading src /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances
+INFO: s3gau_io.c(166): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances [135x1x1 array]
+INFO: main.c(391): Reading dest /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 1011 total models defined (45 base, 966 tri)
+INFO: model_def_io.c(575): 4044 total states
+INFO: model_def_io.c(576): 335 total tied states
+INFO: model_def_io.c(577): 135 total tied CI states
+INFO: model_def_io.c(578): 45 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(408): Generating continous ts2cb mapping
+INFO: main.c(432): Calculating initial model parameters
+INFO: main.c(437): Alloc 45x3x4 dest tmat
+INFO: main.c(450): Alloc 335x1x1 dest mixw
+INFO: main.c(463): Alloc 335x1x1 dest mean and var
+         A <- A         : [tm     0 +=     0]
+[mx     0(0) +=     0] [mg     0(0) <-     0] [mx     1(1) +=     1] [mg     1(1) <-     1] [mx     2(2) +=     2] [mg     2(2) <-     2] 
+        AA <- AA        : [tm     1 +=     1]
+[mx     3(0) +=     3] [mg     3(0) <-     3] [mx     4(1) +=     4] [mg     4(1) <-     4] [mx     5(2) +=     5] [mg     5(2) <-     5] 
+        AM <- AM        : [tm     2 +=     2]
+[mx     6(0) +=     6] [mg     6(0) <-     6] [mx     7(1) +=     7] [mg     7(1) <-     7] [mx     8(2) +=     8] [mg     8(2) <-     8] 
+         B <- B         : [tm     3 +=     3]
+[mx     9(0) +=     9] [mg     9(0) <-     9] [mx    10(1) +=    10] [mg    10(1) <-    10] [mx    11(2) +=    11] [mg    11(2) <-    11] 
+        BH <- BH        : [tm     4 +=     4]
+[mx    12(0) +=    12] [mg    12(0) <-    12] [mx    13(1) +=    13] [mg    13(1) <-    13] [mx    14(2) +=    14] [mg    14(2) <-    14] 
+        CH <- CH        : [tm     5 +=     5]
+[mx    15(0) +=    15] [mg    15(0) <-    15] [mx    16(1) +=    16] [mg    16(1) <-    16] [mx    17(2) +=    17] [mg    17(2) <-    17] 
+         D <- D         : [tm     6 +=     6]
+[mx    18(0) +=    18] [mg    18(0) <-    18] [mx    19(1) +=    19] [mg    19(1) <-    19] [mx    20(2) +=    20] [mg    20(2) <-    20] 
+        DA <- DA        : [tm     7 +=     7]
+[mx    21(0) +=    21] [mg    21(0) <-    21] [mx    22(1) +=    22] [mg    22(1) <-    22] [mx    23(2) +=    23] [mg    23(2) <-    23] 
+       DDA <- DDA       : [tm     8 +=     8]
+[mx    24(0) +=    24] [mg    24(0) <-    24] [mx    25(1) +=    25] [mg    25(1) <-    25] [mx    26(2) +=    26] [mg    26(2) <-    26] 
+        DH <- DH        : [tm     9 +=     9]
+[mx    27(0) +=    27] [mg    27(0) <-    27] [mx    28(1) +=    28] [mg    28(1) <-    28] [mx    29(2) +=    29] [mg    29(2) <-    29] 
+         E <- E         : [tm    10 +=    10]
+[mx    30(0) +=    30] [mg    30(0) <-    30] [mx    31(1) +=    31] [mg    31(1) <-    31] [mx    32(2) +=    32] [mg    32(2) <-    32] 
+        EE <- EE        : [tm    11 +=    11]
+[mx    33(0) +=    33] [mg    33(0) <-    33] [mx    34(1) +=    34] [mg    34(1) <-    34] [mx    35(2) +=    35] [mg    35(2) <-    35] 
+       EEY <- EEY       : [tm    12 +=    12]
+[mx    36(0) +=    36] [mg    36(0) <-    36] [mx    37(1) +=    37] [mg    37(1) <-    37] [mx    38(2) +=    38] [mg    38(2) <-    38] 
+        EY <- EY        : [tm    13 +=    13]
+[mx    39(0) +=    39] [mg    39(0) <-    39] [mx    40(1) +=    40] [mg    40(1) <-    40] [mx    41(2) +=    41] [mg    41(2) <-    41] 
+         G <- G         : [tm    14 +=    14]
+[mx    42(0) +=    42] [mg    42(0) <-    42] [mx    43(1) +=    43] [mg    43(1) <-    43] [mx    44(2) +=    44] [mg    44(2) <-    44] 
+         H <- H         : [tm    15 +=    15]
+[mx    45(0) +=    45] [mg    45(0) <-    45] [mx    46(1) +=    46] [mg    46(1) <-    46] [mx    47(2) +=    47] [mg    47(2) <-    47] 
+        IL <- IL        : [tm    16 +=    16]
+[mx    48(0) +=    48] [mg    48(0) <-    48] [mx    49(1) +=    49] [mg    49(1) <-    49] [mx    50(2) +=    50] [mg    50(2) <-    50] 
+       ILL <- ILL       : [tm    17 +=    17]
+[mx    51(0) +=    51] [mg    51(0) <-    51] [mx    52(1) +=    52] [mg    52(1) <-    52] [mx    53(2) +=    53] [mg    53(2) <-    53] 
+        IN <- IN        : [tm    18 +=    18]
+[mx    54(0) +=    54] [mg    54(0) <-    54] [mx    55(1) +=    55] [mg    55(1) <-    55] [mx    56(2) +=    56] [mg    56(2) <-    56] 
+        IR <- IR        : [tm    19 +=    19]
+[mx    57(0) +=    57] [mg    57(0) <-    57] [mx    58(1) +=    58] [mg    58(1) <-    58] [mx    59(2) +=    59] [mg    59(2) <-    59] 
+         J <- J         : [tm    20 +=    20]
+[mx    60(0) +=    60] [mg    60(0) <-    60] [mx    61(1) +=    61] [mg    61(1) <-    61] [mx    62(2) +=    62] [mg    62(2) <-    62] 
+         K <- K         : [tm    21 +=    21]
+[mx    63(0) +=    63] [mg    63(0) <-    63] [mx    64(1) +=    64] [mg    64(1) <-    64] [mx    65(2) +=    65] [mg    65(2) <-    65] 
+        KK <- KK        : [tm    22 +=    22]
+[mx    66(0) +=    66] [mg    66(0) <-    66] [mx    67(1) +=    67] [mg    67(1) <-    67] [mx    68(2) +=    68] [mg    68(2) <-    68] 
+         L <- L         : [tm    23 +=    23]
+[mx    69(0) +=    69] [mg    69(0) <-    69] [mx    70(1) +=    70] [mg    70(1) <-    70] [mx    71(2) +=    71] [mg    71(2) <-    71] 
+        LU <- LU        : [tm    24 +=    24]
+[mx    72(0) +=    72] [mg    72(0) <-    72] [mx    73(1) +=    73] [mg    73(1) <-    73] [mx    74(2) +=    74] [mg    74(2) <-    74] 
+         M <- M         : [tm    25 +=    25]
+[mx    75(0) +=    75] [mg    75(0) <-    75] [mx    76(1) +=    76] [mg    76(1) <-    76] [mx    77(2) +=    77] [mg    77(2) <-    77] 
+         N <- N         : [tm    26 +=    26]
+[mx    78(0) +=    78] [mg    78(0) <-    78] [mx    79(1) +=    79] [mg    79(1) <-    79] [mx    80(2) +=    80] [mg    80(2) <-    80] 
+        NG <- NG        : [tm    27 +=    27]
+[mx    81(0) +=    81] [mg    81(0) <-    81] [mx    82(1) +=    82] [mg    82(1) <-    82] [mx    83(2) +=    83] [mg    83(2) <-    83] 
+        NJ <- NJ        : [tm    28 +=    28]
+[mx    84(0) +=    84] [mg    84(0) <-    84] [mx    85(1) +=    85] [mg    85(1) <-    85] [mx    86(2) +=    86] [mg    86(2) <-    86] 
+        NU <- NU        : [tm    29 +=    29]
+[mx    87(0) +=    87] [mg    87(0) <-    87] [mx    88(1) +=    88] [mg    88(1) <-    88] [mx    89(2) +=    89] [mg    89(2) <-    89] 
+         O <- O         : [tm    30 +=    30]
+[mx    90(0) +=    90] [mg    90(0) <-    90] [mx    91(1) +=    91] [mg    91(1) <-    91] [mx    92(2) +=    92] [mg    92(2) <-    92] 
+        OO <- OO        : [tm    31 +=    31]
+[mx    93(0) +=    93] [mg    93(0) <-    93] [mx    94(1) +=    94] [mg    94(1) <-    94] [mx    95(2) +=    95] [mg    95(2) <-    95] 
+         P <- P         : [tm    32 +=    32]
+[mx    96(0) +=    96] [mg    96(0) <-    96] [mx    97(1) +=    97] [mg    97(1) <-    97] [mx    98(2) +=    98] [mg    98(2) <-    98] 
+        RA <- RA        : [tm    33 +=    33]
+[mx    99(0) +=    99] [mg    99(0) <-    99] [mx   100(1) +=   100] [mg   100(1) <-   100] [mx   101(2) +=   101] [mg   101(2) <-   101] 
+         S <- S         : [tm    34 +=    34]
+[mx   102(0) +=   102] [mg   102(0) <-   102] [mx   103(1) +=   103] [mg   103(1) <-   103] [mx   104(2) +=   104] [mg   104(2) <-   104] 
+        SH <- SH        : [tm    35 +=    35]
+[mx   105(0) +=   105] [mg   105(0) <-   105] [mx   106(1) +=   106] [mg   106(1) <-   106] [mx   107(2) +=   107] [mg   107(2) <-   107] 
+       SIL <- SIL       : [tm    36 +=    36]
+[mx   108(0) +=   108] [mg   108(0) <-   108] [mx   109(1) +=   109] [mg   109(1) <-   109] [mx   110(2) +=   110] [mg   110(2) <-   110] 
+        SS <- SS        : [tm    37 +=    37]
+[mx   111(0) +=   111] [mg   111(0) <-   111] [mx   112(1) +=   112] [mg   112(1) <-   112] [mx   113(2) +=   113] [mg   113(2) <-   113] 
+         T <- T         : [tm    38 +=    38]
+[mx   114(0) +=   114] [mg   114(0) <-   114] [mx   115(1) +=   115] [mg   115(1) <-   115] [mx   116(2) +=   116] [mg   116(2) <-   116] 
+        TT <- TT        : [tm    39 +=    39]
+[mx   117(0) +=   117] [mg   117(0) <-   117] [mx   118(1) +=   118] [mg   118(1) <-   118] [mx   119(2) +=   119] [mg   119(2) <-   119] 
+         U <- U         : [tm    40 +=    40]
+[mx   120(0) +=   120] [mg   120(0) <-   120] [mx   121(1) +=   121] [mg   121(1) <-   121] [mx   122(2) +=   122] [mg   122(2) <-   122] 
+        UU <- UU        : [tm    41 +=    41]
+[mx   123(0) +=   123] [mg   123(0) <-   123] [mx   124(1) +=   124] [mg   124(1) <-   124] [mx   125(2) +=   125] [mg   125(2) <-   125] 
+         V <- V         : [tm    42 +=    42]
+[mx   126(0) +=   126] [mg   126(0) <-   126] [mx   127(1) +=   127] [mg   127(1) <-   127] [mx   128(2) +=   128] [mg   128(2) <-   128] 
+         Y <- Y         : [tm    43 +=    43]
+[mx   129(0) +=   129] [mg   129(0) <-   129] [mx   130(1) +=   130] [mg   130(1) <-   130] [mx   131(2) +=   131] [mg   131(2) <-   131] 
+        ZH <- ZH        : [tm    44 +=    44]
+[mx   132(0) +=   132] [mg   132(0) <-   132] [mx   133(1) +=   133] [mg   133(1) <-   133] [mx   134(2) +=   134] [mg   134(2) <-   134] 
+   A A D b <- A         : [mx   138(0) +=     0] [mg   138(0) <-     0] [mx   140(1) +=     1] [mg   140(1) <-     1] [mx   146(2) +=     2] [mg   146(2) <-     2] 
+  A A DA b <- A         : [mx   144(2) +=     2] [mg   144(2) <-     2] 
+  A AM D b <- A         : 
+ A AM DA b <- A         : 
+   A B S i <- A         : [mx   135(0) +=     0] [mg   135(0) <-     0] 
+  A CH K i <- A         : [mx   136(0) +=     0] [mg   136(0) <-     0] [mx   141(1) +=     1] [mg   141(1) <-     1] 
+  A CH L i <- A         : 
+   A D A e <- A         : [mx   137(0) +=     0] [mg   137(0) <-     0] [mx   142(1) +=     1] [mg   142(1) <-     1] [mx   148(2) +=     2] [mg   148(2) <-     2] 
+  A D AA e <- A         : 
+   A D B e <- A         : 
+  A D CH e <- A         : [mx   147(2) +=     2] [mg   147(2) <-     2] 
+   A D D b <- A         : 
+  A D DA b <- A         : 
+  A D DA e <- A         : 
+   A D E e <- A         : 
+   A D H e <- A         : 
+   A D J e <- A         : 
+   A D K e <- A         : 
+  A D KK e <- A         : 
+   A D M e <- A         : 
+   A D N e <- A         : 
+  A D NG i <- A         : [mx   139(1) +=     1] [mg   139(1) <-     1] 
+   A D O e <- A         : 
+   A D P e <- A         : 
+   A D S e <- A         : 
+ A D SIL e <- A         : 
+  A D SS e <- A         : 
+   A D T e <- A         : 
+   A D V e <- A         : 
+   A D Y i <- A         : 
+   A E D b <- A         : 
+  A E DA b <- A         : 
+  A H IL i <- A         : 
+  A IL D b <- A         : 
+ A IL DA b <- A         : 
+ A ILL D b <- A         : 
+A ILL DA b <- A         : 
+  A IN D b <- A         : 
+ A IN DA b <- A         : 
+  A IR D b <- A         : 
+ A IR DA b <- A         : 
+   A J D b <- A         : 
+  A J DA b <- A         : 
+   A K A e <- A         : 
+  A K AA e <- A         : 
+   A K B e <- A         : 
+  A K CH e <- A         : 
+   A K D i <- A         : 
+  A K DA e <- A         : 
+   A K E e <- A         : 
+   A K H e <- A         : 
+  A K IL i <- A         : 
+ A K ILL i <- A         : 
+  A K IN i <- A         : 
+   A K J e <- A         : 
+   A K K e <- A         : 
+  A K KK e <- A         : 
+   A K M e <- A         : 
+   A K N e <- A         : 
+   A K O e <- A         : 
+   A K P e <- A         : 
+   A K S e <- A         : 
+ A K SIL e <- A         : 
+  A K SS e <- A         : 
+   A K T e <- A         : 
+   A K V e <- A         : 
+  A KK D i <- A         : 
+  A L CH i <- A         : 
+   A L M i <- A         : 
+  A LU Y i <- A         : [mx   143(2) +=     2] [mg   143(2) <-     2] 
+   A M H i <- A         : 
+   A M Y i <- A         : 
+   A N D b <- A         : 
+  A N DA b <- A         : 
+   A N V i <- A         : 
+ A NG IL i <- A         : 
+   A P D i <- A         : 
+  A P IL i <- A         : 
+   A P K i <- A         : 
+A RA DDA i <- A         : 
+  A RA M i <- A         : [mx   145(2) +=     2] [mg   145(2) <-     2] 
+ A RA NU i <- A         : 
+  A RA Y i <- A         : 
+   A S M i <- A         : 
+  A S NJ i <- A         : 
+ A SH IN i <- A         : 
+ A SIL D b <- A         : 
+A SIL DA b <- A         : 
+   A T K i <- A         : 
+   A T M i <- A         : 
+  A TT L i <- A         : 
+   A U D b <- A         : 
+  A U DA b <- A         : 
+   A Y A e <- A         : 
+  A Y AA e <- A         : 
+   A Y B e <- A         : 
+  A Y CH e <- A         : 
+  A Y DA e <- A         : 
+   A Y E e <- A         : 
+   A Y H e <- A         : 
+   A Y J e <- A         : 
+   A Y K e <- A         : 
+  A Y KK e <- A         : 
+   A Y M e <- A         : 
+   A Y N e <- A         : 
+   A Y O e <- A         : 
+   A Y P e <- A         : 
+   A Y S e <- A         : 
+ A Y SIL e <- A         : 
+  A Y SS e <- A         : 
+   A Y T e <- A         : 
+   A Y V e <- A         : 
+  A ZH K i <- A         : 
+ AA A RA b <- AA        : [mx   152(0) +=     3] [mg   152(0) <-     3] [mx   155(1) +=     4] [mg   155(1) <-     4] [mx   158(2) +=     5] [mg   158(2) <-     5] 
+AA AM RA b <- AA        : [mx   157(2) +=     5] [mg   157(2) <-     5] 
+AA CH RA i <- AA        : [mx   149(0) +=     3] [mg   149(0) <-     3] [mx   154(1) +=     4] [mg   154(1) <-     4] 
+  AA D K i <- AA        : [mx   151(0) +=     3] [mg   151(0) <-     3] [mx   153(1) +=     4] [mg   153(1) <-     4] 
+ AA D RA b <- AA        : 
+AA DDA N i <- AA        : 
+ AA E RA b <- AA        : 
+AA IL RA b <- AA        : 
+AA ILL RA b <- AA        : 
+AA IN RA b <- AA        : 
+AA IR RA b <- AA        : 
+ AA J RA b <- AA        : 
+  AA K D i <- AA        : 
+ AA K RA i <- AA        : 
+ AA M IR i <- AA        : [mx   150(0) +=     3] [mg   150(0) <-     3] 
+ AA M RA i <- AA        : 
+  AA M T i <- AA        : 
+ AA N RA b <- AA        : 
+AA NJ RA i <- AA        : 
+ AA P LU i <- AA        : [mx   156(1) +=     4] [mg   156(1) <-     4] [mx   159(2) +=     5] [mg   159(2) <-     5] 
+  AA P N i <- AA        : 
+AA SIL RA b <- AA        : 
+ AA SS S i <- AA        : 
+  AA T J i <- AA        : 
+ AA U RA b <- AA        : 
+ AA V IR i <- AA        : 
+  AA Y P i <- AA        : 
+  AA Y V i <- AA        : 
+ AA ZH M i <- AA        : 
+  AM D A e <- AM        : [mx   161(0) +=     6] [mg   161(0) <-     6] [mx   162(1) +=     7] [mg   162(1) <-     7] [mx   164(2) +=     8] [mg   164(2) <-     8] 
+ AM D AA e <- AM        : 
+  AM D B e <- AM        : 
+ AM D CH e <- AM        : 
+ AM D DA e <- AM        : 
+  AM D E e <- AM        : 
+  AM D H e <- AM        : 
+  AM D J e <- AM        : 
+  AM D K e <- AM        : 
+ AM D KK e <- AM        : 
+  AM D M e <- AM        : 
+  AM D N e <- AM        : 
+  AM D O e <- AM        : 
+  AM D P e <- AM        : 
+  AM D S e <- AM        : 
+AM D SIL e <- AM        : [mx   163(1) +=     7] [mg   163(1) <-     7] [mx   165(2) +=     8] [mg   165(2) <-     8] 
+ AM D SS e <- AM        : 
+  AM D T e <- AM        : 
+  AM D V e <- AM        : 
+  AM G A e <- AM        : 
+ AM G AA e <- AM        : 
+  AM G B e <- AM        : 
+ AM G CH e <- AM        : 
+ AM G DA e <- AM        : 
+  AM G E e <- AM        : 
+  AM G H e <- AM        : 
+  AM G J e <- AM        : 
+  AM G K e <- AM        : 
+ AM G KK e <- AM        : 
+  AM G M e <- AM        : 
+  AM G N e <- AM        : 
+  AM G O e <- AM        : 
+  AM G P e <- AM        : 
+  AM G S e <- AM        : 
+AM G SIL e <- AM        : 
+ AM G SS e <- AM        : 
+  AM G T e <- AM        : 
+  AM G V e <- AM        : 
+  AM L A e <- AM        : 
+ AM L AA e <- AM        : 
+  AM L B e <- AM        : 
+ AM L CH e <- AM        : 
+ AM L DA e <- AM        : 
+  AM L E e <- AM        : 
+  AM L H e <- AM        : 
+  AM L J e <- AM        : 
+  AM L K e <- AM        : 
+ AM L KK e <- AM        : 
+  AM L M e <- AM        : 
+  AM L N e <- AM        : 
+  AM L O e <- AM        : 
+  AM L P e <- AM        : 
+  AM L S e <- AM        : 
+AM L SIL e <- AM        : 
+ AM L SS e <- AM        : 
+  AM L T e <- AM        : 
+  AM L V e <- AM        : 
+ AM NU A e <- AM        : 
+AM NU AA e <- AM        : 
+ AM NU B e <- AM        : 
+AM NU CH e <- AM        : 
+AM NU DA e <- AM        : 
+ AM NU E e <- AM        : 
+ AM NU H e <- AM        : 
+ AM NU J e <- AM        : 
+ AM NU K e <- AM        : 
+AM NU KK e <- AM        : 
+ AM NU M e <- AM        : 
+ AM NU N e <- AM        : 
+ AM NU O e <- AM        : 
+ AM NU P e <- AM        : 
+ AM NU S e <- AM        : 
+AM NU SIL e <- AM        : 
+AM NU SS e <- AM        : 
+ AM NU T e <- AM        : 
+ AM NU V e <- AM        : 
+ AM RA A e <- AM        : 
+AM RA AA e <- AM        : 
+ AM RA B e <- AM        : 
+AM RA CH e <- AM        : 
+AM RA DA e <- AM        : 
+ AM RA E e <- AM        : 
+ AM RA H e <- AM        : 
+ AM RA J e <- AM        : 
+ AM RA K e <- AM        : 
+AM RA KK e <- AM        : 
+ AM RA M e <- AM        : 
+ AM RA N e <- AM        : 
+ AM RA O e <- AM        : 
+ AM RA P e <- AM        : 
+ AM RA S e <- AM        : 
+AM RA SIL e <- AM        : 
+AM RA SS e <- AM        : 
+ AM RA T e <- AM        : 
+ AM RA V e <- AM        : 
+  AM S G i <- AM        : [mx   166(2) +=     8] [mg   166(2) <-     8] 
+  AM T A e <- AM        : 
+ AM T AA e <- AM        : 
+  AM T B e <- AM        : 
+ AM T CH e <- AM        : 
+ AM T DA e <- AM        : 
+  AM T E e <- AM        : 
+  AM T H e <- AM        : 
+  AM T J e <- AM        : 
+  AM T K e <- AM        : 
+ AM T KK e <- AM        : 
+  AM T M e <- AM        : 
+  AM T N e <- AM        : 
+  AM T O e <- AM        : 
+  AM T P e <- AM        : 
+  AM T S e <- AM        : 
+AM T SIL e <- AM        : 
+ AM T SS e <- AM        : 
+  AM T T e <- AM        : 
+  AM T V e <- AM        : 
+  AM Y A e <- AM        : [mx   160(0) +=     6] [mg   160(0) <-     6] 
+ AM Y AA e <- AM        : 
+  AM Y B e <- AM        : 
+ AM Y CH e <- AM        : 
+ AM Y DA e <- AM        : 
+  AM Y E e <- AM        : 
+  AM Y H e <- AM        : 
+  AM Y J e <- AM        : 
+  AM Y K e <- AM        : 
+ AM Y KK e <- AM        : 
+  AM Y M e <- AM        : 
+  AM Y N e <- AM        : 
+  AM Y O e <- AM        : 
+  AM Y P e <- AM        : 
+  AM Y S e <- AM        : 
+AM Y SIL e <- AM        : 
+ AM Y SS e <- AM        : 
+  AM Y T e <- AM        : 
+  AM Y V e <- AM        : 
+   B A A b <- B         : [mx   167(0) +=     9] [mg   167(0) <-     9] [mx   168(1) +=    10] [mg   168(1) <-    10] [mx   169(2) +=    11] [mg   169(2) <-    11] 
+  B AM A b <- B         : 
+   B D A b <- B         : 
+   B E A b <- B         : 
+  B IL A b <- B         : 
+ B ILL A b <- B         : 
+  B IN A b <- B         : 
+  B IR A b <- B         : 
+   B J A b <- B         : 
+   B N A b <- B         : 
+ B SIL A b <- B         : 
+   B U A b <- B         : 
+ BH U UU i <- BH        : [mx   170(0) +=    12] [mg   170(0) <-    12] [mx   171(1) +=    13] [mg   171(1) <-    13] [mx   172(2) +=    14] [mg   172(2) <-    14] 
+  CH A A b <- CH        : [mx   173(0) +=    15] [mg   173(0) <-    15] [mx   174(1) +=    16] [mg   174(1) <-    16] [mx   175(2) +=    17] [mg   175(2) <-    17] 
+  CH A E i <- CH        : 
+ CH AM A b <- CH        : 
+  CH D A b <- CH        : 
+  CH E A b <- CH        : 
+ CH IL A b <- CH        : 
+CH ILL A b <- CH        : 
+ CH IN A b <- CH        : 
+ CH IR A b <- CH        : 
+  CH J A b <- CH        : 
+  CH N A b <- CH        : 
+CH NJ AA i <- CH        : 
+CH SIL A b <- CH        : 
+  CH U A b <- CH        : 
+   D A A i <- D         : [mx   176(0) +=    18] [mg   176(0) <-    18] [mx   178(1) +=    19] [mg   178(1) <-    19] [mx   180(2) +=    20] [mg   180(2) <-    20] 
+   D A D i <- D         : [mx   181(2) +=    20] [mg   181(2) <-    20] 
+   D A E i <- D         : 
+  D AA D i <- D         : 
+   D D A i <- D         : [mx   177(0) +=    18] [mg   177(0) <-    18] [mx   179(1) +=    19] [mg   179(1) <-    19] 
+  D D AA i <- D         : 
+  D D AM i <- D         : 
+  D EY E i <- D         : 
+  D OO D i <- D         : 
+   D U A i <- D         : 
+  D UU A e <- D         : 
+ D UU AA e <- D         : 
+  D UU B e <- D         : 
+ D UU CH e <- D         : 
+ D UU DA e <- D         : 
+  D UU E e <- D         : 
+  D UU H e <- D         : 
+  D UU J e <- D         : 
+  D UU K e <- D         : 
+ D UU KK e <- D         : 
+  D UU M e <- D         : 
+  D UU N e <- D         : 
+  D UU O e <- D         : 
+  D UU P e <- D         : 
+  D UU S e <- D         : 
+D UU SIL e <- D         : 
+ D UU SS e <- D         : 
+  D UU T e <- D         : 
+  D UU V e <- D         : 
+DA A DDA i <- DA        : [mx   182(0) +=    21] [mg   182(0) <-    21] [mx   183(1) +=    22] [mg   183(1) <-    22] [mx   184(2) +=    23] [mg   184(2) <-    23] 
+  DA A E b <- DA        : 
+ DA AM E b <- DA        : 
+  DA D E b <- DA        : 
+  DA E E b <- DA        : 
+ DA IL E b <- DA        : 
+DA ILL E b <- DA        : 
+ DA IN E b <- DA        : 
+ DA IR E b <- DA        : 
+  DA J E b <- DA        : 
+  DA N E b <- DA        : 
+  DA N U i <- DA        : 
+DA SIL E b <- DA        : 
+  DA U E b <- DA        : 
+DDA A AA i <- DDA       : [mx   185(0) +=    24] [mg   185(0) <-    24] [mx   186(1) +=    25] [mg   186(1) <-    25] [mx   187(2) +=    26] [mg   187(2) <-    26] 
+DDA DA Y i <- DDA       : 
+ DH EE E i <- DH        : [mx   188(0) +=    27] [mg   188(0) <-    27] [mx   189(1) +=    28] [mg   189(1) <-    28] [mx   190(2) +=    29] [mg   190(2) <-    29] 
+   E A N b <- E         : [mx   191(0) +=    30] [mg   191(0) <-    30] [mx   193(1) +=    31] [mg   193(1) <-    31] [mx   195(2) +=    32] [mg   195(2) <-    32] 
+  E AM N b <- E         : 
+  E CH T i <- E         : [mx   192(0) +=    30] [mg   192(0) <-    30] [mx   196(2) +=    32] [mg   196(2) <-    32] 
+   E D K i <- E         : 
+   E D N b <- E         : [mx   194(1) +=    31] [mg   194(1) <-    31] 
+  E DA A e <- E         : 
+ E DA AA e <- E         : 
+  E DA B e <- E         : 
+ E DA CH e <- E         : 
+ E DA DA e <- E         : 
+  E DA E e <- E         : 
+  E DA H e <- E         : 
+  E DA J e <- E         : 
+  E DA K e <- E         : 
+ E DA KK e <- E         : 
+  E DA M e <- E         : 
+  E DA N e <- E         : 
+  E DA O e <- E         : 
+  E DA P e <- E         : 
+  E DA S e <- E         : 
+E DA SIL e <- E         : 
+ E DA SS e <- E         : 
+  E DA T e <- E         : 
+  E DA V e <- E         : 
+  E DH Y i <- E         : 
+   E E N b <- E         : 
+   E H N i <- E         : 
+  E IL N b <- E         : 
+ E ILL N b <- E         : 
+  E IN N b <- E         : 
+  E IR N b <- E         : 
+   E J N b <- E         : 
+   E K P i <- E         : 
+  E K ZH i <- E         : 
+   E L K i <- E         : 
+   E M A e <- E         : 
+  E M AA e <- E         : 
+   E M B e <- E         : 
+  E M CH e <- E         : 
+  E M DA e <- E         : 
+   E M E e <- E         : 
+   E M H e <- E         : 
+   E M J e <- E         : 
+   E M K e <- E         : 
+  E M KK e <- E         : 
+   E M M e <- E         : 
+   E M N e <- E         : 
+   E M O e <- E         : 
+   E M P e <- E         : 
+   E M S e <- E         : 
+ E M SIL e <- E         : 
+  E M SS e <- E         : 
+   E M T e <- E         : 
+   E M V e <- E         : 
+   E N N b <- E         : 
+ E RA NG i <- E         : 
+ E SIL N b <- E         : 
+  E T RA i <- E         : 
+  E T SS i <- E         : 
+   E U N b <- E         : 
+   E V K i <- E         : 
+  E V SH i <- E         : 
+  EE G T i <- EE        : [mx   197(0) +=    33] [mg   197(0) <-    33] [mx   198(1) +=    34] [mg   198(1) <-    34] [mx   199(2) +=    35] [mg   199(2) <-    35] 
+ EE P DH i <- EE        : 
+ EE RA K i <- EE        : 
+ EEY K K i <- EEY       : [mx   200(0) +=    36] [mg   200(0) <-    36] [mx   202(1) +=    37] [mg   202(1) <-    37] [mx   203(2) +=    38] [mg   203(2) <-    38] 
+EEY LU J i <- EEY       : 
+EEY P RA i <- EEY       : [mx   201(1) +=    37] [mg   201(1) <-    37] 
+EEY V ZH i <- EEY       : [mx   204(2) +=    38] [mg   204(2) <-    38] 
+  EY M D i <- EY        : [mx   205(0) +=    39] [mg   205(0) <-    39] [mx   207(1) +=    40] [mg   207(1) <-    40] [mx   208(2) +=    41] [mg   208(2) <-    41] 
+  EY N L i <- EY        : 
+ EY V NJ i <- EY        : [mx   206(0) +=    39] [mg   206(0) <-    39] 
+ G AM EE i <- G         : [mx   209(0) +=    42] [mg   209(0) <-    42] [mx   210(1) +=    43] [mg   210(1) <-    43] [mx   211(2) +=    44] [mg   211(2) <-    44] 
+  G G AM i <- G         : 
+  G IR G i <- G         : 
+   H A A i <- H         : [mx   212(0) +=    45] [mg   212(0) <-    45] [mx   213(1) +=    46] [mg   213(1) <-    46] [mx   214(2) +=    47] [mg   214(2) <-    47] 
+   H A E b <- H         : 
+  H AM E b <- H         : 
+   H D E b <- H         : 
+   H E E b <- H         : 
+  H IL E b <- H         : 
+ H ILL E b <- H         : 
+  H IN E b <- H         : 
+  H IR E b <- H         : 
+   H J E b <- H         : 
+   H N E b <- H         : 
+ H SIL E b <- H         : 
+   H U E b <- H         : 
+  IL A A e <- IL        : [mx   215(0) +=    48] [mg   215(0) <-    48] [mx   216(1) +=    49] [mg   216(1) <-    49] [mx   217(2) +=    50] [mg   217(2) <-    50] 
+ IL A AA e <- IL        : 
+  IL A B e <- IL        : 
+ IL A CH e <- IL        : [mx   218(2) +=    50] [mg   218(2) <-    50] 
+ IL A DA e <- IL        : 
+  IL A E e <- IL        : 
+  IL A H e <- IL        : 
+  IL A J e <- IL        : 
+  IL A K e <- IL        : 
+  IL A K i <- IL        : 
+ IL A KK e <- IL        : 
+  IL A M e <- IL        : 
+  IL A N e <- IL        : 
+  IL A O e <- IL        : 
+  IL A P e <- IL        : 
+  IL A S e <- IL        : 
+IL A SIL e <- IL        : 
+ IL A SS e <- IL        : 
+  IL A T e <- IL        : 
+  IL A V e <- IL        : 
+ ILL A A e <- ILL       : [mx   219(0) +=    51] [mg   219(0) <-    51] [mx   220(1) +=    52] [mg   220(1) <-    52] [mx   221(2) +=    53] [mg   221(2) <-    53] 
+ILL A AA e <- ILL       : 
+ ILL A B e <- ILL       : 
+ILL A CH e <- ILL       : 
+ILL A DA e <- ILL       : 
+ ILL A E e <- ILL       : 
+ ILL A H e <- ILL       : 
+ ILL A J e <- ILL       : 
+ ILL A K e <- ILL       : 
+ILL A KK e <- ILL       : 
+ ILL A M e <- ILL       : 
+ ILL A N e <- ILL       : 
+ ILL A O e <- ILL       : 
+ ILL A P e <- ILL       : 
+ ILL A S e <- ILL       : 
+ILL A SIL e <- ILL       : 
+ILL A SS e <- ILL       : 
+ ILL A T e <- ILL       : 
+ ILL A V e <- ILL       : 
+  IN A A e <- IN        : [mx   222(0) +=    54] [mg   222(0) <-    54] [mx   223(1) +=    55] [mg   223(1) <-    55] [mx   224(2) +=    56] [mg   224(2) <-    56] 
+ IN A AA e <- IN        : 
+  IN A B e <- IN        : 
+ IN A CH e <- IN        : 
+ IN A DA e <- IN        : 
+  IN A E e <- IN        : 
+  IN A H e <- IN        : 
+  IN A J e <- IN        : 
+  IN A K e <- IN        : 
+ IN A KK e <- IN        : 
+  IN A M e <- IN        : 
+  IN A N e <- IN        : 
+  IN A O e <- IN        : 
+  IN A P e <- IN        : 
+  IN A S e <- IN        : 
+IN A SIL e <- IN        : 
+ IN A SS e <- IN        : 
+  IN A T e <- IN        : 
+  IN A V e <- IN        : 
+ IR AA G i <- IR        : [mx   225(0) +=    57] [mg   225(0) <-    57] [mx   226(1) +=    58] [mg   226(1) <-    58] [mx   227(2) +=    59] [mg   227(2) <-    59] 
+ IR AA T i <- IR        : 
+ IR UU A e <- IR        : 
+IR UU AA e <- IR        : 
+ IR UU B e <- IR        : 
+IR UU CH e <- IR        : 
+IR UU DA e <- IR        : 
+ IR UU E e <- IR        : 
+ IR UU H e <- IR        : 
+ IR UU J e <- IR        : 
+ IR UU K e <- IR        : 
+ IR UU K i <- IR        : 
+IR UU KK e <- IR        : 
+ IR UU M e <- IR        : 
+ IR UU N e <- IR        : 
+ IR UU O e <- IR        : 
+ IR UU P e <- IR        : 
+ IR UU S e <- IR        : 
+IR UU SIL e <- IR        : 
+IR UU SS e <- IR        : 
+ IR UU T e <- IR        : 
+ IR UU V e <- IR        : 
+   J A Y b <- J         : [mx   228(0) +=    60] [mg   228(0) <-    60] [mx   229(1) +=    61] [mg   229(1) <-    61] [mx   230(2) +=    62] [mg   230(2) <-    62] 
+  J AA M i <- J         : 
+  J AM Y b <- J         : 
+   J D Y b <- J         : 
+   J E Y b <- J         : 
+ J EEY A e <- J         : 
+J EEY AA e <- J         : 
+ J EEY B e <- J         : 
+J EEY CH e <- J         : 
+J EEY DA e <- J         : 
+ J EEY E e <- J         : 
+ J EEY H e <- J         : 
+ J EEY J e <- J         : 
+ J EEY K e <- J         : 
+J EEY KK e <- J         : 
+ J EEY M e <- J         : 
+ J EEY N e <- J         : 
+ J EEY O e <- J         : 
+ J EEY P e <- J         : 
+ J EEY S e <- J         : 
+J EEY SIL e <- J         : 
+J EEY SS e <- J         : 
+ J EEY T e <- J         : 
+ J EEY V e <- J         : 
+  J IL Y b <- J         : 
+ J ILL Y b <- J         : 
+  J IN Y b <- J         : 
+  J IR Y b <- J         : 
+   J J Y b <- J         : 
+   J N Y b <- J         : 
+ J SIL Y b <- J         : 
+   J U Y b <- J         : 
+   K A A i <- K         : [mx   231(0) +=    63] [mg   231(0) <-    63] [mx   234(1) +=    64] [mg   234(1) <-    64] [mx   238(2) +=    65] [mg   238(2) <-    65] 
+  K A AA b <- K         : 
+   K A E b <- K         : [mx   232(0) +=    63] [mg   232(0) <-    63] [mx   236(1) +=    64] [mg   236(1) <-    64] [mx   237(2) +=    65] [mg   237(2) <-    65] 
+   K A K i <- K         : [mx   235(1) +=    64] [mg   235(1) <-    64] 
+  K AA A i <- K         : 
+ K AM AA b <- K         : [mx   233(0) +=    63] [mg   233(0) <-    63] 
+  K AM E b <- K         : 
+  K D AA b <- K         : 
+   K D E b <- K         : 
+  K E AA b <- K         : 
+  K E AA i <- K         : 
+   K E E b <- K         : 
+   K E K i <- K         : 
+ K EE AA i <- K         : 
+ K EEY K i <- K         : 
+ K IL AA b <- K         : [mx   239(2) +=    65] [mg   239(2) <-    65] 
+  K IL E b <- K         : 
+ K IL OO i <- K         : 
+K ILL AA b <- K         : 
+ K ILL E b <- K         : 
+ K IN AA b <- K         : 
+  K IN E b <- K         : 
+  K IR A i <- K         : 
+ K IR AA b <- K         : 
+  K IR E b <- K         : 
+  K J AA b <- K         : 
+   K J E b <- K         : 
+   K K A i <- K         : 
+   K K E i <- K         : 
+ K K EEY i <- K         : 
+  K K OO i <- K         : 
+   K K U i <- K         : 
+  K N AA b <- K         : 
+   K N E b <- K         : 
+K SIL AA b <- K         : 
+ K SIL E b <- K         : 
+   K U A i <- K         : 
+  K U AA b <- K         : 
+   K U E b <- K         : 
+   K Y K i <- K         : 
+  KK A A b <- KK        : [mx   240(0) +=    66] [mg   240(0) <-    66] [mx   241(1) +=    67] [mg   241(1) <-    67] [mx   242(2) +=    68] [mg   242(2) <-    68] 
+ KK AM A b <- KK        : 
+  KK D A b <- KK        : 
+  KK E A b <- KK        : 
+ KK IL A b <- KK        : 
+KK ILL A b <- KK        : 
+ KK IN A b <- KK        : 
+ KK IR A b <- KK        : 
+  KK J A b <- KK        : 
+  KK N A b <- KK        : 
+KK SIL A b <- KK        : 
+  KK U A b <- KK        : 
+   L A A i <- L         : [mx   243(0) +=    69] [mg   243(0) <-    69] [mx   244(1) +=    70] [mg   244(1) <-    70] [mx   245(2) +=    71] [mg   245(2) <-    71] 
+  L A AM i <- L         : 
+  L EY L i <- L         : 
+   L L E i <- L         : 
+ LU AA A i <- LU        : [mx   246(0) +=    72] [mg   246(0) <-    72] [mx   247(1) +=    73] [mg   247(1) <-    73] [mx   248(2) +=    74] [mg   248(2) <-    74] 
+LU OO EEY i <- LU        : 
+   M A A i <- M         : [mx   249(0) +=    75] [mg   249(0) <-    75] [mx   251(1) +=    76] [mg   251(1) <-    76] [mx   253(2) +=    77] [mg   253(2) <-    77] 
+  M A AA b <- M         : [mx   250(0) +=    75] [mg   250(0) <-    75] 
+  M A AA i <- M         : 
+  M A EY b <- M         : [mx   254(2) +=    77] [mg   254(2) <-    77] 
+   M A O i <- M         : 
+   M A P i <- M         : [mx   252(1) +=    76] [mg   252(1) <-    76] 
+  M A UU i <- M         : 
+  M AA P i <- M         : 
+ M AM AA b <- M         : 
+ M AM EY b <- M         : 
+  M D AA b <- M         : 
+  M D EY b <- M         : 
+  M E AA b <- M         : 
+  M E EY b <- M         : 
+ M IL AA b <- M         : 
+ M IL EY b <- M         : 
+M ILL AA b <- M         : 
+M ILL EY b <- M         : 
+ M IN AA b <- M         : 
+ M IN EY b <- M         : 
+ M IR AA b <- M         : 
+ M IR EY b <- M         : 
+   M J A i <- M         : 
+  M J AA b <- M         : 
+  M J EY b <- M         : 
+  M N AA b <- M         : 
+  M N AA i <- M         : 
+  M N EY b <- M         : 
+M SIL AA b <- M         : 
+M SIL EY b <- M         : 
+  M U AA b <- M         : 
+  M U EY b <- M         : 
+  M UU E i <- M         : 
+  N A EY b <- N         : [mx   255(0) +=    78] [mg   255(0) <-    78] [mx   257(1) +=    79] [mg   257(1) <-    79] [mx   258(2) +=    80] [mg   258(2) <-    80] 
+  N AA A i <- N         : 
+ N AA UU i <- N         : 
+ N AM EY b <- N         : 
+  N D EY b <- N         : 
+  N E DA i <- N         : [mx   256(0) +=    78] [mg   256(0) <-    78] 
+  N E EY b <- N         : 
+   N E T i <- N         : 
+ N IL EY b <- N         : 
+N ILL EY b <- N         : 
+ N IN EY b <- N         : 
+ N IR EY b <- N         : 
+  N J EY b <- N         : 
+   N N A e <- N         : 
+  N N AA e <- N         : 
+   N N B e <- N         : 
+  N N CH e <- N         : 
+  N N DA e <- N         : 
+   N N E e <- N         : 
+  N N EY b <- N         : 
+   N N H e <- N         : 
+   N N J e <- N         : 
+   N N K e <- N         : 
+  N N KK e <- N         : 
+   N N M e <- N         : 
+   N N M i <- N         : 
+   N N N e <- N         : 
+   N N O e <- N         : 
+   N N P e <- N         : 
+   N N S e <- N         : 
+ N N SIL e <- N         : 
+  N N SS e <- N         : 
+   N N T e <- N         : 
+   N N V e <- N         : 
+   N O N i <- N         : 
+N SIL EY b <- N         : 
+  N U EY b <- N         : 
+ NG A NG i <- NG        : [mx   259(0) +=    81] [mg   259(0) <-    81] [mx   260(1) +=    82] [mg   260(1) <-    82] [mx   261(2) +=    83] [mg   261(2) <-    83] 
+ NG E NG i <- NG        : 
+ NG NG A i <- NG        : 
+ NG NG U i <- NG        : 
+ NJ A CH i <- NJ        : [mx   262(0) +=    84] [mg   262(0) <-    84] [mx   263(1) +=    85] [mg   263(1) <-    85] [mx   265(2) +=    86] [mg   265(2) <-    86] 
+NJ EY NJ i <- NJ        : 
+NJ NJ AA i <- NJ        : [mx   264(1) +=    85] [mg   264(1) <-    85] [mx   266(2) +=    86] [mg   266(2) <-    86] 
+ NU A AM i <- NU        : [mx   267(0) +=    87] [mg   267(0) <-    87] [mx   268(1) +=    88] [mg   268(1) <-    88] [mx   269(2) +=    89] [mg   269(2) <-    89] 
+   O A N b <- O         : [mx   270(0) +=    90] [mg   270(0) <-    90] [mx   271(1) +=    91] [mg   271(1) <-    91] [mx   272(2) +=    92] [mg   272(2) <-    92] 
+  O AM N b <- O         : 
+   O D N b <- O         : 
+   O E N b <- O         : 
+  O IL N b <- O         : 
+ O ILL N b <- O         : 
+  O IN N b <- O         : 
+  O IR N b <- O         : 
+   O J N b <- O         : 
+   O M N i <- O         : 
+   O N N b <- O         : 
+ O SIL N b <- O         : 
+   O U N b <- O         : 
+  OO K D i <- OO        : [mx   273(0) +=    93] [mg   273(0) <-    93] [mx   274(1) +=    94] [mg   274(1) <-    94] [mx   275(2) +=    95] [mg   275(2) <-    95] 
+ OO K LU i <- OO        : 
+  OO Y T i <- OO        : 
+   P A A b <- P         : [mx   276(0) +=    96] [mg   276(0) <-    96] [mx   278(1) +=    97] [mg   278(1) <-    97] [mx   279(2) +=    98] [mg   279(2) <-    98] 
+  P A AA b <- P         : 
+ P A EEY b <- P         : [mx   280(2) +=    98] [mg   280(2) <-    98] 
+  P A RA b <- P         : 
+  P AA A i <- P         : [mx   277(0) +=    96] [mg   277(0) <-    96] 
+  P AM A b <- P         : 
+ P AM AA b <- P         : 
+P AM EEY b <- P         : 
+ P AM RA b <- P         : 
+   P D A b <- P         : 
+  P D AA b <- P         : 
+ P D EEY b <- P         : 
+  P D RA b <- P         : 
+   P E A b <- P         : 
+  P E AA b <- P         : 
+  P E EE i <- P         : 
+ P E EEY b <- P         : 
+  P E RA b <- P         : 
+  P IL A b <- P         : 
+ P IL AA b <- P         : 
+P IL EEY b <- P         : 
+ P IL RA b <- P         : 
+ P ILL A b <- P         : 
+P ILL AA b <- P         : 
+P ILL EEY b <- P         : 
+P ILL RA b <- P         : 
+  P IN A b <- P         : 
+ P IN AA b <- P         : 
+P IN EEY b <- P         : 
+ P IN RA b <- P         : 
+  P IR A b <- P         : 
+ P IR AA b <- P         : 
+P IR EEY b <- P         : 
+ P IR RA b <- P         : 
+   P J A b <- P         : 
+  P J AA b <- P         : 
+ P J EEY b <- P         : 
+  P J RA b <- P         : 
+   P M A i <- P         : 
+  P M AA i <- P         : 
+   P N A b <- P         : 
+  P N AA b <- P         : 
+ P N EEY b <- P         : 
+  P N RA b <- P         : 
+ P SIL A b <- P         : 
+P SIL AA b <- P         : 
+P SIL EEY b <- P         : 
+P SIL RA b <- P         : 
+   P U A b <- P         : 
+  P U AA b <- P         : 
+ P U EEY b <- P         : 
+  P U RA b <- P         : 
+ RA AA A i <- RA        : [mx   282(0) +=    99] [mg   282(0) <-    99] [mx   283(1) +=   100] [mg   283(1) <-   100] [mx   287(2) +=   101] [mg   287(2) <-   101] 
+RA AA AM i <- RA        : 
+RA AA RA i <- RA        : [mx   281(0) +=    99] [mg   281(0) <-    99] [mx   284(1) +=   100] [mg   284(1) <-   100] [mx   288(2) +=   101] [mg   288(2) <-   101] 
+ RA AA Y i <- RA        : 
+  RA E A i <- RA        : [mx   286(2) +=   101] [mg   286(2) <-   101] 
+RA EEY UU i <- RA        : 
+  RA P A i <- RA        : 
+ RA RA A i <- RA        : [mx   285(1) +=   100] [mg   285(1) <-   100] 
+ RA RA E i <- RA        : 
+ RA RA U i <- RA        : 
+RA SS EE i <- RA        : 
+ RA T AM i <- RA        : 
+  RA T U i <- RA        : 
+   S A A b <- S         : [mx   289(0) +=   102] [mg   289(0) <-   102] [mx   291(1) +=   103] [mg   291(1) <-   103] [mx   293(2) +=   104] [mg   293(2) <-   104] 
+  S A AM b <- S         : 
+   S A S i <- S         : [mx   290(0) +=   102] [mg   290(0) <-   102] [mx   292(2) +=   104] [mg   292(2) <-   104] 
+  S A TT b <- S         : 
+  S AA T i <- S         : 
+  S AM A b <- S         : 
+ S AM AM b <- S         : 
+ S AM TT b <- S         : 
+   S D A b <- S         : 
+  S D AM b <- S         : 
+  S D TT b <- S         : 
+   S E A b <- S         : 
+  S E AM b <- S         : 
+  S E TT b <- S         : 
+  S IL A b <- S         : 
+ S IL AM b <- S         : 
+ S IL TT b <- S         : 
+ S ILL A b <- S         : 
+S ILL AM b <- S         : 
+S ILL TT b <- S         : 
+  S IN A b <- S         : 
+ S IN AM b <- S         : 
+ S IN TT b <- S         : 
+  S IR A b <- S         : 
+ S IR AM b <- S         : 
+ S IR TT b <- S         : 
+   S J A b <- S         : 
+  S J AM b <- S         : 
+  S J TT b <- S         : 
+   S N A b <- S         : 
+  S N AM b <- S         : 
+  S N TT b <- S         : 
+   S S A i <- S         : 
+   S S S i <- S         : 
+ S SIL A b <- S         : 
+S SIL AM b <- S         : 
+S SIL TT b <- S         : 
+   S U A b <- S         : 
+  S U AM b <- S         : 
+  S U TT b <- S         : 
+  SH E A i <- SH        : [mx   294(0) +=   105] [mg   294(0) <-   105] [mx   295(1) +=   106] [mg   295(1) <-   106] [mx   296(2) +=   107] [mg   296(2) <-   107] 
+ SS A AA b <- SS        : [mx   297(0) +=   111] [mg   297(0) <-   111] [mx   298(1) +=   112] [mg   298(1) <-   112] [mx   299(2) +=   113] [mg   299(2) <-   113] 
+ SS A RA b <- SS        : 
+SS AM AA b <- SS        : 
+SS AM RA b <- SS        : 
+ SS D AA b <- SS        : 
+ SS D RA b <- SS        : 
+ SS E AA b <- SS        : 
+ SS E AA i <- SS        : 
+ SS E RA b <- SS        : 
+SS IL AA b <- SS        : 
+SS IL RA b <- SS        : 
+SS ILL AA b <- SS        : 
+SS ILL RA b <- SS        : 
+SS IN AA b <- SS        : 
+SS IN RA b <- SS        : 
+SS IR AA b <- SS        : 
+SS IR RA b <- SS        : 
+ SS J AA b <- SS        : 
+ SS J RA b <- SS        : 
+ SS N AA b <- SS        : 
+ SS N RA b <- SS        : 
+SS SIL AA b <- SS        : 
+SS SIL RA b <- SS        : 
+ SS U AA b <- SS        : 
+ SS U RA b <- SS        : 
+   T A A b <- T         : [mx   300(0) +=   114] [mg   300(0) <-   114] [mx   303(1) +=   115] [mg   303(1) <-   115] [mx   304(2) +=   116] [mg   304(2) <-   116] 
+  T A AA b <- T         : 
+   T A E b <- T         : [mx   305(2) +=   116] [mg   305(2) <-   116] 
+   T A U b <- T         : 
+ T AA RA i <- T         : [mx   302(0) +=   114] [mg   302(0) <-   114] 
+  T AM A b <- T         : 
+ T AM AA b <- T         : 
+  T AM E b <- T         : 
+  T AM U b <- T         : 
+   T D A b <- T         : 
+  T D AA b <- T         : 
+   T D E b <- T         : 
+   T D U b <- T         : 
+   T E A b <- T         : 
+  T E AA b <- T         : 
+   T E E b <- T         : 
+  T E RA i <- T         : [mx   301(0) +=   114] [mg   301(0) <-   114] 
+   T E U b <- T         : 
+ T EE AM i <- T         : 
+  T IL A b <- T         : 
+ T IL AA b <- T         : 
+  T IL E b <- T         : 
+  T IL U b <- T         : 
+ T ILL A b <- T         : 
+T ILL AA b <- T         : 
+ T ILL E b <- T         : 
+ T ILL U b <- T         : 
+  T IN A b <- T         : 
+ T IN AA b <- T         : 
+  T IN E b <- T         : 
+  T IN U b <- T         : 
+  T IR A b <- T         : 
+ T IR AA b <- T         : 
+  T IR E b <- T         : 
+  T IR T i <- T         : 
+  T IR U b <- T         : 
+   T J A b <- T         : 
+  T J AA b <- T         : 
+   T J E b <- T         : 
+   T J U b <- T         : 
+   T N A b <- T         : 
+  T N AA b <- T         : 
+   T N E b <- T         : 
+   T N U b <- T         : 
+   T N Y i <- T         : 
+  T OO E i <- T         : 
+  T S RA i <- T         : 
+ T SIL A b <- T         : 
+T SIL AA b <- T         : 
+ T SIL E b <- T         : 
+ T SIL U b <- T         : 
+   T T A i <- T         : 
+   T U A b <- T         : 
+  T U AA b <- T         : 
+   T U E b <- T         : 
+   T U U b <- T         : 
+  TT S A i <- TT        : [mx   306(0) +=   117] [mg   306(0) <-   117] [mx   307(1) +=   118] [mg   307(1) <-   118] [mx   308(2) +=   119] [mg   308(2) <-   119] 
+  U DA A e <- U         : [mx   310(0) +=   120] [mg   310(0) <-   120] [mx   311(1) +=   121] [mg   311(1) <-   121] [mx   312(2) +=   122] [mg   312(2) <-   122] 
+ U DA AA e <- U         : 
+  U DA B e <- U         : 
+ U DA CH e <- U         : [mx   309(0) +=   120] [mg   309(0) <-   120] 
+ U DA DA e <- U         : 
+  U DA E e <- U         : 
+  U DA H e <- U         : 
+  U DA J e <- U         : 
+  U DA K e <- U         : 
+ U DA KK e <- U         : 
+  U DA M e <- U         : 
+  U DA N e <- U         : 
+  U DA O e <- U         : 
+  U DA P e <- U         : 
+  U DA S e <- U         : 
+U DA SIL e <- U         : 
+ U DA SS e <- U         : 
+  U DA T e <- U         : 
+  U DA V e <- U         : 
+   U K K i <- U         : 
+  U NG K i <- U         : 
+ U RA BH i <- U         : 
+  U RA K i <- U         : 
+   U T D i <- U         : 
+   U Y K i <- U         : 
+ UU BH M i <- UU        : [mx   314(0) +=   123] [mg   314(0) <-   123] [mx   315(1) +=   124] [mg   315(1) <-   124] [mx   317(2) +=   125] [mg   317(2) <-   125] 
+  UU M D i <- UU        : 
+ UU N IR i <- UU        : [mx   313(0) +=   123] [mg   313(0) <-   123] [mx   316(1) +=   124] [mg   316(1) <-   124] [mx   318(2) +=   125] [mg   318(2) <-   125] 
+UU RA IR i <- UU        : 
+  V A AA i <- V         : [mx   320(0) +=   126] [mg   320(0) <-   126] [mx   321(1) +=   127] [mg   321(1) <-   127] [mx   323(2) +=   128] [mg   323(2) <-   128] 
+   V A E b <- V         : [mx   322(2) +=   128] [mg   322(2) <-   128] 
+ V A EEY b <- V         : 
+  V A EY b <- V         : 
+  V AA E i <- V         : 
+  V AM E b <- V         : [mx   319(0) +=   126] [mg   319(0) <-   126] 
+V AM EEY b <- V         : 
+ V AM EY b <- V         : 
+   V D E b <- V         : 
+ V D EEY b <- V         : 
+  V D EY b <- V         : 
+   V E E b <- V         : 
+ V E EEY b <- V         : 
+  V E EY b <- V         : 
+  V IL E b <- V         : 
+V IL EEY b <- V         : 
+ V IL EY b <- V         : 
+ V ILL E b <- V         : 
+V ILL EEY b <- V         : 
+V ILL EY b <- V         : 
+  V IN E b <- V         : 
+V IN EEY b <- V         : 
+ V IN EY b <- V         : 
+  V IR E b <- V         : 
+V IR EEY b <- V         : 
+ V IR EY b <- V         : 
+   V J E b <- V         : 
+ V J EEY b <- V         : 
+  V J EY b <- V         : 
+   V N E b <- V         : 
+ V N EEY b <- V         : 
+  V N EY b <- V         : 
+ V SIL E b <- V         : 
+V SIL EEY b <- V         : 
+V SIL EY b <- V         : 
+   V U E b <- V         : 
+ V U EEY b <- V         : 
+  V U EY b <- V         : 
+  Y A AM i <- Y         : [mx   325(0) +=   129] [mg   325(0) <-   129] [mx   328(1) +=   130] [mg   328(1) <-   130] [mx   329(2) +=   131] [mg   329(2) <-   131] 
+   Y A K i <- Y         : [mx   326(0) +=   129] [mg   326(0) <-   129] [mx   327(1) +=   130] [mg   327(1) <-   130] [mx   330(2) +=   131] [mg   330(2) <-   131] 
+   Y A U i <- Y         : [mx   324(0) +=   129] [mg   324(0) <-   129] 
+Y DDA AA i <- Y         : 
+   Y E A i <- Y         : 
+  Y J OO i <- Y         : 
+ Y RA AM i <- Y         : 
+  Y T AA i <- Y         : 
+  ZH E A i <- ZH        : [mx   331(0) +=   132] [mg   331(0) <-   132] [mx   332(1) +=   133] [mg   332(1) <-   133] [mx   334(2) +=   134] [mg   334(2) <-   134] 
+ZH EEY AA i <- ZH        : INFO: main.c(529): Writing dest /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/transition_matrices
+INFO: s3tmat_io.c(174): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/transition_matrices [45x3x4 array]
+INFO: main.c(540): Writing dest /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/mixture_weights
+INFO: s3mixw_io.c(232): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/mixture_weights [335x1x1 array]
+INFO: main.c(549): Writing dest /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/means
+INFO: s3gau_io.c(226): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/means [335x1x1 array]
+INFO: main.c(561): Writing dest /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/variances
+INFO: s3gau_io.c(226): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_initial/variances [335x1x1 array]
+[mx   333(1) +=   133] [mg   333(1) <-   133] 
+Sat Mar 30 00:24:06 2013

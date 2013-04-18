@@ -1,0 +1,161 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/libexec/sphinxtrain/tiestate \
+	-imoddeffn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.alltriphones.mdef \
+	-omoddeffn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef \
+	-treedir /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/trees/chakka.200 \
+	-psetfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.tree_questions 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-imoddeffn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.alltriphones.mdef
+-omoddeffn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef
+-psetfn			/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.tree_questions
+-treedir		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/trees/chakka.200
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 1011 total models defined (45 base, 966 tri)
+INFO: model_def_io.c(575): 4044 total states
+INFO: model_def_io.c(576): 3033 total tied states
+INFO: model_def_io.c(577): 135 total tied CI states
+INFO: model_def_io.c(578): 45 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(92): Reading: /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.tree_questions
+INFO: main.c(122): A-0: offset 135
+INFO: main.c(122): A-1: offset 139
+INFO: main.c(122): A-2: offset 143
+INFO: main.c(122): AA-0: offset 149
+INFO: main.c(122): AA-1: offset 153
+INFO: main.c(122): AA-2: offset 157
+INFO: main.c(122): AM-0: offset 160
+INFO: main.c(122): AM-1: offset 162
+INFO: main.c(122): AM-2: offset 164
+INFO: main.c(122): B-0: offset 167
+INFO: main.c(122): B-1: offset 168
+INFO: main.c(122): B-2: offset 169
+INFO: main.c(122): BH-0: offset 170
+INFO: main.c(122): BH-1: offset 171
+INFO: main.c(122): BH-2: offset 172
+INFO: main.c(122): CH-0: offset 173
+INFO: main.c(122): CH-1: offset 174
+INFO: main.c(122): CH-2: offset 175
+INFO: main.c(122): D-0: offset 176
+INFO: main.c(122): D-1: offset 178
+INFO: main.c(122): D-2: offset 180
+INFO: main.c(122): DA-0: offset 182
+INFO: main.c(122): DA-1: offset 183
+INFO: main.c(122): DA-2: offset 184
+INFO: main.c(122): DDA-0: offset 185
+INFO: main.c(122): DDA-1: offset 186
+INFO: main.c(122): DDA-2: offset 187
+INFO: main.c(122): DH-0: offset 188
+INFO: main.c(122): DH-1: offset 189
+INFO: main.c(122): DH-2: offset 190
+INFO: main.c(122): E-0: offset 191
+INFO: main.c(122): E-1: offset 193
+INFO: main.c(122): E-2: offset 195
+INFO: main.c(122): EE-0: offset 197
+INFO: main.c(122): EE-1: offset 198
+INFO: main.c(122): EE-2: offset 199
+INFO: main.c(122): EEY-0: offset 200
+INFO: main.c(122): EEY-1: offset 201
+INFO: main.c(122): EEY-2: offset 203
+INFO: main.c(122): EY-0: offset 205
+INFO: main.c(122): EY-1: offset 207
+INFO: main.c(122): EY-2: offset 208
+INFO: main.c(122): G-0: offset 209
+INFO: main.c(122): G-1: offset 210
+INFO: main.c(122): G-2: offset 211
+INFO: main.c(122): H-0: offset 212
+INFO: main.c(122): H-1: offset 213
+INFO: main.c(122): H-2: offset 214
+INFO: main.c(122): IL-0: offset 215
+INFO: main.c(122): IL-1: offset 216
+INFO: main.c(122): IL-2: offset 217
+INFO: main.c(122): ILL-0: offset 219
+INFO: main.c(122): ILL-1: offset 220
+INFO: main.c(122): ILL-2: offset 221
+INFO: main.c(122): IN-0: offset 222
+INFO: main.c(122): IN-1: offset 223
+INFO: main.c(122): IN-2: offset 224
+INFO: main.c(122): IR-0: offset 225
+INFO: main.c(122): IR-1: offset 226
+INFO: main.c(122): IR-2: offset 227
+INFO: main.c(122): J-0: offset 228
+INFO: main.c(122): J-1: offset 229
+INFO: main.c(122): J-2: offset 230
+INFO: main.c(122): K-0: offset 231
+INFO: main.c(122): K-1: offset 234
+INFO: main.c(122): K-2: offset 237
+INFO: main.c(122): KK-0: offset 240
+INFO: main.c(122): KK-1: offset 241
+INFO: main.c(122): KK-2: offset 242
+INFO: main.c(122): L-0: offset 243
+INFO: main.c(122): L-1: offset 244
+INFO: main.c(122): L-2: offset 245
+INFO: main.c(122): LU-0: offset 246
+INFO: main.c(122): LU-1: offset 247
+INFO: main.c(122): LU-2: offset 248
+INFO: main.c(122): M-0: offset 249
+INFO: main.c(122): M-1: offset 251
+INFO: main.c(122): M-2: offset 253
+INFO: main.c(122): N-0: offset 255
+INFO: main.c(122): N-1: offset 257
+INFO: main.c(122): N-2: offset 258
+INFO: main.c(122): NG-0: offset 259
+INFO: main.c(122): NG-1: offset 260
+INFO: main.c(122): NG-2: offset 261
+INFO: main.c(122): NJ-0: offset 262
+INFO: main.c(122): NJ-1: offset 263
+INFO: main.c(122): NJ-2: offset 265
+INFO: main.c(122): NU-0: offset 267
+INFO: main.c(122): NU-1: offset 268
+INFO: main.c(122): NU-2: offset 269
+INFO: main.c(122): O-0: offset 270
+INFO: main.c(122): O-1: offset 271
+INFO: main.c(122): O-2: offset 272
+INFO: main.c(122): OO-0: offset 273
+INFO: main.c(122): OO-1: offset 274
+INFO: main.c(122): OO-2: offset 275
+INFO: main.c(122): P-0: offset 276
+INFO: main.c(122): P-1: offset 278
+INFO: main.c(122): P-2: offset 279
+INFO: main.c(122): RA-0: offset 281
+INFO: main.c(122): RA-1: offset 283
+INFO: main.c(122): RA-2: offset 286
+INFO: main.c(122): S-0: offset 289
+INFO: main.c(122): S-1: offset 291
+INFO: main.c(122): S-2: offset 292
+INFO: main.c(122): SH-0: offset 294
+INFO: main.c(122): SH-1: offset 295
+INFO: main.c(122): SH-2: offset 296
+INFO: main.c(122): SS-0: offset 297
+INFO: main.c(122): SS-1: offset 298
+INFO: main.c(122): SS-2: offset 299
+INFO: main.c(122): T-0: offset 300
+INFO: main.c(122): T-1: offset 303
+INFO: main.c(122): T-2: offset 304
+INFO: main.c(122): TT-0: offset 306
+INFO: main.c(122): TT-1: offset 307
+INFO: main.c(122): TT-2: offset 308
+INFO: main.c(122): U-0: offset 309
+INFO: main.c(122): U-1: offset 311
+INFO: main.c(122): U-2: offset 312
+INFO: main.c(122): UU-0: offset 313
+INFO: main.c(122): UU-1: offset 315
+INFO: main.c(122): UU-2: offset 317
+INFO: main.c(122): V-0: offset 319
+INFO: main.c(122): V-1: offset 321
+INFO: main.c(122): V-2: offset 322
+INFO: main.c(122): Y-0: offset 324
+INFO: main.c(122): Y-1: offset 327
+INFO: main.c(122): Y-2: offset 329
+INFO: main.c(122): ZH-0: offset 331
+INFO: main.c(122): ZH-1: offset 332
+INFO: main.c(122): ZH-2: offset 334
+INFO: main.c(144): n_seno= 335
+!!!!!!!!Allocated 66 lines
+Sat Mar 30 00:24:06 2013

@@ -1,0 +1,34 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/libexec/sphinxtrain/mk_mdef_gen \
+	-phnlstfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.phonelist \
+	-ocimdef /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef \
+	-n_state_pm 3 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dictfn			
+-example	no	no
+-fdictfn		
+-help		no	no
+-ignorewpos	no	no
+-inCDmdef		
+-inCImdef		
+-lsnfn			
+-maxtriphones	100000	100000
+-minocc		1	1
+-n_state_pm	3	3
+-oalltphnmdef		
+-ocimdef		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+-ocountfn		
+-ountiedmdef		
+-phnlstfn		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.phonelist
+-triphnlstfn		
+
+INFO: main.c(92): Will write CI mdef file /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+INFO: mk_mdef_gen.c(189): 0 single word triphones in input phone list
+INFO: mk_mdef_gen.c(190): 0 word beginning triphones in input phone list
+INFO: mk_mdef_gen.c(191): 0 word internal triphones in input phone list
+INFO: mk_mdef_gen.c(192): 0 word ending triphones in input phone list
+INFO: mk_mdef_gen.c(897): 45 n_base, 0 n_tri
+INFO: mk_mdef_gen.c(969): Wrote mdef file /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+Sat Mar 30 00:23:40 2013

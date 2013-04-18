@@ -1,0 +1,43 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/libexec/sphinxtrain/norm \
+	-accumdir /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1 \
+	-mixwfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights \
+	-tmatfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices \
+	-meanfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means \
+	-varfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means
+-mixwfn			/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices
+-varfn			/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances
+
+INFO: main.c(206): Reading and accumulating counts from /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1
+INFO: s3mixw_io.c(116): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1/mixw_counts [135x1x1 array]
+INFO: s3tmat_io.c(115): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1/tmat_counts [45x3x4 array]
+INFO: s3gau_io.c(379): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1/gauden_counts with means with vars (2pass) [135x1x1 vector arrays]
+INFO: main.c(320): -2passvar yes
+INFO: main.c(389): Normalizing mean for n_mgau= 135, n_stream= 1, n_density= 1
+INFO: main.c(413): Normalizing var
+INFO: s3mixw_io.c(232): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights [135x1x1 array]
+INFO: s3tmat_io.c(174): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/transition_matrices [45x3x4 array]
+INFO: s3gau_io.c(226): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means [135x1x1 array]
+INFO: s3gau_io.c(226): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances [135x1x1 array]
+Sat Mar 30 00:23:48 2013
+Current Overall Likelihood Per Frame = 0.653301654693453
+Convergence ratio = 0.382271724002193

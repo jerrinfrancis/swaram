@@ -1,0 +1,51 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/libexec/sphinxtrain/make_quests \
+	-moddeffn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef \
+	-meanfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means \
+	-varfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances \
+	-fullvar no \
+	-mixwfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights \
+	-npermute 12 \
+	-niter 1 \
+	-qstperstt 20 \
+	-questfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.tree_questions \
+	-type .cont. 
+
+Current configuration:
+[NAME]		[DEFLT]			[VALUE]
+-example	no			no
+-fullvar	no			no
+-help		no			no
+-meanfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means
+-mixwfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights
+-moddeffn				/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+-niter		0			1
+-npermute	6			12
+-qstperstt	8			20
+-questfn				/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.tree_questions
+-tempfn		/tmp/TEMP.QUESTS	/tmp/TEMP.QUESTS
+-type					.cont.
+-varfloor	1.0e-08			1.000000e-08
+-varfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances
+
+INFO: main.c(792): Reading: /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 45 total models defined (45 base, 0 tri)
+INFO: model_def_io.c(575): 180 total states
+INFO: model_def_io.c(576): 135 total tied states
+INFO: model_def_io.c(577): 135 total tied CI states
+INFO: model_def_io.c(578): 45 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(811): Reading: /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights
+INFO: s3mixw_io.c(116): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/mixture_weights [135x1x1 array]
+INFO: s3gau_io.c(166): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/means [135x1x1 array]
+INFO: s3gau_io.c(166): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.ci_cont/variances [135x1x1 array]
+INFO: main.c(1109): Done building questions using state 0
+INFO: main.c(1110):  21 questions from state 0
+INFO: main.c(1109): Done building questions using state 1
+INFO: main.c(1110):  20 questions from state 1
+INFO: main.c(1109): Done building questions using state 2
+INFO: main.c(1110):  20 questions from state 2
+INFO: main.c(1115): Stored questions in /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.tree_questions
+Sat Mar 30 00:23:58 2013

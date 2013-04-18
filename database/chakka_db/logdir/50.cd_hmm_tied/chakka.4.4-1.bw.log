@@ -1,0 +1,1275 @@
+        INFO: main.c(229): Compiled on Feb  7 2013 at 19:45:33
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/libexec/sphinxtrain/bw \
+	-moddeffn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef \
+	-ts2cbfn .cont. \
+	-mixwfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/mixture_weights \
+	-mwfloor 1e-05 \
+	-tpfloor 1e-05 \
+	-tmatfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/transition_matrices \
+	-meanfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/means \
+	-varfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/variances \
+	-dictfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.dic \
+	-fdictfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.filler \
+	-ctlfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka_train.fileids \
+	-part 1 \
+	-npart 1 \
+	-cepdir /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/feat \
+	-cepext mfc \
+	-lsnfn /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka_train.transcription \
+	-accumdir /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1 \
+	-varfloor 0.0001 \
+	-topn 4 \
+	-abeam 1e-90 \
+	-bbeam 1e-10 \
+	-agc none \
+	-cmn current \
+	-varnorm no \
+	-meanreest yes \
+	-varreest yes \
+	-2passvar yes \
+	-tmatreest yes \
+	-fullvar no \
+	-diagfull no \
+	-feat 1s_c_d_dd \
+	-ceplen 13 \
+	-timing no 
+
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-2passvar		no		yes
+-abeam			1e-100		1.000000e-90
+-accumdir				/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1
+-agc			none		none
+-agcthresh		2.0		2.000000e+00
+-bbeam			1e-100		1.000000e-10
+-cb2mllrfn		.1cls.		.1cls.
+-cepdir					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/feat
+-cepext			mfc		mfc
+-ceplen			13		13
+-ckptintv				0
+-cmn			current		current
+-cmninit		8.0		8.0
+-ctlfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka_train.fileids
+-diagfull		no		no
+-dictfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.dic
+-example		no		no
+-fdictfn				/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.filler
+-feat			1s_c_d_dd	1s_c_d_dd
+-fullsuffixmatch	no		no
+-fullvar		no		no
+-help			no		no
+-hmmdir					
+-latdir					
+-latext					
+-lda					
+-ldaaccum		no		no
+-ldadim			0		0
+-lsnfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka_train.transcription
+-lw			11.5		1.150000e+01
+-maxuttlen		0		0
+-meanfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/means
+-meanreest		yes		yes
+-mixwfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/mixture_weights
+-mixwreest		yes		yes
+-mllrmat				
+-mmie			no		no
+-mmie_type		rand		rand
+-moddeffn				/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef
+-mwfloor		0.00001		1.000000e-05
+-npart					1
+-nskip					0
+-outphsegdir				
+-outputfullpath		no		no
+-part					1
+-pdumpdir				
+-phsegdir				
+-phsegext		phseg		phseg
+-runlen			-1		-1
+-sentdir				
+-sentext		sent		sent
+-spthresh		0.0		0.000000e+00
+-svspec					
+-timing			yes		no
+-tmatfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/transition_matrices
+-tmatreest		yes		yes
+-topn			4		4
+-tpfloor		0.0001		1.000000e-05
+-ts2cbfn				.cont.
+-varfloor		0.00001		1.000000e-04
+-varfn					/home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/variances
+-varnorm		no		no
+-varreest		yes		yes
+-viterbi		no		no
+
+INFO: feat.c(713): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(142): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: main.c(318): Reading /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_architecture/chakka.200.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 1011 total models defined (45 base, 966 tri)
+INFO: model_def_io.c(575): 4044 total states
+INFO: model_def_io.c(576): 335 total tied states
+INFO: model_def_io.c(577): 135 total tied CI states
+INFO: model_def_io.c(578): 45 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(116): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/mixture_weights [335x1x4 array]
+INFO: s3tmat_io.c(115): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/transition_matrices [45x3x4 array]
+INFO: mod_inv.c(300): inserting tprob floor 1.000000e-05 and renormalizing
+INFO: s3gau_io.c(166): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/means [335x1x4 array]
+INFO: s3gau_io.c(166): Read /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/model_parameters/chakka.cd_cont_200/variances [335x1x4 array]
+INFO: gauden.c(183): 335 total mgau
+INFO: gauden.c(157): 1 feature streams (|0|=39 )
+INFO: gauden.c(194): 4 total densities
+INFO: gauden.c(97): min_var=1.000000e-04
+INFO: gauden.c(172): compute 4 densities/frame
+INFO: main.c(430): Will reestimate mixing weights.
+INFO: main.c(432): Will reestimate means.
+INFO: main.c(434): Will reestimate variances.
+INFO: main.c(442): Will reestimate transition matrices
+INFO: main.c(455): Reading main lexicon: /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.dic
+INFO: lexicon.c(220): 35 entries added from /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.dic
+INFO: main.c(465): Reading filler lexicon: /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.filler
+INFO: lexicon.c(220): 3 entries added from /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/etc/chakka.filler
+INFO: corpus.c(1086): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(175): CMN:  9.69 -0.04  0.01  0.02 -0.17 -0.04 -0.17 -0.22 -0.12 -0.34 -0.02 -0.10 -0.10 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                   akhil_1  100    0    48 7  1 3 1.742112e-12 9.264789e+00 9.264789e+02
+INFO: cmn.c(175): CMN:  9.84  0.53 -0.10  0.13 -0.24 -0.12 -0.25 -0.31 -0.17 -0.21 -0.07 -0.08 -0.17 
+utt>     1                   akhil_2  109    0    60 9  1 3 1.342442e-12 7.550750e+00 8.230317e+02
+INFO: cmn.c(175): CMN:  8.85 -0.04  0.10  0.69  0.02 -0.18 -0.27 -0.22 -0.01 -0.35 -0.13 -0.13 -0.18 
+utt>     2                   akhil_3   88    0    52 9  1 3 1.255047e-12 3.896114e+00 3.428581e+02
+INFO: cmn.c(175): CMN: 10.70  0.57 -0.21 -0.00 -0.29 -0.05 -0.36 -0.33 -0.09 -0.25  0.06 -0.12 -0.21 
+utt>     3                   akhil_4  108    0    72 10  1 3 1.717119e-12 3.612288e+00 3.901271e+02
+INFO: cmn.c(175): CMN:  8.91  0.20 -0.19  0.10 -0.19 -0.13 -0.23 -0.16 -0.18 -0.17 -0.00 -0.10 -0.17 
+utt>     4                   akhil_5   63    0    44 8  1 3 8.490820e-13 -2.073855e+00 -1.306529e+02
+INFO: cmn.c(175): CMN:  9.01  0.49  0.07 -0.01 -0.42 -0.06 -0.19 -0.12 -0.26 -0.31  0.03 -0.13 -0.12 
+utt>     5                   akhil_6   66    0    44 12  2 4 4.534825e-12 3.407744e+00 2.249111e+02
+INFO: cmn.c(175): CMN: 10.41  0.19 -0.12  0.12 -0.34 -0.02 -0.23 -0.18 -0.17 -0.29  0.02 -0.14 -0.18 
+utt>     6                   akhil_1   91    0    40 7  1 3 2.713861e-12 7.079448e+00 6.442298e+02
+INFO: cmn.c(175): CMN: 10.21  0.00 -0.25  0.31 -0.39 -0.12 -0.24 -0.20 -0.13 -0.22 -0.06 -0.12 -0.17 
+utt>     7                   akhil_2   72    0    40 8  1 3 6.044684e-13 6.172187e+00 4.443974e+02
+INFO: cmn.c(175): CMN: 10.36 -0.25 -0.04  0.40 -0.10 -0.17 -0.37 -0.28 -0.08 -0.32 -0.08 -0.16 -0.09 
+utt>     8                   akhil_3   85    0    40 8  1 3 3.520459e-12 9.845767e+00 8.368902e+02
+INFO: cmn.c(175): CMN: 10.78  0.28 -0.30  0.10 -0.25 -0.16 -0.33 -0.26 -0.09 -0.37 -0.08 -0.07 -0.09 
+utt>     9                   akhil_4   87    0    60 8  1 3 2.182848e-12 2.113114e+00 1.838409e+02
+INFO: cmn.c(175): CMN: 11.02  0.29 -0.18  0.11 -0.17 -0.17 -0.19 -0.39 -0.11 -0.43 -0.01 -0.16 -0.19 
+utt>    10                   akhil_5   85    0    44 8  1 3 2.787307e-12 5.632020e+00 4.787217e+02
+INFO: cmn.c(175): CMN:  8.22  0.16 -0.12 -0.13 -0.32 -0.08 -0.14 -0.12 -0.10 -0.12  0.02 -0.06 -0.10 
+utt>    11                   akhil_6   57    0    28 7  1 3 3.192224e-12 5.590362e+00 3.186507e+02
+INFO: cmn.c(175): CMN: 11.16  0.49 -0.41 -0.09 -0.53 -0.23 -0.08 -0.22 -0.15 -0.20  0.01 -0.15 -0.11 
+utt>    12                   akhil_7   68    0    32 7  1 3 4.014096e-12 1.396552e+01 9.496555e+02
+INFO: cmn.c(175): CMN: 10.59  0.44 -0.48 -0.25 -0.30 -0.11 -0.25 -0.25 -0.08 -0.15  0.05 -0.05 -0.21 
+utt>    13                   akhil_8   70    0    44 8  1 3 1.447460e-12 3.867748e+00 2.707423e+02
+INFO: cmn.c(175): CMN: 11.35  0.66 -0.24  0.16 -0.36 -0.15 -0.25 -0.33 -0.15 -0.37 -0.03 -0.14 -0.16 
+utt>    14                   akhil_9   82    0    48 8  1 3 1.796336e-12 7.044424e+00 5.776427e+02
+INFO: cmn.c(175): CMN: 10.31  0.06 -0.20  0.33 -0.17 -0.07 -0.23 -0.36 -0.11 -0.40 -0.11 -0.06 -0.10 
+utt>    15                  akhil_10   88    0    60 9  1 3 1.712879e-12 2.433863e+00 2.141799e+02
+INFO: cmn.c(175): CMN:  9.69 -0.04  0.01  0.02 -0.17 -0.04 -0.17 -0.22 -0.12 -0.34 -0.02 -0.10 -0.10 
+utt>    16                  akhil_11  100    0    48 7  1 3 1.742112e-12 9.264789e+00 9.264789e+02
+INFO: cmn.c(175): CMN:  8.06 -0.07 -0.12  0.02 -0.15 -0.12 -0.18 -0.20 -0.10 -0.19 -0.04 -0.07 -0.09 
+utt>    17                  akhil_12  289    0   116 8  1 2 1.757703e-12 6.564061e+00 1.897013e+03
+INFO: cmn.c(175): CMN:  8.54 -0.04 -0.08  0.09 -0.12 -0.15 -0.18 -0.21 -0.11 -0.23 -0.03 -0.11 -0.09 
+utt>    18                  akhil_13  264    0   100 8  1 2 2.382738e-12 1.045004e+01 2.758810e+03
+INFO: cmn.c(175): CMN:  8.62  0.06 -0.11  0.02 -0.13 -0.07 -0.19 -0.29 -0.08 -0.22 -0.04 -0.08 -0.14 
+utt>    19                  akhil_14  198    0    96 9  1 3 3.420866e-12 3.683595e+00 7.293518e+02
+INFO: cmn.c(175): CMN:  8.74  0.31  0.05 -0.04 -0.15 -0.10 -0.17 -0.31 -0.11 -0.33  0.03 -0.14 -0.12 
+utt>    20                  akhil_15  171    0    80 8  1 2 3.109115e-12 6.540303e+00 1.118392e+03
+INFO: cmn.c(175): CMN:  8.19 -0.09  0.03  0.05 -0.15 -0.09 -0.19 -0.21 -0.09 -0.25 -0.01 -0.14 -0.10 
+utt>    21                  akhil_16  170    0    80 8  1 3 2.071398e-12 9.501628e+00 1.615277e+03
+INFO: cmn.c(175): CMN:  9.84  0.53 -0.10  0.13 -0.24 -0.12 -0.25 -0.31 -0.17 -0.21 -0.07 -0.08 -0.17 
+utt>    22                   akhil_1  109    0    60 9  1 3 1.342442e-12 7.550750e+00 8.230317e+02
+INFO: cmn.c(175): CMN:  8.68 -0.26 -0.17 -0.04 -0.21 -0.04 -0.17 -0.20 -0.14 -0.12  0.03 -0.07 -0.16 
+utt>    23                   akhil_2   69    0    28 7  1 2 4.690566e-12 6.771654e+00 4.672442e+02
+INFO: cmn.c(175): CMN:  8.61  0.33  0.04  0.26 -0.38 -0.10 -0.11 -0.24 -0.23 -0.20  0.04 -0.06 -0.12 
+utt>    24                   akhil_3   61    0    20 8  1 2 8.190350e-13 1.013594e+01 6.182926e+02
+INFO: cmn.c(175): CMN:  9.42  0.62 -0.28  0.02 -0.28 -0.14 -0.16 -0.15 -0.10 -0.21 -0.06 -0.09 -0.17 
+utt>    25                   akhil_4   72    0    36 7  1 3 5.118038e-12 8.184869e+00 5.893106e+02
+INFO: cmn.c(175): CMN:  9.06  0.07 -0.19  0.39 -0.17 -0.17 -0.26 -0.20 -0.11 -0.28 -0.10 -0.08 -0.12 
+utt>    26                   akhil_5   70    0    40 8  1 3 3.577822e-12 9.363474e+00 6.554432e+02
+INFO: cmn.c(175): CMN: 10.41  0.19 -0.12  0.12 -0.34 -0.02 -0.23 -0.18 -0.17 -0.29  0.02 -0.14 -0.18 
+utt>    27                   akhil_6   91    0    40 7  1 3 2.713861e-12 7.079448e+00 6.442298e+02
+INFO: cmn.c(175): CMN: 10.21  0.00 -0.25  0.31 -0.39 -0.12 -0.24 -0.20 -0.13 -0.22 -0.06 -0.12 -0.17 
+utt>    28                   akhil_7   72    0    40 8  1 3 6.044684e-13 6.172187e+00 4.443974e+02
+INFO: cmn.c(175): CMN: 10.36 -0.25 -0.04  0.40 -0.10 -0.17 -0.37 -0.28 -0.08 -0.32 -0.08 -0.16 -0.09 
+utt>    29                   akhil_8   85    0    40 8  1 3 3.520459e-12 9.845767e+00 8.368902e+02
+INFO: cmn.c(175): CMN: 10.78  0.28 -0.30  0.10 -0.25 -0.16 -0.33 -0.26 -0.09 -0.37 -0.08 -0.07 -0.09 
+utt>    30                   akhil_9   87    0    60 8  1 3 2.182848e-12 2.113114e+00 1.838409e+02
+INFO: cmn.c(175): CMN: 11.02  0.29 -0.18  0.11 -0.17 -0.17 -0.19 -0.39 -0.11 -0.43 -0.01 -0.16 -0.19 
+utt>    31                  akhil_10   85    0    44 8  1 3 2.787307e-12 5.632020e+00 4.787217e+02
+INFO: cmn.c(175): CMN:  7.83  0.11 -0.22 -0.22 -0.26 -0.17 -0.06 -0.08 -0.10 -0.07  0.03  0.02 -0.11 
+utt>    32                  akhil_11   43    0    28 7  1 3 1.440097e-12 8.204380e+00 3.527883e+02
+INFO: cmn.c(175): CMN: 11.16  0.49 -0.41 -0.09 -0.53 -0.23 -0.08 -0.22 -0.15 -0.20  0.01 -0.15 -0.11 
+utt>    33                  akhil_12   68    0    32 7  1 3 4.014096e-12 1.396552e+01 9.496555e+02
+INFO: cmn.c(175): CMN: 10.59  0.44 -0.48 -0.25 -0.30 -0.11 -0.25 -0.25 -0.08 -0.15  0.05 -0.05 -0.21 
+utt>    34                  akhil_13   70    0    44 8  1 3 1.447460e-12 3.867748e+00 2.707423e+02
+INFO: cmn.c(175): CMN: 11.35  0.66 -0.24  0.16 -0.36 -0.15 -0.25 -0.33 -0.15 -0.37 -0.03 -0.14 -0.16 
+utt>    35                  akhil_14   82    0    48 8  1 3 1.796336e-12 7.044424e+00 5.776427e+02
+INFO: cmn.c(175): CMN: 10.31  0.06 -0.20  0.33 -0.17 -0.07 -0.23 -0.36 -0.11 -0.40 -0.11 -0.06 -0.10 
+utt>    36                  akhil_15   88    0    60 9  1 3 1.712879e-12 2.433863e+00 2.141799e+02
+INFO: cmn.c(175): CMN:  8.06 -0.07 -0.12  0.02 -0.15 -0.12 -0.18 -0.20 -0.10 -0.19 -0.04 -0.07 -0.09 
+utt>    37                  akhil_16  289    0   116 8  1 2 1.757703e-12 6.564061e+00 1.897013e+03
+INFO: cmn.c(175): CMN:  8.54 -0.04 -0.08  0.09 -0.12 -0.15 -0.18 -0.21 -0.11 -0.23 -0.03 -0.11 -0.09 
+utt>    38                  akhil_17  264    0   100 8  1 2 2.382738e-12 1.045004e+01 2.758810e+03
+INFO: cmn.c(175): CMN:  8.62  0.06 -0.11  0.02 -0.13 -0.07 -0.19 -0.29 -0.08 -0.22 -0.04 -0.08 -0.14 
+utt>    39                  akhil_18  198    0    96 9  1 3 3.420866e-12 3.683595e+00 7.293518e+02
+INFO: cmn.c(175): CMN:  8.74  0.31  0.05 -0.04 -0.15 -0.10 -0.17 -0.31 -0.11 -0.33  0.03 -0.14 -0.12 
+utt>    40                  akhil_19  171    0    80 8  1 2 3.109115e-12 6.540303e+00 1.118392e+03
+INFO: cmn.c(175): CMN:  8.19 -0.09  0.03  0.05 -0.15 -0.09 -0.19 -0.21 -0.09 -0.25 -0.01 -0.14 -0.10 
+utt>    41                  akhil_20  170    0    80 8  1 3 2.071398e-12 9.501628e+00 1.615277e+03
+INFO: cmn.c(175): CMN:  8.42  0.10 -0.02 -0.01 -0.27 -0.13 -0.17 -0.17 -0.08 -0.17  0.03 -0.14 -0.13 
+utt>    42                  akhil_21  256    0   108 9  1 3 1.963115e-12 6.470271e+00 1.656389e+03
+INFO: cmn.c(175): CMN:  8.17  0.05  0.12  0.22 -0.21 -0.14 -0.14 -0.25 -0.09 -0.28 -0.03 -0.13 -0.13 
+utt>    43                  akhil_22  152    0    52 9  1 2 2.633954e-12 9.782348e+00 1.486917e+03
+INFO: cmn.c(175): CMN:  9.29  0.35  0.01  0.13 -0.36 -0.02 -0.22 -0.18 -0.19 -0.24  0.04 -0.14 -0.17 
+utt>    44                  akhil_23   98    0    72 10  2 4 2.770818e-12 3.582614e+00 3.510962e+02
+INFO: cmn.c(175): CMN:  8.85 -0.04  0.10  0.69  0.02 -0.18 -0.27 -0.22 -0.01 -0.35 -0.13 -0.13 -0.18 
+utt>    45                   akhil_1   88    0    52 9  1 3 1.255047e-12 3.896114e+00 3.428581e+02
+INFO: cmn.c(175): CMN:  9.55  0.08 -0.07  0.39 -0.15 -0.15 -0.31 -0.23 -0.01 -0.43  0.01 -0.17 -0.15 
+utt>    46                   akhil_2   76    0    40 8  1 3 2.084028e-12 9.303406e+00 7.070589e+02
+INFO: cmn.c(175): CMN:  9.42 -0.22 -0.07 -0.25 -0.31 -0.22 -0.12 -0.10 -0.15 -0.08  0.03 -0.12 -0.14 
+utt>    47                   akhil_3   78    0    32 8  1 3 3.174013e-12 7.634665e+00 5.955039e+02
+INFO: cmn.c(175): CMN:  9.65 -0.15  0.08  0.39 -0.15 -0.20 -0.15 -0.24 -0.13 -0.29  0.00 -0.16 -0.13 
+utt>    48                   akhil_4   78    0    32 8  1 3 2.168411e-12 4.323538e+00 3.372360e+02
+INFO: cmn.c(175): CMN: 10.24  0.15 -0.08 -0.00 -0.35  0.02 -0.30 -0.18 -0.11 -0.26  0.05 -0.22 -0.16 
+utt>    49                   akhil_5   73    0    40 10  1 3 4.173579e-12 4.253565e+00 3.105102e+02
+INFO: cmn.c(175): CMN:  9.22 -0.14  0.01  0.56 -0.15 -0.08 -0.30 -0.27 -0.06 -0.30 -0.07 -0.16 -0.19 
+utt>    50                   akhil_6   64    0    40 9  1 3 3.380080e-12 -3.783996e-02 -2.421758e+00
+INFO: cmn.c(175): CMN: 10.44  0.41 -0.30  0.41 -0.23 -0.12 -0.34 -0.29 -0.06 -0.35  0.01 -0.20 -0.09 
+utt>    51                   akhil_7   78    0    40 7  1 3 3.147302e-12 8.682746e+00 6.772542e+02
+INFO: cmn.c(175): CMN:  8.66  0.01 -0.17 -0.32 -0.30  0.03 -0.27 -0.10 -0.13 -0.05  0.06 -0.06 -0.15 
+utt>    52                   akhil_8   63    0    28 8  1 3 2.957889e-12 5.444754e+00 3.430195e+02
+INFO: cmn.c(175): CMN: 10.10  0.19 -0.30  0.37 -0.19 -0.14 -0.40 -0.28 -0.02 -0.25  0.02 -0.11 -0.17 
+utt>    53                   akhil_9   75    0    40 9  1 3 1.119328e-12 9.060722e-01 6.795542e+01
+INFO: cmn.c(175): CMN:  8.68 -0.15  0.09  0.06 -0.15 -0.22 -0.19 -0.23 -0.18 -0.16  0.02 -0.12 -0.11 
+utt>    54                  akhil_10   82    0    44 9  1 3 4.648815e-12 2.871649e+00 2.354752e+02
+INFO: cmn.c(175): CMN:  9.59  0.14 -0.06  0.21 -0.18 -0.16 -0.33 -0.22  0.01 -0.30  0.05 -0.12 -0.16 
+utt>    55                  akhil_11   94    0    48 9  2 3 2.568402e-12 4.446353e-02 4.179572e+00
+INFO: cmn.c(175): CMN:  9.81 -0.11  0.21  0.12 -0.24 -0.14 -0.14 -0.22 -0.15 -0.32  0.03 -0.19 -0.11 
+utt>    56                  akhil_12  105    0    52 8  1 3 2.121518e-12 2.888086e+00 3.032491e+02
+INFO: cmn.c(175): CMN:  8.23 -0.04 -0.08  0.35 -0.01 -0.14 -0.21 -0.19 -0.06 -0.27 -0.09 -0.09 -0.11 
+utt>    57                  akhil_13  289    0   108 9  1 3 2.829792e-12 8.478137e+00 2.450182e+03
+INFO: cmn.c(175): CMN:  8.19 -0.12 -0.13  0.01 -0.22 -0.04 -0.23 -0.14 -0.09 -0.18  0.00 -0.09 -0.12 
+utt>    58                  akhil_14  264    0    92 8  1 2 1.785560e-12 9.516694e+00 2.512407e+03
+INFO: cmn.c(175): CMN:  8.62 -0.11 -0.04  0.16 -0.15 -0.07 -0.23 -0.14 -0.13 -0.16 -0.07 -0.12 -0.12 
+utt>    59                  akhil_15  251    0    96 9  1 3 3.543967e-12 7.577963e+00 1.902069e+03
+INFO: cmn.c(175): CMN:  8.11 -0.12  0.06  0.10 -0.11 -0.08 -0.19 -0.19 -0.10 -0.19 -0.06 -0.09 -0.09 
+utt>    60                  akhil_16  326    0   128 9  1 3 2.167566e-12 5.957277e+00 1.942072e+03
+INFO: cmn.c(175): CMN:  7.93 -0.09 -0.06  0.35 -0.00 -0.13 -0.22 -0.20 -0.07 -0.22 -0.13 -0.07 -0.14 
+utt>    61                  akhil_17  259    0   120 11  1 3 2.695647e-12 6.448556e+00 1.670176e+03
+INFO: cmn.c(175): CMN:  8.58  0.32  0.18  0.13 -0.28 -0.06 -0.05 -0.22 -0.13 -0.31 -0.08 -0.13 -0.13 
+utt>    62                   akhil_1   92    0    44 13  2 3 5.650453e-12 3.267944e+00 3.006509e+02
+INFO: cmn.c(175): CMN:  9.13 -0.13  0.04  0.47 -0.10 -0.19 -0.32 -0.20 -0.13 -0.33 -0.03 -0.13 -0.10 
+utt>    63                   akhil_2   88    0    48 9  1 3 3.275032e-12 7.247675e+00 6.377954e+02
+INFO: cmn.c(175): CMN:  7.79  0.04  0.23  0.09 -0.20 -0.13 -0.12 -0.28 -0.15 -0.13  0.12 -0.09 -0.07 
+utt>    64                   akhil_3   63    0    16 8  1 3 1.676342e-12 4.542723e+00 2.861915e+02
+INFO: cmn.c(175): CMN:  7.57 -0.22  0.39  0.63  0.04 -0.11  0.01 -0.17 -0.21 -0.30 -0.11 -0.13 -0.12 
+utt>    65                   akhil_4   54    0    28 9  1 3 7.417437e-13 9.282776e+00 5.012699e+02
+INFO: cmn.c(175): CMN: 10.70  0.57 -0.21 -0.00 -0.29 -0.05 -0.36 -0.33 -0.09 -0.25  0.06 -0.12 -0.21 
+utt>    66                   akhil_5  108    0    72 10  1 3 1.717119e-12 3.612288e+00 3.901271e+02
+INFO: cmn.c(175): CMN:  9.39  0.20  0.04  0.15 -0.23 -0.16 -0.20 -0.30 -0.10 -0.23 -0.02 -0.14 -0.12 
+utt>    67                   akhil_6  205    0   112 9  1 3 1.607170e-12 4.602907e+00 9.435959e+02
+INFO: cmn.c(175): CMN:  8.06  0.10  0.34  0.31 -0.14 -0.18 -0.05 -0.19 -0.14 -0.26 -0.13 -0.17 -0.17 
+utt>    68                   akhil_7  209    0    72 12  1 2 1.830437e-12 5.198583e+00 1.086504e+03
+INFO: cmn.c(175): CMN:  8.72  0.22 -0.07 -0.05 -0.19 -0.09 -0.23 -0.23 -0.09 -0.18  0.02 -0.07 -0.11 
+utt>    69                   akhil_8  219    0   108 9  1 3 2.115453e-12 4.004539e+00 8.769941e+02
+INFO: cmn.c(175): CMN:  8.96  0.06  0.17  0.02  0.12 -0.23 -0.03 -0.25 -0.04 -0.22 -0.11 -0.13 -0.10 
+utt>    70                   rahul_1   91    0    48 8  2 4 2.491502e-12 8.755724e+00 7.967709e+02
+INFO: cmn.c(175): CMN:  9.19  0.34  0.11  0.03 -0.06 -0.11  0.01 -0.27 -0.09 -0.18 -0.10 -0.20 -0.12 
+utt>    71                   rahul_2  115    0    60 8  1 3 2.159151e-12 3.858001e+00 4.436701e+02
+INFO: cmn.c(175): CMN:  7.65 -0.27  0.18  0.48  0.05 -0.20  0.00 -0.18 -0.05 -0.17 -0.13 -0.10 -0.22 
+utt>    72                   rahul_3   95    0    52 9  1 3 2.618037e-12 3.019207e+00 2.868247e+02
+INFO: cmn.c(175): CMN:  9.75  0.46 -0.21 -0.07 -0.15 -0.20 -0.03 -0.38 -0.03 -0.13 -0.01 -0.12 -0.19 
+utt>    73                   rahul_4  113    0    72 10  1 3 8.759462e-13 5.981878e+00 6.759522e+02
+INFO: cmn.c(175): CMN:  9.80  0.35 -0.18 -0.13 -0.10 -0.16  0.01 -0.27 -0.02 -0.04 -0.03 -0.03 -0.20 
+utt>    74                   rahul_5   72    0    44 8  1 3 1.612684e-12 -2.339667e+00 -1.684560e+02
+INFO: cmn.c(175): CMN: 10.28  0.67  0.15 -0.17 -0.25 -0.20  0.11 -0.32 -0.13 -0.16 -0.08 -0.09 -0.13 
+utt>    75                   rahul_6   75    0    44 10  2 3 3.113593e-12 1.930673e+00 1.448005e+02
+INFO: cmn.c(175): CMN:  9.01  0.53  0.04 -0.11  0.04 -0.24  0.03 -0.22 -0.15 -0.27 -0.07 -0.14 -0.17 
+utt>    76                   rahul_1   76    0    40 8  1 3 3.625868e-12 7.644903e+00 5.810126e+02
+INFO: cmn.c(175): CMN:  8.58  0.11  0.16  0.09  0.05 -0.30 -0.02 -0.21 -0.04 -0.21 -0.11 -0.16 -0.17 
+utt>    77                   rahul_2   64    0    40 9  2 4 5.543336e-13 5.649718e+00 3.615820e+02
+INFO: cmn.c(175): CMN:  8.81 -0.13  0.22  0.25  0.18 -0.33  0.06 -0.23 -0.07 -0.27 -0.15 -0.14 -0.12 
+utt>    78                   rahul_3   88    0    40 9  1 3 2.938137e-12 5.388790e+00 4.742135e+02
+INFO: cmn.c(175): CMN:  8.56  0.21 -0.12  0.09 -0.07 -0.22 -0.08 -0.18 -0.12 -0.27 -0.06 -0.08 -0.11 
+utt>    79                   rahul_4   97    0    60 8  1 3 2.573885e-12 4.970936e+00 4.821808e+02
+INFO: cmn.c(175): CMN:  8.67  0.21 -0.08  0.04  0.04 -0.25 -0.03 -0.29 -0.11 -0.21 -0.06 -0.07 -0.12 
+utt>    80                   rahul_5   93    0    44 8  1 3 1.813096e-12 6.269604e+00 5.830732e+02
+INFO: cmn.c(175): CMN:  8.39  0.14 -0.20 -0.21 -0.10 -0.11  0.00 -0.22  0.00 -0.05  0.01 -0.01 -0.10 
+utt>    81                   rahul_6   62    0    28 7  1 3 4.588930e-12 5.481881e+00 3.398766e+02
+INFO: cmn.c(175): CMN:  8.84  0.30 -0.11 -0.17 -0.08 -0.28  0.11 -0.22 -0.05 -0.21 -0.09 -0.08 -0.09 
+utt>    82                   rahul_7   71    0    32 7  1 3 1.689943e-12 1.031052e+01 7.320467e+02
+INFO: cmn.c(175): CMN:  9.06  0.29 -0.28 -0.25 -0.20 -0.11 -0.07 -0.28  0.02 -0.10  0.04 -0.07 -0.10 
+utt>    83                   rahul_8   83    0    44 8  2 3 3.407719e-12 4.878428e+00 4.049096e+02
+INFO: cmn.c(175): CMN:  9.48  0.61  0.09 -0.04  0.00 -0.30 -0.05 -0.26 -0.04 -0.24 -0.11 -0.22 -0.15 
+utt>    84                   rahul_9   91    0    48 8  1 3 1.512710e-12 8.049930e+00 7.325437e+02
+INFO: cmn.c(175): CMN:  8.96 -0.08  0.08  0.15  0.02 -0.23 -0.05 -0.25 -0.08 -0.27 -0.13 -0.08 -0.06 
+utt>    85                  rahul_10  111    0    60 8  1 3 1.772161e-12 3.713249e+00 4.121707e+02
+INFO: cmn.c(175): CMN:  8.96  0.06  0.17  0.02  0.12 -0.23 -0.03 -0.25 -0.04 -0.22 -0.11 -0.13 -0.10 
+utt>    86                  rahul_11   91    0    48 8  2 4 2.491502e-12 8.755724e+00 7.967709e+02
+INFO: cmn.c(175): CMN:  8.42  0.21 -0.07 -0.09 -0.13 -0.22 -0.04 -0.28 -0.08 -0.17 -0.06 -0.08 -0.12 
+utt>    87                  rahul_12  245    0   116 8  1 3 2.770490e-12 5.106090e+00 1.250992e+03
+INFO: cmn.c(175): CMN:  8.97  0.20  0.07  0.09  0.03 -0.32 -0.00 -0.32 -0.07 -0.21 -0.05 -0.13 -0.14 
+utt>    88                  rahul_13  259    0   100 8  1 2 2.610722e-12 7.906089e+00 2.047677e+03
+INFO: cmn.c(175): CMN:  9.04  0.19 -0.18 -0.12 -0.07 -0.22 -0.03 -0.26 -0.07 -0.17 -0.03 -0.09 -0.10 
+utt>    89                  rahul_14  196    0    96 8  1 3 2.151641e-12 3.517997e+00 6.895274e+02
+INFO: cmn.c(175): CMN:  9.45  0.65  0.08 -0.10 -0.02 -0.28  0.02 -0.31 -0.06 -0.24 -0.14 -0.17 -0.14 
+utt>    90                  rahul_15  185    0    80 8  1 3 2.659261e-12 7.071760e+00 1.308276e+03
+INFO: cmn.c(175): CMN:  8.25 -0.02  0.02 -0.07  0.02 -0.22  0.04 -0.19 -0.03 -0.20 -0.13 -0.14 -0.09 
+utt>    91                  rahul_16  222    0    80 8  1 2 1.848757e-12 8.389761e+00 1.862527e+03
+INFO: cmn.c(175): CMN:  9.19  0.34  0.11  0.03 -0.06 -0.11  0.01 -0.27 -0.09 -0.18 -0.10 -0.20 -0.12 
+utt>    92                   rahul_1  115    0    60 8  1 3 2.159151e-12 3.858001e+00 4.436701e+02
+INFO: cmn.c(175): CMN:  8.36  0.02 -0.04  0.07 -0.16 -0.06  0.02 -0.25 -0.06 -0.13 -0.01 -0.15 -0.13 
+utt>    93                   rahul_2   50    0    28 8  2 3 1.327150e-12 7.719807e+00 3.859904e+02
+INFO: cmn.c(175): CMN:  7.84  0.35  0.33  0.16 -0.15 -0.12  0.08 -0.25 -0.15 -0.22 -0.06 -0.10 -0.13 
+utt>    94                   rahul_3   48    0    20 8  1 2 2.194921e-12 1.042281e+01 5.002947e+02
+INFO: cmn.c(175): CMN:  8.79  0.38  0.01 -0.03 -0.17 -0.01  0.10 -0.20 -0.01 -0.19 -0.14 -0.16 -0.15 
+utt>    95                   rahul_4   77    0    36 7  1 3 2.220486e-12 6.506275e+00 5.009832e+02
+INFO: cmn.c(175): CMN:  9.51  0.16  0.17  0.35 -0.11 -0.31  0.07 -0.37 -0.01 -0.32 -0.06 -0.13 -0.28 
+utt>    96                   rahul_5   69    0    40 8  1 3 3.954680e-12 1.476742e+00 1.018952e+02
+INFO: cmn.c(175): CMN:  9.01  0.53  0.04 -0.11  0.04 -0.24  0.03 -0.22 -0.15 -0.27 -0.07 -0.14 -0.17 
+utt>    97                   rahul_6   76    0    40 8  1 3 3.625868e-12 7.644903e+00 5.810126e+02
+INFO: cmn.c(175): CMN:  8.58  0.11  0.16  0.09  0.05 -0.30 -0.02 -0.21 -0.04 -0.21 -0.11 -0.16 -0.17 
+utt>    98                   rahul_7   64    0    40 9  2 4 5.543336e-13 5.649718e+00 3.615820e+02
+INFO: cmn.c(175): CMN:  8.81 -0.13  0.22  0.25  0.18 -0.33  0.06 -0.23 -0.07 -0.27 -0.15 -0.14 -0.12 
+utt>    99                   rahul_8   88    0    40 9  1 3 2.938137e-12 5.388790e+00 4.742135e+02
+INFO: cmn.c(175): CMN:  8.56  0.21 -0.12  0.09 -0.07 -0.22 -0.08 -0.18 -0.12 -0.27 -0.06 -0.08 -0.11 
+utt>   100                   rahul_9   97    0    60 8  1 3 2.573885e-12 4.970936e+00 4.821808e+02
+INFO: cmn.c(175): CMN:  8.67  0.21 -0.08  0.04  0.04 -0.25 -0.03 -0.29 -0.11 -0.21 -0.06 -0.07 -0.12 
+utt>   101                  rahul_10   93    0    44 8  1 3 1.813096e-12 6.269604e+00 5.830732e+02
+INFO: cmn.c(175): CMN:  8.58  0.20 -0.12 -0.15 -0.11 -0.15 -0.03 -0.21 -0.01 -0.03  0.03 -0.03 -0.11 
+utt>   102                  rahul_11   44    0    28 7  1 3 3.857019e-12 3.148591e+00 1.385380e+02
+INFO: cmn.c(175): CMN:  8.84  0.30 -0.11 -0.17 -0.08 -0.28  0.11 -0.22 -0.05 -0.21 -0.09 -0.08 -0.09 
+utt>   103                  rahul_12   71    0    32 7  1 3 1.689943e-12 1.031052e+01 7.320467e+02
+INFO: cmn.c(175): CMN:  9.06  0.29 -0.28 -0.25 -0.20 -0.11 -0.07 -0.28  0.02 -0.10  0.04 -0.07 -0.10 
+utt>   104                  rahul_13   83    0    44 8  2 3 3.407719e-12 4.878428e+00 4.049096e+02
+INFO: cmn.c(175): CMN:  9.48  0.61  0.09 -0.04  0.00 -0.30 -0.05 -0.26 -0.04 -0.24 -0.11 -0.22 -0.15 
+utt>   105                  rahul_14   91    0    48 8  1 3 1.512710e-12 8.049930e+00 7.325437e+02
+INFO: cmn.c(175): CMN:  8.96 -0.08  0.08  0.15  0.02 -0.23 -0.05 -0.25 -0.08 -0.27 -0.13 -0.08 -0.06 
+utt>   106                  rahul_15  111    0    60 8  1 3 1.772161e-12 3.713249e+00 4.121707e+02
+INFO: cmn.c(175): CMN:  8.42  0.21 -0.07 -0.09 -0.13 -0.22 -0.04 -0.28 -0.08 -0.17 -0.06 -0.08 -0.12 
+utt>   107                  rahul_16  245    0   116 8  1 3 2.770490e-12 5.106090e+00 1.250992e+03
+INFO: cmn.c(175): CMN:  8.97  0.20  0.07  0.09  0.03 -0.32 -0.00 -0.32 -0.07 -0.21 -0.05 -0.13 -0.14 
+utt>   108                  rahul_17  259    0   100 8  1 2 2.610722e-12 7.906089e+00 2.047677e+03
+INFO: cmn.c(175): CMN:  9.04  0.19 -0.18 -0.12 -0.07 -0.22 -0.03 -0.26 -0.07 -0.17 -0.03 -0.09 -0.10 
+utt>   109                  rahul_18  196    0    96 8  1 3 2.151641e-12 3.517997e+00 6.895274e+02
+INFO: cmn.c(175): CMN:  9.45  0.65  0.08 -0.10 -0.02 -0.28  0.02 -0.31 -0.06 -0.24 -0.14 -0.17 -0.14 
+utt>   110                  rahul_19  185    0    80 8  1 3 2.659261e-12 7.071760e+00 1.308276e+03
+INFO: cmn.c(175): CMN:  8.25 -0.02  0.02 -0.07  0.02 -0.22  0.04 -0.19 -0.03 -0.20 -0.13 -0.14 -0.09 
+utt>   111                  rahul_20  222    0    80 8  1 2 1.848757e-12 8.389761e+00 1.862527e+03
+INFO: cmn.c(175): CMN:  8.37  0.10  0.01 -0.00 -0.07 -0.11  0.02 -0.24 -0.03 -0.14 -0.08 -0.15 -0.12 
+utt>   112                  rahul_21  282    0   108 8  1 2 1.357328e-12 6.501075e+00 1.833303e+03
+INFO: cmn.c(175): CMN:  8.64  0.04  0.17  0.24 -0.05 -0.23  0.05 -0.31 -0.06 -0.26 -0.07 -0.11 -0.20 
+utt>   113                  rahul_22  142    0    52 8  1 2 7.040452e-13 8.785109e+00 1.247486e+03
+INFO: cmn.c(175): CMN: 10.46  0.29  0.01 -0.09 -0.16 -0.17  0.12 -0.36 -0.03 -0.07 -0.10 -0.06 -0.18 
+utt>   114                  rahul_23  129    0    72 9  1 3 3.258203e-12 2.537284e+00 3.273096e+02
+INFO: cmn.c(175): CMN:  7.65 -0.27  0.18  0.48  0.05 -0.20  0.00 -0.18 -0.05 -0.17 -0.13 -0.10 -0.22 
+utt>   115                   rahul_1   95    0    52 9  1 3 2.618037e-12 3.019207e+00 2.868247e+02
+INFO: cmn.c(175): CMN:  9.05  0.20  0.05  0.37 -0.03 -0.34  0.00 -0.26 -0.11 -0.31 -0.07 -0.04 -0.28 
+utt>   116                   rahul_2   62    0    40 9  2 3 1.473348e-12 5.589357e+00 3.465401e+02
+INFO: cmn.c(175): CMN:  8.48 -0.28 -0.05 -0.09 -0.13 -0.15  0.03 -0.17 -0.02 -0.09 -0.10 -0.01 -0.18 
+utt>   117                   rahul_3   80    0    32 8  1 3 2.602363e-12 4.465340e+00 3.572272e+02
+INFO: cmn.c(175): CMN:  9.07  0.03  0.34  0.26 -0.04 -0.24  0.12 -0.21 -0.09 -0.24 -0.11 -0.17 -0.23 
+utt>   118                   rahul_4   77    0    32 8  1 3 1.913903e-12 3.095326e+00 2.383401e+02
+INFO: cmn.c(175): CMN:  9.13  0.04 -0.02  0.00 -0.19 -0.06  0.04 -0.25 -0.01 -0.14 -0.06 -0.17 -0.23 
+utt>   119                   rahul_5   75    0    40 8  1 3 5.516377e-12 3.504426e+00 2.628319e+02
+INFO: cmn.c(175): CMN:  8.69 -0.14  0.08  0.43 -0.12 -0.18 -0.03 -0.20  0.01 -0.16 -0.13 -0.17 -0.22 
+utt>   120                   rahul_6   62    0    40 9  1 3 3.141773e-12 -9.179026e-01 -5.690996e+01
+INFO: cmn.c(175): CMN:  9.06  0.45 -0.14  0.35 -0.01 -0.24 -0.01 -0.31 -0.08 -0.23 -0.15 -0.17 -0.14 
+utt>   121                   rahul_7   82    0    40 8  1 3 3.280542e-12 7.541193e+00 6.183778e+02
+INFO: cmn.c(175): CMN:  8.78 -0.12 -0.09 -0.29 -0.21 -0.08  0.00 -0.21  0.02 -0.01  0.05 -0.04 -0.16 
+utt>   122                   rahul_8   58    0    28 7  1 3 4.016679e-12 3.491734e-01 2.025206e+01
+INFO: cmn.c(175): CMN:  9.77  0.38 -0.12  0.31  0.00 -0.24 -0.03 -0.32 -0.07 -0.16 -0.07 -0.17 -0.14 
+utt>   123                   rahul_9   85    0    40 8  1 3 2.706241e-12 2.750872e+00 2.338241e+02
+INFO: cmn.c(175): CMN:  8.51 -0.08  0.18  0.01  0.02 -0.14 -0.07 -0.22 -0.04 -0.13 -0.10 -0.13 -0.14 
+utt>   124                  rahul_10   97    0    44 7  1 3 1.381459e-12 1.956596e+00 1.897898e+02
+INFO: cmn.c(175): CMN:  9.82  0.50  0.07  0.13 -0.04 -0.26  0.02 -0.29 -0.09 -0.14 -0.01 -0.15 -0.18 
+utt>   125                  rahul_11   88    0    48 8  1 3 1.332768e-12 2.330424e+00 2.050773e+02
+INFO: cmn.c(175): CMN:  9.56  0.02  0.32 -0.01 -0.05 -0.20  0.08 -0.24 -0.12 -0.18 -0.13 -0.11 -0.12 
+utt>   126                  rahul_12  113    0    52 8  1 3 1.622311e-12 3.340562e-01 3.774835e+01
+INFO: cmn.c(175): CMN:  8.44  0.11  0.12  0.26  0.04 -0.20  0.02 -0.21 -0.09 -0.19 -0.13 -0.12 -0.19 
+utt>   127                  rahul_13  315    0   108 9  1 2 2.626536e-12 5.803250e+00 1.828024e+03
+INFO: cmn.c(175): CMN:  8.79 -0.08  0.03  0.04 -0.14 -0.17  0.02 -0.26 -0.04 -0.17 -0.06 -0.10 -0.22 
+utt>   128                  rahul_14  277    0    92 8  1 2 2.380453e-12 5.778126e+00 1.600541e+03
+INFO: cmn.c(175): CMN:  8.56 -0.07 -0.01  0.14 -0.07 -0.18  0.03 -0.23 -0.05 -0.15 -0.09 -0.10 -0.17 
+utt>   129                  rahul_15  309    0    96 9  1 3 2.280790e-12 5.797610e+00 1.791461e+03
+INFO: cmn.c(175): CMN:  8.53  0.06  0.15  0.01 -0.04 -0.16 -0.03 -0.22 -0.08 -0.15 -0.09 -0.13 -0.15 
+utt>   130                  rahul_16  358    0   128 9  1 2 1.687245e-12 4.608631e+00 1.649890e+03
+INFO: cmn.c(175): CMN:  8.17 -0.03  0.11  0.22 -0.03 -0.18  0.00 -0.19 -0.07 -0.14 -0.09 -0.09 -0.21 
+utt>   131                  rahul_17  288    0   120 11  1 3 1.862596e-12 4.549031e+00 1.310121e+03
+INFO: cmn.c(175): CMN:  8.87  0.52  0.30  0.08 -0.15 -0.07  0.13 -0.12 -0.13 -0.26 -0.17 -0.17 -0.18 
+utt>   132                   rahul_1  102    0    44 12  1 3 3.655775e-12 1.485346e+00 1.515053e+02
+INFO: cmn.c(175): CMN:  9.05 -0.21  0.19  0.52 -0.01 -0.28  0.05 -0.21 -0.10 -0.20 -0.15 -0.14 -0.13 
+utt>   133                   rahul_2   84    0    48 8  1 3 2.340604e-12 5.681574e+00 4.772522e+02
+INFO: cmn.c(175): CMN:  7.31 -0.44  0.42  0.45  0.12 -0.07  0.23 -0.10  0.01 -0.11 -0.17 -0.01 -0.25 
+utt>   134                   rahul_3   41    0    16 8  1 2 2.436325e-12 6.304990e+00 2.585046e+02
+INFO: cmn.c(175): CMN:  8.36  0.04  0.58  0.34 -0.07 -0.23  0.20 -0.16 -0.13 -0.18 -0.20 -0.08 -0.23 
+utt>   135                   rahul_4   62    0    28 9  1 3 3.823494e-12 6.182565e+00 3.833190e+02
+INFO: cmn.c(175): CMN:  9.75  0.46 -0.21 -0.07 -0.15 -0.20 -0.03 -0.38 -0.03 -0.13 -0.01 -0.12 -0.19 
+utt>   136                   rahul_5  113    0    72 10  1 3 8.759462e-13 5.981878e+00 6.759522e+02
+INFO: cmn.c(175): CMN:  8.61  0.07 -0.01  0.16 -0.07 -0.22 -0.01 -0.25 -0.04 -0.13 -0.07 -0.14 -0.14 
+utt>   137                   rahul_6  246    0   112 9  1 3 1.087581e-12 9.254804e+00 2.276682e+03
+INFO: cmn.c(175): CMN:  8.04  0.15  0.39  0.22 -0.07 -0.14  0.16 -0.15 -0.12 -0.19 -0.15 -0.11 -0.17 
+utt>   138                   rahul_7  251    0    72 12  1 2 1.769520e-12 7.103788e+00 1.783051e+03
+INFO: cmn.c(175): CMN:  8.95  0.33 -0.10 -0.03 -0.12 -0.18 -0.00 -0.30 -0.02 -0.12 -0.03 -0.11 -0.19 
+utt>   139                   rahul_8  229    0   108 9  1 3 1.725159e-12 4.857342e+00 1.112331e+03
+INFO: cmn.c(175): CMN:  8.43  0.05 -0.06 -0.06  0.12 -0.08 -0.14 -0.13 -0.22 -0.02 -0.14 -0.03 -0.17 
+utt>   140                 vineeth_1   83    0    48 9  1 3 5.410795e-12 9.240745e+00 7.669818e+02
+INFO: cmn.c(175): CMN:  8.42  0.30  0.02 -0.01  0.13 -0.07 -0.17 -0.07 -0.20 -0.04 -0.13 -0.05 -0.18 
+utt>   141                 vineeth_2  100    0    60 11  2 4 1.589766e-12 3.853509e+00 3.853509e+02
+INFO: cmn.c(175): CMN:  7.77 -0.08 -0.01  0.39  0.25 -0.18 -0.22 -0.11 -0.10 -0.06 -0.20 -0.09 -0.08 
+utt>   142                 vineeth_3   87    0    52 12  2 3 2.210092e-12 3.877928e+00 3.373797e+02
+INFO: cmn.c(175): CMN:  8.80  0.53 -0.08 -0.14  0.02 -0.09 -0.19 -0.15 -0.34 -0.00 -0.05  0.06 -0.17 
+utt>   143                 vineeth_4   98    0    72 13  1 3 6.939066e-12 3.050679e+00 2.989666e+02
+INFO: cmn.c(175): CMN:  9.58  0.24 -0.39  0.06 -0.08 -0.10 -0.23 -0.11 -0.16 -0.06 -0.02 -0.08 -0.11 
+utt>   144                 vineeth_5   80    0    44 8  1 3 2.797761e-12 6.545912e+00 5.236730e+02
+INFO: cmn.c(175): CMN:  9.91  0.61 -0.19  0.05 -0.21 -0.11 -0.04 -0.13 -0.27 -0.18  0.02  0.01 -0.15 
+utt>   145                 vineeth_6   87    0    44 10  1 3 1.076222e-12 9.423962e+00 8.198847e+02
+INFO: cmn.c(175): CMN:  9.44  0.47 -0.37  0.02 -0.16 -0.21  0.09 -0.13 -0.14 -0.18  0.00 -0.07 -0.12 
+utt>   146                 vineeth_1   73    0    40 7  1 3 4.019504e-12 7.340030e+00 5.358222e+02
+INFO: cmn.c(175): CMN:  8.75 -0.01 -0.27  0.46 -0.09 -0.13 -0.07 -0.19 -0.03 -0.17 -0.06 -0.03 -0.17 
+utt>   147                 vineeth_2   72    0    40 9  1 3 1.456593e-12 6.305576e+00 4.540015e+02
+INFO: cmn.c(175): CMN:  9.13 -0.06 -0.26  0.41 -0.07 -0.17 -0.29 -0.29  0.00 -0.22 -0.07 -0.08 -0.11 
+utt>   148                 vineeth_3   78    0    40 8  2 3 2.336457e-12 7.086469e+00 5.527446e+02
+INFO: cmn.c(175): CMN:  9.19  0.28 -0.58  0.08 -0.14 -0.23 -0.13 -0.23 -0.01 -0.12 -0.11  0.00 -0.12 
+utt>   149                 vineeth_4   82    0    60 8  1 3 3.155570e-12 2.394923e+00 1.963837e+02
+INFO: cmn.c(175): CMN:  9.03  0.27 -0.36  0.17 -0.21 -0.18 -0.07 -0.26 -0.05 -0.18 -0.07 -0.04 -0.15 
+utt>   150                 vineeth_5   80    0    44 7  1 3 1.573912e-12 7.525014e+00 6.020011e+02
+INFO: cmn.c(175): CMN:  8.16  0.08 -0.36 -0.17 -0.11 -0.03 -0.10 -0.03 -0.12 -0.08  0.01 -0.05 -0.07 
+utt>   151                 vineeth_6   69    0    28 7  1 2 1.211343e-12 9.044152e+00 6.240465e+02
+INFO: cmn.c(175): CMN:  9.39  0.31 -0.44 -0.07 -0.25 -0.21 -0.02 -0.10 -0.07 -0.13 -0.00 -0.04 -0.11 
+utt>   152                 vineeth_7   64    0    32 7  1 3 5.118073e-13 1.202362e+01 7.695118e+02
+INFO: cmn.c(175): CMN:  9.32  0.35 -0.64 -0.32 -0.39 -0.01 -0.05 -0.11  0.09 -0.16  0.03  0.01 -0.25 
+utt>   153                 vineeth_8   72    0    44 7  1 3 2.165040e-12 4.984232e-02 3.588647e+00
+INFO: cmn.c(175): CMN:  9.27  0.39 -0.30  0.28 -0.19 -0.11 -0.07 -0.21 -0.14 -0.17  0.00 -0.08 -0.13 
+utt>   154                 vineeth_9   88    0    48 8  1 3 1.384537e-12 8.446434e+00 7.432862e+02
+INFO: cmn.c(175): CMN:  8.27 -0.33 -0.10  0.28 -0.01 -0.14 -0.08 -0.22 -0.07 -0.21 -0.14 -0.01 -0.08 
+utt>   155                vineeth_10  102    0    60 7  1 3 4.741196e-12 2.093909e+00 2.135788e+02
+INFO: cmn.c(175): CMN:  8.75  0.07 -0.25  0.04 -0.06 -0.08 -0.03 -0.22  0.00 -0.19 -0.02 -0.01 -0.13 
+utt>   156                vineeth_11   97    0    48 8  2 3 4.251955e-12 8.288388e+00 8.039736e+02
+INFO: cmn.c(175): CMN:  7.60 -0.05 -0.14 -0.04 -0.04 -0.14 -0.15 -0.13 -0.07 -0.06 -0.12  0.03 -0.10 
+utt>   157                vineeth_12  258    0   116 9  1 2 2.437753e-12 6.254154e+00 1.613572e+03
+INFO: cmn.c(175): CMN:  7.68  0.01 -0.11 -0.01 -0.01 -0.15 -0.16 -0.17 -0.05 -0.09 -0.15  0.05 -0.12 
+utt>   158                vineeth_13  271    0   100 9  1 2 2.508799e-12 1.051473e+01 2.849492e+03
+INFO: cmn.c(175): CMN:  7.98  0.04 -0.06 -0.02 -0.03 -0.12 -0.15 -0.19 -0.05 -0.08 -0.15  0.09 -0.15 
+utt>   159                vineeth_14  184    0    96 9  1 3 1.857400e-12 3.537774e+00 6.509504e+02
+INFO: cmn.c(175): CMN:  8.08  0.28 -0.05 -0.04  0.07 -0.16 -0.14 -0.15 -0.13 -0.13 -0.13  0.06 -0.18 
+utt>   160                vineeth_15  171    0    80 9  1 2 2.468099e-12 8.935759e+00 1.528015e+03
+INFO: cmn.c(175): CMN:  7.42 -0.19 -0.04  0.06  0.02 -0.05 -0.16 -0.12 -0.03 -0.14 -0.08 -0.01 -0.13 
+utt>   161                vineeth_16  178    0    80 8  1 3 9.934742e-13 1.087484e+01 1.935721e+03
+INFO: cmn.c(175): CMN:  9.68  0.11 -0.32  0.02 -0.06 -0.19 -0.09 -0.24 -0.23  0.03 -0.07 -0.08 -0.11 
+utt>   162                 vineeth_1  116    0    60 9  1 3 3.034307e-12 6.552890e+00 7.601353e+02
+INFO: cmn.c(175): CMN:  9.27 -0.15 -0.38  0.01 -0.15 -0.15  0.00 -0.17 -0.13  0.03 -0.07 -0.02 -0.20 
+utt>   163                 vineeth_2   63    0    28 7  1 3 1.519639e-12 1.295951e+00 8.164494e+01
+INFO: cmn.c(175): CMN:  7.69  0.04 -0.04  0.09 -0.01 -0.14 -0.03 -0.20 -0.25 -0.13  0.02 -0.04 -0.11 
+utt>   164                 vineeth_3   61    0    20 8  1 3 7.436494e-13 1.371492e+01 8.366103e+02
+INFO: cmn.c(175): CMN:  8.78  0.09 -0.56 -0.06 -0.11 -0.16  0.09 -0.08 -0.21  0.10 -0.09 -0.01 -0.06 
+utt>   165                 vineeth_4   68    0    36 7  1 3 1.407235e-12 3.174912e+00 2.158940e+02
+INFO: cmn.c(175): CMN:  9.01 -0.21 -0.28  0.30  0.06 -0.32 -0.14 -0.17 -0.17 -0.11 -0.16 -0.04 -0.15 
+utt>   166                 vineeth_5   72    0    40 9  1 3 3.220849e-12 9.345291e+00 6.728610e+02
+INFO: cmn.c(175): CMN:  9.44  0.47 -0.37  0.02 -0.16 -0.21  0.09 -0.13 -0.14 -0.18  0.00 -0.07 -0.12 
+utt>   167                 vineeth_6   73    0    40 7  1 3 4.019504e-12 7.340030e+00 5.358222e+02
+INFO: cmn.c(175): CMN:  8.75 -0.01 -0.27  0.46 -0.09 -0.13 -0.07 -0.19 -0.03 -0.17 -0.06 -0.03 -0.17 
+utt>   168                 vineeth_7   72    0    40 9  1 3 1.456593e-12 6.305576e+00 4.540015e+02
+INFO: cmn.c(175): CMN:  9.13 -0.06 -0.26  0.41 -0.07 -0.17 -0.29 -0.29  0.00 -0.22 -0.07 -0.08 -0.11 
+utt>   169                 vineeth_8   78    0    40 8  2 3 2.336457e-12 7.086469e+00 5.527446e+02
+INFO: cmn.c(175): CMN:  9.19  0.28 -0.58  0.08 -0.14 -0.23 -0.13 -0.23 -0.01 -0.12 -0.11  0.00 -0.12 
+utt>   170                 vineeth_9   82    0    60 8  1 3 3.155570e-12 2.394923e+00 1.963837e+02
+INFO: cmn.c(175): CMN:  9.03  0.27 -0.36  0.17 -0.21 -0.18 -0.07 -0.26 -0.05 -0.18 -0.07 -0.04 -0.15 
+utt>   171                vineeth_10   80    0    44 7  1 3 1.573912e-12 7.525014e+00 6.020011e+02
+INFO: cmn.c(175): CMN:  8.10  0.22 -0.31 -0.16 -0.10 -0.09 -0.15 -0.14 -0.13 -0.04  0.03  0.03 -0.02 
+utt>   172                vineeth_11   44    0    28 6  1 3 1.885507e-13 3.295901e+00 1.450197e+02
+INFO: cmn.c(175): CMN:  9.39  0.31 -0.44 -0.07 -0.25 -0.21 -0.02 -0.10 -0.07 -0.13 -0.00 -0.04 -0.11 
+utt>   173                vineeth_12   64    0    32 7  1 3 5.118073e-13 1.202362e+01 7.695118e+02
+INFO: cmn.c(175): CMN:  9.32  0.35 -0.64 -0.32 -0.39 -0.01 -0.05 -0.11  0.09 -0.16  0.03  0.01 -0.25 
+utt>   174                vineeth_13   72    0    44 7  1 3 2.165040e-12 4.984232e-02 3.588647e+00
+INFO: cmn.c(175): CMN:  9.27  0.39 -0.30  0.28 -0.19 -0.11 -0.07 -0.21 -0.14 -0.17  0.00 -0.08 -0.13 
+utt>   175                vineeth_14   88    0    48 8  1 3 1.384537e-12 8.446434e+00 7.432862e+02
+INFO: cmn.c(175): CMN:  8.27 -0.33 -0.10  0.28 -0.01 -0.14 -0.08 -0.22 -0.07 -0.21 -0.14 -0.01 -0.08 
+utt>   176                vineeth_15  102    0    60 7  1 3 4.741196e-12 2.093909e+00 2.135788e+02
+INFO: cmn.c(175): CMN:  7.60 -0.05 -0.14 -0.04 -0.04 -0.14 -0.15 -0.13 -0.07 -0.06 -0.12  0.03 -0.10 
+utt>   177                vineeth_16  258    0   116 9  1 2 2.437753e-12 6.254154e+00 1.613572e+03
+INFO: cmn.c(175): CMN:  7.68  0.01 -0.11 -0.01 -0.01 -0.15 -0.16 -0.17 -0.05 -0.09 -0.15  0.05 -0.12 
+utt>   178                vineeth_17  271    0   100 9  1 2 2.508799e-12 1.051473e+01 2.849492e+03
+INFO: cmn.c(175): CMN:  7.98  0.04 -0.06 -0.02 -0.03 -0.12 -0.15 -0.19 -0.05 -0.08 -0.15  0.09 -0.15 
+utt>   179                vineeth_18  184    0    96 9  1 3 1.857400e-12 3.537774e+00 6.509504e+02
+INFO: cmn.c(175): CMN:  8.08  0.28 -0.05 -0.04  0.07 -0.16 -0.14 -0.15 -0.13 -0.13 -0.13  0.06 -0.18 
+utt>   180                vineeth_19  171    0    80 9  1 2 2.468099e-12 8.935759e+00 1.528015e+03
+INFO: cmn.c(175): CMN:  7.42 -0.19 -0.04  0.06  0.02 -0.05 -0.16 -0.12 -0.03 -0.14 -0.08 -0.01 -0.13 
+utt>   181                vineeth_20  178    0    80 8  1 3 9.934742e-13 1.087484e+01 1.935721e+03
+INFO: cmn.c(175): CMN:  7.60 -0.01 -0.22 -0.04  0.05 -0.10 -0.13 -0.13 -0.03 -0.10 -0.10 -0.02 -0.12 
+utt>   182                vineeth_21  270    0   108 10  1 3 1.842128e-12 7.628392e+00 2.059666e+03
+INFO: cmn.c(175): CMN:  7.76 -0.06 -0.06  0.18  0.10 -0.15 -0.19 -0.13 -0.10 -0.13 -0.13  0.01 -0.19 
+utt>   183                vineeth_22  150    0    52 10  1 3 2.486873e-12 1.046131e+01 1.569197e+03
+INFO: cmn.c(175): CMN: 10.18  0.55 -0.36  0.12 -0.17 -0.10 -0.13 -0.13 -0.21 -0.10  0.00 -0.02 -0.17 
+utt>   184                vineeth_23  131    0    72 10  1 3 4.970070e-12 6.347153e+00 8.314771e+02
+INFO: cmn.c(175): CMN:  9.05 -0.27 -0.29  0.72 -0.01 -0.25 -0.04 -0.20 -0.05 -0.20 -0.22 -0.06 -0.19 
+utt>   185                 vineeth_1  106    0    52 9  2 3 9.745489e-13 8.023267e+00 8.504662e+02
+INFO: cmn.c(175): CMN: 10.00 -0.14 -0.18  0.50 -0.14 -0.28 -0.10 -0.26 -0.09 -0.25 -0.13 -0.00 -0.26 
+utt>   186                 vineeth_2   75    0    40 8  1 3 3.163731e-12 1.133400e+01 8.500501e+02
+INFO: cmn.c(175): CMN:  9.32 -0.13 -0.29 -0.23 -0.25 -0.20 -0.00 -0.09 -0.09  0.01 -0.09  0.03 -0.15 
+utt>   187                 vineeth_3   72    0    32 8  1 3 1.697494e-12 3.535607e+00 2.545637e+02
+INFO: cmn.c(175): CMN:  8.92 -0.13 -0.12  0.26  0.03 -0.17 -0.04 -0.14 -0.10 -0.16 -0.10  0.01 -0.23 
+utt>   188                 vineeth_4   82    0    32 7  1 3 4.522953e-12 4.883065e+00 4.004113e+02
+INFO: cmn.c(175): CMN:  9.59  0.13 -0.31 -0.10 -0.11 -0.14 -0.05 -0.20 -0.16 -0.04 -0.10  0.06 -0.29 
+utt>   189                 vineeth_5   80    0    40 9  1 3 2.136973e-12 2.503053e+00 2.002442e+02
+INFO: cmn.c(175): CMN:  8.98 -0.24 -0.17  0.50 -0.03 -0.15 -0.10 -0.21 -0.01 -0.06 -0.22 -0.05 -0.18 
+utt>   190                 vineeth_6   83    0    40 10  2 4 4.298350e-12 5.761551e+00 4.782088e+02
+INFO: cmn.c(175): CMN:  9.50  0.33 -0.40  0.32 -0.04 -0.22 -0.15 -0.29 -0.06 -0.19 -0.13  0.00 -0.21 
+utt>   191                 vineeth_7   86    0    40 7  1 3 5.408716e-13 9.037379e+00 7.772146e+02
+INFO: cmn.c(175): CMN:  9.22 -0.08 -0.42 -0.41 -0.25  0.03 -0.28 -0.02 -0.08 -0.05  0.08 -0.03 -0.13 
+utt>   192                 vineeth_8   63    0    28 8  1 3 1.151004e-12 3.363798e+00 2.119193e+02
+INFO: cmn.c(175): CMN:  9.74  0.22 -0.52  0.24 -0.02 -0.26 -0.19 -0.28 -0.06 -0.08 -0.13  0.05 -0.27 
+utt>   193                 vineeth_9   85    0    40 9  1 3 4.502027e-12 6.243985e+00 5.307387e+02
+INFO: cmn.c(175): CMN:  8.99  0.06 -0.30  0.04 -0.03 -0.13 -0.17 -0.29 -0.02 -0.05 -0.15  0.05 -0.23 
+utt>   194                vineeth_10   82    0    44 8  1 3 2.282458e-12 2.349206e+00 1.926349e+02
+INFO: cmn.c(175): CMN:  9.01  0.18 -0.35  0.10 -0.07 -0.14 -0.14 -0.22 -0.01 -0.08 -0.12  0.04 -0.17 
+utt>   195                vineeth_11   84    0    48 8  1 3 2.767231e-12 4.674861e+00 3.926884e+02
+INFO: cmn.c(175): CMN:  9.04 -0.22  0.11  0.12 -0.04 -0.16 -0.07 -0.19 -0.17 -0.12 -0.15 -0.05 -0.15 
+utt>   196                vineeth_12   97    0    52 8  1 3 3.697158e-12 2.445714e-01 2.372343e+01
+INFO: cmn.c(175): CMN:  7.09 -0.15 -0.03  0.14  0.16 -0.09 -0.20 -0.08 -0.08 -0.08 -0.14 -0.06 -0.11 
+utt>   197                vineeth_13  314    0   108 11  1 2 1.720026e-12 9.285217e+00 2.915558e+03
+INFO: cmn.c(175): CMN:  7.09 -0.26 -0.05 -0.07  0.03 -0.08 -0.21 -0.07 -0.12 -0.06 -0.09 -0.01 -0.11 
+utt>   198                vineeth_14  295    0    92 10  1 2 2.296402e-12 9.898592e+00 2.920085e+03
+INFO: cmn.c(175): CMN:  6.87 -0.37 -0.06  0.02  0.06 -0.07 -0.17 -0.10 -0.08 -0.02 -0.10 -0.06 -0.10 
+utt>   199                vineeth_15  330    0    96 11  1 3 1.511611e-12 1.035492e+01 3.417125e+03
+INFO: cmn.c(175): CMN:  6.99 -0.25  0.05 -0.02  0.09 -0.04 -0.18 -0.07 -0.13 -0.06 -0.10 -0.06 -0.12 
+utt>   200                vineeth_16  333    0   128 10  1 3 1.105831e-12 6.170930e+00 2.054920e+03
+INFO: cmn.c(175): CMN:  6.87 -0.24 -0.02  0.16  0.14 -0.09 -0.17 -0.06 -0.06 -0.06 -0.10 -0.09 -0.11 
+utt>   201                vineeth_17  304    0   120 12  1 3 2.235980e-12 8.692505e+00 2.642521e+03
+INFO: cmn.c(175): CMN:  8.29  0.09 -0.01  0.25 -0.15 -0.17  0.11 -0.16 -0.14 -0.20 -0.02 -0.05 -0.21 
+utt>   202                 vineeth_1   92    0    44 11  1 3 3.217316e-12 3.791219e+00 3.487922e+02
+INFO: cmn.c(175): CMN:  8.48 -0.34 -0.14  0.48  0.08 -0.24 -0.10 -0.21 -0.06 -0.15 -0.09 -0.07 -0.17 
+utt>   203                 vineeth_2   90    0    48 8  1 3 3.229569e-12 6.997571e+00 6.297814e+02
+INFO: cmn.c(175): CMN:  8.00 -0.60 -0.01  0.76  0.14 -0.25  0.05 -0.17 -0.07 -0.22 -0.17  0.01 -0.30 
+utt>   204                 vineeth_3   48    0    16 7  1 2 2.677365e-12 1.035395e+01 4.969895e+02
+INFO: cmn.c(175): CMN:  7.87 -0.15  0.19  0.52 -0.00 -0.27  0.10 -0.10 -0.20 -0.20 -0.14 -0.09 -0.18 
+utt>   205                 vineeth_4   58    0    28 9  1 3 5.752270e-12 8.333655e+00 4.833520e+02
+INFO: cmn.c(175): CMN:  9.74  0.26 -0.46  0.04 -0.28 -0.23  0.03 -0.40 -0.16 -0.16  0.07  0.02 -0.23 
+utt>   206                 vineeth_5  108    0    72 10  2 3 1.114158e-12 1.434070e+00 1.548796e+02
+INFO: cmn.c(175): CMN:  7.63 -0.01 -0.07  0.08  0.05 -0.11 -0.10 -0.20 -0.07 -0.12 -0.13  0.07 -0.18 
+utt>   207                 vineeth_6  200    0   112 12  1 3 1.932598e-12 7.128230e+00 1.425646e+03
+INFO: cmn.c(175): CMN:  6.62 -0.27  0.11  0.13  0.09 -0.10 -0.02 -0.04 -0.08 -0.13 -0.13 -0.04 -0.13 
+utt>   208                 vineeth_7  253    0    72 12  1 2 1.653005e-12 1.092185e+01 2.763228e+03
+INFO: cmn.c(175): CMN:  7.19 -0.04 -0.05 -0.07  0.01 -0.10 -0.11 -0.12 -0.09 -0.07 -0.09  0.08 -0.14 
+utt>   209                 vineeth_8  212    0   108 11  1 3 3.771746e-12 7.101202e+00 1.505455e+03
+INFO: cmn.c(175): CMN:  8.57 -0.31 -0.02  0.03 -0.07 -0.05 -0.28 -0.15 -0.15 -0.13 -0.04 -0.07 -0.02 
+utt>   210                    arun_1   82    0    48 8  2 4 2.189753e-12 1.076214e+01 8.824954e+02
+INFO: cmn.c(175): CMN:  9.62  0.27 -0.04  0.01 -0.27  0.03 -0.26 -0.19 -0.13 -0.13 -0.07 -0.12 -0.02 
+utt>   211                    arun_2   91    0    60 9  1 3 1.870198e-12 6.095189e+00 5.546622e+02
+INFO: cmn.c(175): CMN:  8.20 -0.36  0.12  0.61  0.01 -0.17 -0.08 -0.17 -0.02 -0.25 -0.12 -0.06 -0.16 
+utt>   212                    arun_3   94    0    52 9  1 3 2.652970e-12 4.702070e+00 4.419945e+02
+INFO: cmn.c(175): CMN:  9.02  0.30 -0.13 -0.06 -0.39  0.06 -0.23 -0.24 -0.25 -0.11  0.07 -0.06 -0.06 
+utt>   213                    arun_4  102    0    72 11  2 4 4.202069e-12 6.672148e+00 6.805591e+02
+INFO: cmn.c(175): CMN:  9.39  0.21 -0.26  0.09 -0.33 -0.08 -0.21 -0.20 -0.21 -0.04  0.05 -0.07 -0.14 
+utt>   214                    arun_5   66    0    44 8  1 3 1.609811e-12 4.045905e+00 2.670298e+02
+INFO: cmn.c(175): CMN: 10.16  0.53 -0.27  0.10 -0.52 -0.07 -0.09 -0.19 -0.25 -0.16  0.04 -0.07 -0.07 
+utt>   215                    arun_6   73    0    44 10  2 3 1.535275e-12 3.393980e+00 2.477605e+02
+INFO: cmn.c(175): CMN:  8.31  0.14 -0.09 -0.03 -0.28  0.03 -0.06 -0.11 -0.16 -0.15 -0.01 -0.10 -0.07 
+utt>   216                    arun_1   85    0    40 8  1 3 2.662817e-12 1.139051e+01 9.681934e+02
+INFO: cmn.c(175): CMN:  8.13 -0.14 -0.00  0.12 -0.23 -0.06 -0.20 -0.11 -0.16 -0.09 -0.05 -0.11 -0.10 
+utt>   217                    arun_2   78    0    40 8  1 3 3.388146e-12 8.088975e+00 6.309401e+02
+INFO: cmn.c(175): CMN:  9.37 -0.13 -0.10  0.48 -0.01 -0.20 -0.27 -0.21 -0.08 -0.30 -0.02 -0.19 -0.14 
+utt>   218                    arun_3   76    0    40 8  1 3 5.075519e-12 6.432568e+00 4.888752e+02
+INFO: cmn.c(175): CMN:  8.39  0.00 -0.14  0.21 -0.17 -0.21 -0.23 -0.13 -0.17 -0.27 -0.03 -0.06 -0.05 
+utt>   219                    arun_4  100    0    60 8  1 3 3.835866e-12 6.733213e+00 6.733213e+02
+INFO: cmn.c(175): CMN:  8.89  0.21 -0.14  0.13 -0.15 -0.10 -0.21 -0.26 -0.14 -0.24 -0.01 -0.11 -0.09 
+utt>   220                    arun_5   86    0    44 8  1 3 3.090874e-12 5.489220e+00 4.720729e+02
+INFO: cmn.c(175): CMN:  8.02 -0.03 -0.41 -0.19 -0.26 -0.11 -0.12 -0.14 -0.14 -0.01  0.05  0.10  0.00 
+utt>   221                    arun_6   57    0    28 7  1 3 2.604380e-12 3.980124e+00 2.268671e+02
+INFO: cmn.c(175): CMN:  9.70  0.33 -0.29  0.01 -0.51 -0.06 -0.15 -0.17 -0.21 -0.08  0.01 -0.06 -0.03 
+utt>   222                    arun_7   59    0    32 7  1 3 2.072273e-12 1.237810e+01 7.303079e+02
+INFO: cmn.c(175): CMN:  9.11  0.22 -0.33 -0.26 -0.43 -0.00 -0.21 -0.19 -0.17 -0.00  0.07 -0.07 -0.09 
+utt>   223                    arun_8   84    0    44 8  1 3 1.705532e-12 4.811752e+00 4.041872e+02
+INFO: cmn.c(175): CMN:  9.28  0.52 -0.06  0.24 -0.29 -0.11 -0.21 -0.15 -0.12 -0.23 -0.08 -0.10 -0.09 
+utt>   224                    arun_9   86    0    48 8  1 3 1.924772e-12 8.868122e+00 7.626585e+02
+INFO: cmn.c(175): CMN:  8.59 -0.07  0.03  0.39 -0.09 -0.11 -0.16 -0.18 -0.14 -0.30 -0.10 -0.11 -0.11 
+utt>   225                   arun_10  105    0    60 8  1 3 3.642587e-12 2.378535e+00 2.497462e+02
+INFO: cmn.c(175): CMN:  8.57 -0.31 -0.02  0.03 -0.07 -0.05 -0.28 -0.15 -0.15 -0.13 -0.04 -0.07 -0.02 
+utt>   226                   arun_11   82    0    48 8  2 4 2.189753e-12 1.076214e+01 8.824954e+02
+INFO: cmn.c(175): CMN:  7.46 -0.19 -0.13 -0.02 -0.17 -0.10 -0.17 -0.11 -0.12 -0.12  0.01 -0.01 -0.05 
+utt>   227                   arun_12  280    0   116 8  1 2 1.419245e-12 7.865153e+00 2.202243e+03
+INFO: cmn.c(175): CMN:  8.07 -0.15 -0.15  0.16 -0.16 -0.10 -0.20 -0.16 -0.12 -0.16 -0.03 -0.10 -0.07 
+utt>   228                   arun_13  287    0   100 8  1 2 3.717068e-12 1.263051e+01 3.624956e+03
+INFO: cmn.c(175): CMN:  8.22 -0.09 -0.15  0.07 -0.20 -0.07 -0.18 -0.14 -0.16 -0.11 -0.02 -0.08 -0.08 
+utt>   229                   arun_14  215    0    96 8  1 3 2.183219e-12 7.896473e+00 1.697742e+03
+INFO: cmn.c(175): CMN:  8.57  0.25 -0.08  0.09 -0.25 -0.08 -0.17 -0.17 -0.16 -0.19 -0.02 -0.11 -0.05 
+utt>   230                   arun_15  198    0    80 7  1 2 1.408834e-12 1.254864e+01 2.484631e+03
+INFO: cmn.c(175): CMN:  8.03 -0.18 -0.05  0.10 -0.18 -0.01 -0.21 -0.12 -0.11 -0.10 -0.02 -0.11 -0.05 
+utt>   231                   arun_16  193    0    80 8  1 3 2.240819e-12 1.047675e+01 2.022013e+03
+INFO: cmn.c(175): CMN:  9.62  0.27 -0.04  0.01 -0.27  0.03 -0.26 -0.19 -0.13 -0.13 -0.07 -0.12 -0.02 
+utt>   232                    arun_1   91    0    60 9  1 3 1.870198e-12 6.095189e+00 5.546622e+02
+INFO: cmn.c(175): CMN:  8.98  0.06 -0.14  0.05 -0.27 -0.02 -0.25 -0.22 -0.17 -0.00  0.03 -0.15 -0.05 
+utt>   233                    arun_2   42    0    28 7  1 3 5.060420e-12 7.371568e+00 3.096059e+02
+INFO: cmn.c(175): CMN:  8.32  0.24  0.18  0.19 -0.29 -0.03 -0.19 -0.11 -0.33 -0.22  0.02 -0.10 -0.06 
+utt>   234                    arun_3   49    0    20 8  1 3 2.395343e-12 6.536751e+00 3.203008e+02
+INFO: cmn.c(175): CMN:  8.58  0.07 -0.13 -0.06 -0.33  0.05 -0.14 -0.07 -0.11 -0.07 -0.03 -0.05 -0.06 
+utt>   235                    arun_4   65    0    36 7  1 3 1.182049e-12 6.347440e+00 4.125836e+02
+INFO: cmn.c(175): CMN:  9.23  0.05 -0.07  0.43 -0.19 -0.13 -0.31 -0.19 -0.24 -0.26 -0.03 -0.10 -0.13 
+utt>   236                    arun_5   70    0    40 10  2 3 3.497347e-12 9.243481e+00 6.470437e+02
+INFO: cmn.c(175): CMN:  8.31  0.14 -0.09 -0.03 -0.28  0.03 -0.06 -0.11 -0.16 -0.15 -0.01 -0.10 -0.07 
+utt>   237                    arun_6   85    0    40 8  1 3 2.662817e-12 1.139051e+01 9.681934e+02
+INFO: cmn.c(175): CMN:  8.13 -0.14 -0.00  0.12 -0.23 -0.06 -0.20 -0.11 -0.16 -0.09 -0.05 -0.11 -0.10 
+utt>   238                    arun_7   78    0    40 8  1 3 3.388146e-12 8.088975e+00 6.309401e+02
+INFO: cmn.c(175): CMN:  9.37 -0.13 -0.10  0.48 -0.01 -0.20 -0.27 -0.21 -0.08 -0.30 -0.02 -0.19 -0.14 
+utt>   239                    arun_8   76    0    40 8  1 3 5.075519e-12 6.432568e+00 4.888752e+02
+INFO: cmn.c(175): CMN:  8.39  0.00 -0.14  0.21 -0.17 -0.21 -0.23 -0.13 -0.17 -0.27 -0.03 -0.06 -0.05 
+utt>   240                    arun_9  100    0    60 8  1 3 3.835866e-12 6.733213e+00 6.733213e+02
+INFO: cmn.c(175): CMN:  8.89  0.21 -0.14  0.13 -0.15 -0.10 -0.21 -0.26 -0.14 -0.24 -0.01 -0.11 -0.09 
+utt>   241                   arun_10   86    0    44 8  1 3 3.090874e-12 5.489220e+00 4.720729e+02
+INFO: cmn.c(175): CMN:  8.31  0.02 -0.42 -0.23 -0.30 -0.21 -0.12 -0.15 -0.17  0.05  0.08  0.08  0.02 
+utt>   242                   arun_11   47    0    28 7  1 3 1.171010e-12 -1.948913e+00 -9.159890e+01
+INFO: cmn.c(175): CMN:  9.70  0.33 -0.29  0.01 -0.51 -0.06 -0.15 -0.17 -0.21 -0.08  0.01 -0.06 -0.03 
+utt>   243                   arun_12   59    0    32 7  1 3 2.072273e-12 1.237810e+01 7.303079e+02
+INFO: cmn.c(175): CMN:  9.11  0.22 -0.33 -0.26 -0.43 -0.00 -0.21 -0.19 -0.17 -0.00  0.07 -0.07 -0.09 
+utt>   244                   arun_13   84    0    44 8  1 3 1.705532e-12 4.811752e+00 4.041872e+02
+INFO: cmn.c(175): CMN:  9.28  0.52 -0.06  0.24 -0.29 -0.11 -0.21 -0.15 -0.12 -0.23 -0.08 -0.10 -0.09 
+utt>   245                   arun_14   86    0    48 8  1 3 1.924772e-12 8.868122e+00 7.626585e+02
+INFO: cmn.c(175): CMN:  8.59 -0.07  0.03  0.39 -0.09 -0.11 -0.16 -0.18 -0.14 -0.30 -0.10 -0.11 -0.11 
+utt>   246                   arun_15  105    0    60 8  1 3 3.642587e-12 2.378535e+00 2.497462e+02
+INFO: cmn.c(175): CMN:  7.46 -0.19 -0.13 -0.02 -0.17 -0.10 -0.17 -0.11 -0.12 -0.12  0.01 -0.01 -0.05 
+utt>   247                   arun_16  280    0   116 8  1 2 1.419245e-12 7.865153e+00 2.202243e+03
+INFO: cmn.c(175): CMN:  8.07 -0.15 -0.15  0.16 -0.16 -0.10 -0.20 -0.16 -0.12 -0.16 -0.03 -0.10 -0.07 
+utt>   248                   arun_17  287    0   100 8  1 2 3.717068e-12 1.263051e+01 3.624956e+03
+INFO: cmn.c(175): CMN:  8.22 -0.09 -0.15  0.07 -0.20 -0.07 -0.18 -0.14 -0.16 -0.11 -0.02 -0.08 -0.08 
+utt>   249                   arun_18  215    0    96 8  1 3 2.183219e-12 7.896473e+00 1.697742e+03
+INFO: cmn.c(175): CMN:  8.57  0.25 -0.08  0.09 -0.25 -0.08 -0.17 -0.17 -0.16 -0.19 -0.02 -0.11 -0.05 
+utt>   250                   arun_19  198    0    80 7  1 2 1.408834e-12 1.254864e+01 2.484631e+03
+INFO: cmn.c(175): CMN:  8.03 -0.18 -0.05  0.10 -0.18 -0.01 -0.21 -0.12 -0.11 -0.10 -0.02 -0.11 -0.05 
+utt>   251                   arun_20  193    0    80 8  1 3 2.240819e-12 1.047675e+01 2.022013e+03
+INFO: cmn.c(175): CMN:  8.29 -0.10 -0.11  0.00 -0.23  0.00 -0.17 -0.12 -0.10 -0.06 -0.04 -0.09 -0.04 
+utt>   252                   arun_21  278    0   108 8  1 2 1.420442e-12 7.337710e+00 2.039883e+03
+INFO: cmn.c(175): CMN:  8.59  0.16 -0.01  0.32 -0.15 -0.12 -0.22 -0.17 -0.17 -0.23  0.02 -0.10 -0.13 
+utt>   253                   arun_22  131    0    52 10  1 2 2.012979e-12 8.226882e+00 1.077722e+03
+INFO: cmn.c(175): CMN:  9.85  0.25 -0.32  0.18 -0.43 -0.08 -0.17 -0.19 -0.18 -0.01  0.04 -0.07 -0.11 
+utt>   254                   arun_23  114    0    72 10  1 3 5.114506e-12 2.492029e+00 2.840913e+02
+INFO: cmn.c(175): CMN:  8.20 -0.36  0.12  0.61  0.01 -0.17 -0.08 -0.17 -0.02 -0.25 -0.12 -0.06 -0.16 
+utt>   255                    arun_1   94    0    52 9  1 3 2.652970e-12 4.702070e+00 4.419945e+02
+INFO: cmn.c(175): CMN:  8.94 -0.07 -0.07  0.40 -0.10 -0.14 -0.26 -0.15 -0.15 -0.26 -0.02 -0.13 -0.13 
+utt>   256                    arun_2   65    0    40 8  1 3 3.095426e-12 5.139884e+00 3.340925e+02
+INFO: cmn.c(175): CMN:  8.84 -0.37  0.03 -0.20 -0.25 -0.02 -0.14 -0.09 -0.09 -0.08 -0.03 -0.07 -0.03 
+utt>   257                    arun_3   76    0    32 8  1 3 2.132315e-12 4.221437e+00 3.208292e+02
+INFO: cmn.c(175): CMN:  8.89 -0.08  0.16  0.27 -0.06 -0.12 -0.18 -0.18 -0.08 -0.21  0.01 -0.18 -0.09 
+utt>   258                    arun_4   68    0    32 7  1 3 2.094496e-12 4.526554e+00 3.078057e+02
+INFO: cmn.c(175): CMN:  9.02 -0.16  0.07  0.03 -0.26  0.09 -0.27 -0.17 -0.09 -0.05 -0.07 -0.18 -0.07 
+utt>   259                    arun_5   76    0    40 9  1 3 2.193751e-12 3.019893e+00 2.295119e+02
+INFO: cmn.c(175): CMN:  8.35 -0.30 -0.05  0.44 -0.11 -0.10 -0.25 -0.15 -0.02 -0.18 -0.08 -0.08 -0.07 
+utt>   260                    arun_6   71    0    40 9  1 3 2.418268e-12 1.981384e+00 1.406782e+02
+INFO: cmn.c(175): CMN:  9.69  0.32 -0.22  0.42 -0.15 -0.04 -0.39 -0.17 -0.18 -0.25 -0.10 -0.12 -0.09 
+utt>   261                    arun_7   73    0    40 7  1 3 2.356419e-12 9.126830e+00 6.662586e+02
+INFO: cmn.c(175): CMN:  8.38 -0.22 -0.33 -0.18 -0.34 -0.04 -0.26 -0.21 -0.13  0.06  0.10 -0.02 -0.11 
+utt>   262                    arun_8   62    0    28 7  2 3 3.979235e-12 4.475738e+00 2.774957e+02
+INFO: cmn.c(175): CMN:  9.48  0.10 -0.20  0.30 -0.15 -0.09 -0.38 -0.18 -0.11 -0.15 -0.07 -0.17 -0.09 
+utt>   263                    arun_9   82    0    40 10  1 3 4.614471e-12 3.999767e+00 3.279809e+02
+INFO: cmn.c(175): CMN:  8.87 -0.29  0.03  0.12 -0.11 -0.07 -0.29 -0.20 -0.11 -0.07 -0.12 -0.13  0.02 
+utt>   264                   arun_10   76    0    44 8  1 3 1.972502e-12 3.803838e+00 2.890917e+02
+INFO: cmn.c(175): CMN:  9.34  0.25 -0.02  0.27 -0.22 -0.02 -0.29 -0.15 -0.19 -0.11 -0.03 -0.14 -0.06 
+utt>   265                   arun_11   80    0    48 8  1 3 1.467911e-12 3.354410e+00 2.683528e+02
+INFO: cmn.c(175): CMN:  9.59 -0.20  0.22  0.14 -0.16  0.02 -0.20 -0.15 -0.13 -0.22 -0.04 -0.15 -0.08 
+utt>   266                   arun_12   98    0    52 9  2 4 3.680418e-12 3.072457e-01 3.011008e+01
+INFO: cmn.c(175): CMN:  8.24 -0.15 -0.00  0.36 -0.07 -0.09 -0.19 -0.14 -0.11 -0.20 -0.06 -0.10 -0.08 
+utt>   267                   arun_13  273    0   108 9  1 2 1.430324e-12 6.823493e+00 1.862814e+03
+INFO: cmn.c(175): CMN:  8.18 -0.18 -0.07  0.08 -0.24 -0.04 -0.25 -0.14 -0.11 -0.08  0.01 -0.12 -0.08 
+utt>   268                   arun_14  256    0    92 8  1 2 2.288511e-12 8.975255e+00 2.297665e+03
+INFO: cmn.c(175): CMN:  7.86 -0.31 -0.04  0.15 -0.13 -0.08 -0.18 -0.14 -0.05 -0.11 -0.04 -0.08 -0.04 
+utt>   269                   arun_15  290    0    96 9  1 3 1.057058e-12 7.556528e+00 2.191393e+03
+INFO: cmn.c(175): CMN:  8.02 -0.25  0.07  0.16 -0.11 -0.02 -0.19 -0.14 -0.13 -0.11 -0.04 -0.11 -0.04 
+utt>   270                   arun_16  293    0   128 10  1 2 1.390895e-12 6.422626e+00 1.881830e+03
+INFO: cmn.c(175): CMN:  7.49 -0.31  0.01  0.29 -0.09 -0.11 -0.19 -0.16 -0.08 -0.16 -0.02 -0.07 -0.08 
+utt>   271                   arun_17  259    0   120 10  1 2 2.154438e-12 5.586639e+00 1.446940e+03
+INFO: cmn.c(175): CMN:  8.72  0.46  0.29  0.13 -0.33 -0.00 -0.05 -0.14 -0.16 -0.28 -0.09 -0.14 -0.14 
+utt>   272                    arun_1   72    0    44 12  1 3 3.682962e-12 1.461151e+00 1.052029e+02
+INFO: cmn.c(175): CMN:  8.58 -0.24 -0.03  0.50 -0.00 -0.13 -0.23 -0.07 -0.09 -0.23 -0.09 -0.10 -0.06 
+utt>   273                    arun_2   75    0    48 9  1 3 4.262075e-12 4.985718e+00 3.739289e+02
+INFO: cmn.c(175): CMN:  6.69 -0.64  0.22  0.42  0.10 -0.00  0.11 -0.12  0.08 -0.18 -0.05 -0.01 -0.13 
+utt>   274                    arun_3   52    0    16 8  1 3 2.793862e-12 1.082296e+01 5.627939e+02
+INFO: cmn.c(175): CMN:  7.86  0.03  0.30  0.37  0.06 -0.05  0.01 -0.06 -0.11 -0.35 -0.07 -0.16 -0.19 
+utt>   275                    arun_4   44    0    28 9  1 3 3.439764e-12 5.162668e+00 2.271574e+02
+INFO: cmn.c(175): CMN:  9.02  0.30 -0.13 -0.06 -0.39  0.06 -0.23 -0.24 -0.25 -0.11  0.07 -0.06 -0.06 
+utt>   276                    arun_5  102    0    72 11  2 4 4.202069e-12 6.672148e+00 6.805591e+02
+INFO: cmn.c(175): CMN:  8.44 -0.02 -0.07  0.23 -0.21 -0.02 -0.24 -0.19 -0.17 -0.16 -0.04 -0.11 -0.03 
+utt>   277                    arun_6  178    0   112 11  1 3 3.493418e-12 4.785442e+00 8.518087e+02
+INFO: cmn.c(175): CMN:  6.87 -0.24  0.20  0.18 -0.08 -0.05  0.03 -0.11 -0.07 -0.19 -0.09 -0.07 -0.10 
+utt>   278                    arun_7  221    0    72 13  1 3 1.588576e-12 1.009369e+01 2.230705e+03
+INFO: cmn.c(175): CMN:  7.57 -0.08 -0.07 -0.06 -0.21 -0.04 -0.15 -0.16 -0.17 -0.10  0.01 -0.06 -0.06 
+utt>   279                    arun_8  203    0   108 10  1 3 2.536655e-12 8.273177e+00 1.679455e+03
+INFO: cmn.c(175): CMN:  9.37 -0.12  0.06  0.02 -0.03 -0.09 -0.15 -0.23 -0.14 -0.22  0.02 -0.14 -0.03 
+utt>   280                  jerrin_1   93    0    48 7  1 3 5.476320e-12 1.096939e+01 1.020153e+03
+INFO: cmn.c(175): CMN:  9.22  0.31  0.05 -0.11 -0.15 -0.04 -0.23 -0.13 -0.22 -0.19 -0.06 -0.18 -0.04 
+utt>   281                  jerrin_2  114    0    60 9  1 3 4.080742e-12 8.390434e+00 9.565094e+02
+INFO: cmn.c(175): CMN:  7.77 -0.17  0.11  0.51  0.12 -0.15 -0.21 -0.11 -0.08 -0.32 -0.09 -0.10 -0.13 
+utt>   282                  jerrin_3   93    0    52 10  1 3 1.468901e-12 5.069199e+00 4.714355e+02
+INFO: cmn.c(175): CMN:  9.63  0.41 -0.09 -0.18 -0.16 -0.15 -0.15 -0.30 -0.12 -0.32  0.13 -0.13 -0.12 
+utt>   283                  jerrin_4  108    0    72 10  1 3 1.990654e-12 7.029627e+00 7.591997e+02
+INFO: cmn.c(175): CMN:  9.21  0.23 -0.22 -0.11 -0.27 -0.05 -0.12 -0.13 -0.13 -0.12  0.06 -0.13 -0.12 
+utt>   284                  jerrin_5   76    0    44 8  1 3 2.185691e-12 3.788518e+00 2.879274e+02
+INFO: cmn.c(175): CMN: 10.51  0.73 -0.02 -0.05 -0.41 -0.03 -0.09 -0.18 -0.20 -0.32  0.02 -0.17 -0.11 
+utt>   285                  jerrin_6   70    0    44 10  2 4 5.249644e-12 -4.512368e-02 -3.158658e+00
+INFO: cmn.c(175): CMN:  9.22  0.29  0.06 -0.08 -0.23 -0.04 -0.08 -0.21 -0.19 -0.27  0.04 -0.19 -0.05 
+utt>   286                  jerrin_1   70    0    40 7  1 3 2.262651e-12 8.371844e+00 5.860291e+02
+INFO: cmn.c(175): CMN:  8.62  0.01 -0.11  0.11 -0.15 -0.09 -0.22 -0.15 -0.12 -0.22  0.03 -0.20 -0.05 
+utt>   287                  jerrin_2   77    0    40 8  1 3 1.035995e-12 1.049759e+01 8.083143e+02
+INFO: cmn.c(175): CMN:  9.79 -0.24 -0.04  0.35 -0.04 -0.09 -0.31 -0.17 -0.10 -0.32  0.03 -0.20 -0.11 
+utt>   288                  jerrin_3   84    0    40 7  1 3 2.766193e-12 8.431843e+00 7.082748e+02
+INFO: cmn.c(175): CMN:  9.28  0.17 -0.24  0.11 -0.18 -0.17 -0.31 -0.11 -0.14 -0.33  0.05 -0.10 -0.05 
+utt>   289                  jerrin_4   93    0    60 8  1 3 3.694555e-12 5.119227e+00 4.760881e+02
+INFO: cmn.c(175): CMN: 10.02  0.23 -0.18  0.07 -0.12 -0.11 -0.28 -0.22 -0.16 -0.41  0.12 -0.16 -0.13 
+utt>   290                  jerrin_5   88    0    44 7  1 3 2.328636e-12 8.494397e+00 7.475070e+02
+INFO: cmn.c(175): CMN:  8.60  0.18 -0.29 -0.23 -0.11 -0.12 -0.07 -0.20 -0.03 -0.10  0.08 -0.13 -0.10 
+utt>   291                  jerrin_6   47    0    28 6  1 3 5.946586e-12 3.927860e+00 1.846094e+02
+INFO: cmn.c(175): CMN: 10.54  0.28 -0.16 -0.14 -0.26 -0.23 -0.07 -0.21 -0.13 -0.28  0.06 -0.18 -0.07 
+utt>   292                  jerrin_7   69    0    32 6  1 3 3.767567e-12 1.528452e+01 1.054632e+03
+INFO: cmn.c(175): CMN:  9.75  0.36 -0.36 -0.43 -0.26 -0.05 -0.13 -0.18 -0.06 -0.24  0.17 -0.13 -0.15 
+utt>   293                  jerrin_8   84    0    44 8  1 3 2.420009e-12 1.462547e+00 1.228539e+02
+INFO: cmn.c(175): CMN: 10.14  0.52 -0.03  0.08 -0.16 -0.15 -0.22 -0.25 -0.13 -0.39  0.09 -0.23 -0.14 
+utt>   294                  jerrin_9   98    0    48 8  1 3 1.896249e-12 8.055928e+00 7.894809e+02
+INFO: cmn.c(175): CMN:  9.24 -0.16 -0.03  0.32 -0.11 -0.16 -0.26 -0.18 -0.11 -0.36  0.01 -0.14 -0.03 
+utt>   295                 jerrin_10  113    0    60 8  1 3 2.664711e-12 3.136132e+00 3.543829e+02
+INFO: cmn.c(175): CMN:  9.37 -0.12  0.06  0.02 -0.03 -0.09 -0.15 -0.23 -0.14 -0.22  0.02 -0.14 -0.03 
+utt>   296                 jerrin_11   93    0    48 7  1 3 5.476320e-12 1.096939e+01 1.020153e+03
+INFO: cmn.c(175): CMN:  7.73 -0.14 -0.20 -0.12 -0.14 -0.14 -0.13 -0.12 -0.09 -0.20  0.03 -0.08 -0.04 
+utt>   297                 jerrin_12  338    0   116 8  1 2 1.695476e-12 8.987213e+00 3.037678e+03
+INFO: cmn.c(175): CMN:  8.78 -0.13 -0.14  0.04 -0.12 -0.15 -0.19 -0.17 -0.11 -0.27  0.05 -0.14 -0.08 
+utt>   298                 jerrin_13  344    0   100 8  1 2 1.699350e-12 1.502391e+01 5.168224e+03
+INFO: cmn.c(175): CMN:  8.83 -0.08 -0.21 -0.05 -0.16 -0.09 -0.21 -0.18 -0.07 -0.24  0.09 -0.14 -0.06 
+utt>   299                 jerrin_14  224    0    96 8  1 3 2.093217e-12 5.241283e+00 1.174047e+03
+INFO: cmn.c(175): CMN:  9.03  0.27 -0.06 -0.01 -0.15 -0.11 -0.12 -0.22 -0.15 -0.28  0.03 -0.18 -0.07 
+utt>   300                 jerrin_15  201    0    80 7  1 2 1.348843e-12 1.052772e+01 2.116071e+03
+INFO: cmn.c(175): CMN:  8.59 -0.14 -0.07  0.03 -0.13 -0.09 -0.18 -0.18 -0.13 -0.21  0.05 -0.17 -0.02 
+utt>   301                 jerrin_16  207    0    80 7  1 2 3.175930e-12 1.141191e+01 2.362266e+03
+INFO: cmn.c(175): CMN:  9.22  0.31  0.05 -0.11 -0.15 -0.04 -0.23 -0.13 -0.22 -0.19 -0.06 -0.18 -0.04 
+utt>   302                  jerrin_1  114    0    60 9  1 3 4.080742e-12 8.390434e+00 9.565094e+02
+INFO: cmn.c(175): CMN:  8.92 -0.14 -0.01 -0.14 -0.11 -0.05 -0.15 -0.15 -0.16 -0.08  0.00 -0.21 -0.04 
+utt>   303                  jerrin_2   59    0    28 7  1 3 7.077332e-13 6.965544e+00 4.109671e+02
+INFO: cmn.c(175): CMN:  8.49  0.31  0.23  0.22 -0.19 -0.10  0.03 -0.30 -0.17 -0.29  0.05 -0.15 -0.09 
+utt>   304                  jerrin_3   64    0    20 8  1 2 1.227722e-12 1.216425e+01 7.785121e+02
+INFO: cmn.c(175): CMN:  8.69  0.35 -0.07 -0.09 -0.13 -0.02 -0.08 -0.18 -0.13 -0.24 -0.01 -0.13 -0.03 
+utt>   305                  jerrin_4   79    0    36 7  1 3 2.084306e-12 9.377889e+00 7.408532e+02
+INFO: cmn.c(175): CMN:  9.84  0.15 -0.11  0.27 -0.09 -0.19 -0.24 -0.18 -0.15 -0.38  0.03 -0.17 -0.17 
+utt>   306                  jerrin_5   79    0    40 8  1 3 3.815585e-12 1.262920e+01 9.977066e+02
+INFO: cmn.c(175): CMN:  9.22  0.29  0.06 -0.08 -0.23 -0.04 -0.08 -0.21 -0.19 -0.27  0.04 -0.19 -0.05 
+utt>   307                  jerrin_6   70    0    40 7  1 3 2.262651e-12 8.371844e+00 5.860291e+02
+INFO: cmn.c(175): CMN:  8.62  0.01 -0.11  0.11 -0.15 -0.09 -0.22 -0.15 -0.12 -0.22  0.03 -0.20 -0.05 
+utt>   308                  jerrin_7   77    0    40 8  1 3 1.035995e-12 1.049759e+01 8.083143e+02
+INFO: cmn.c(175): CMN:  9.79 -0.24 -0.04  0.35 -0.04 -0.09 -0.31 -0.17 -0.10 -0.32  0.03 -0.20 -0.11 
+utt>   309                  jerrin_8   84    0    40 7  1 3 2.766193e-12 8.431843e+00 7.082748e+02
+INFO: cmn.c(175): CMN:  9.28  0.17 -0.24  0.11 -0.18 -0.17 -0.31 -0.11 -0.14 -0.33  0.05 -0.10 -0.05 
+utt>   310                  jerrin_9   93    0    60 8  1 3 3.694555e-12 5.119227e+00 4.760881e+02
+INFO: cmn.c(175): CMN: 10.02  0.23 -0.18  0.07 -0.12 -0.11 -0.28 -0.22 -0.16 -0.41  0.12 -0.16 -0.13 
+utt>   311                 jerrin_10   88    0    44 7  1 3 2.328636e-12 8.494397e+00 7.475070e+02
+INFO: cmn.c(175): CMN:  9.11  0.39 -0.29 -0.29 -0.20 -0.11 -0.03 -0.12 -0.09 -0.14 -0.01 -0.11 -0.13 
+utt>   312                 jerrin_11   42    0    28 6  1 3 1.264059e-12 4.005510e+00 1.682314e+02
+INFO: cmn.c(175): CMN: 10.54  0.28 -0.16 -0.14 -0.26 -0.23 -0.07 -0.21 -0.13 -0.28  0.06 -0.18 -0.07 
+utt>   313                 jerrin_12   69    0    32 6  1 3 3.767567e-12 1.528452e+01 1.054632e+03
+INFO: cmn.c(175): CMN:  9.75  0.36 -0.36 -0.43 -0.26 -0.05 -0.13 -0.18 -0.06 -0.24  0.17 -0.13 -0.15 
+utt>   314                 jerrin_13   84    0    44 8  1 3 2.420009e-12 1.462547e+00 1.228539e+02
+INFO: cmn.c(175): CMN: 10.14  0.52 -0.03  0.08 -0.16 -0.15 -0.22 -0.25 -0.13 -0.39  0.09 -0.23 -0.14 
+utt>   315                 jerrin_14   98    0    48 8  1 3 1.896249e-12 8.055928e+00 7.894809e+02
+INFO: cmn.c(175): CMN:  9.24 -0.16 -0.03  0.32 -0.11 -0.16 -0.26 -0.18 -0.11 -0.36  0.01 -0.14 -0.03 
+utt>   316                 jerrin_15  113    0    60 8  1 3 2.664711e-12 3.136132e+00 3.543829e+02
+INFO: cmn.c(175): CMN:  7.73 -0.14 -0.20 -0.12 -0.14 -0.14 -0.13 -0.12 -0.09 -0.20  0.03 -0.08 -0.04 
+utt>   317                 jerrin_16  338    0   116 8  1 2 1.695476e-12 8.987213e+00 3.037678e+03
+INFO: cmn.c(175): CMN:  8.78 -0.13 -0.14  0.04 -0.12 -0.15 -0.19 -0.17 -0.11 -0.27  0.05 -0.14 -0.08 
+utt>   318                 jerrin_17  344    0   100 8  1 2 1.699350e-12 1.502391e+01 5.168224e+03
+INFO: cmn.c(175): CMN:  8.83 -0.08 -0.21 -0.05 -0.16 -0.09 -0.21 -0.18 -0.07 -0.24  0.09 -0.14 -0.06 
+utt>   319                 jerrin_18  224    0    96 8  1 3 2.093217e-12 5.241283e+00 1.174047e+03
+INFO: cmn.c(175): CMN:  9.03  0.27 -0.06 -0.01 -0.15 -0.11 -0.12 -0.22 -0.15 -0.28  0.03 -0.18 -0.07 
+utt>   320                 jerrin_19  201    0    80 7  1 2 1.348843e-12 1.052772e+01 2.116071e+03
+INFO: cmn.c(175): CMN:  8.59 -0.14 -0.07  0.03 -0.13 -0.09 -0.18 -0.18 -0.13 -0.21  0.05 -0.17 -0.02 
+utt>   321                 jerrin_20  207    0    80 7  1 2 3.175930e-12 1.141191e+01 2.362266e+03
+INFO: cmn.c(175): CMN:  8.22 -0.06 -0.04 -0.10 -0.13 -0.05 -0.11 -0.13 -0.13 -0.14 -0.04 -0.16 -0.02 
+utt>   322                 jerrin_21  359    0   108 8  1 2 1.624224e-12 1.061566e+01 3.811020e+03
+INFO: cmn.c(175): CMN:  8.79  0.14  0.06  0.17 -0.17 -0.12 -0.13 -0.20 -0.15 -0.26  0.01 -0.19 -0.10 
+utt>   323                 jerrin_22  158    0    52 9  1 3 2.108083e-12 1.027467e+01 1.623398e+03
+INFO: cmn.c(175): CMN: 10.27  0.25 -0.15 -0.06 -0.29  0.03 -0.11 -0.24 -0.14 -0.17  0.01 -0.21 -0.09 
+utt>   324                 jerrin_23  119    0    72 8  1 3 3.555013e-12 3.560005e+00 4.236406e+02
+INFO: cmn.c(175): CMN:  7.77 -0.17  0.11  0.51  0.12 -0.15 -0.21 -0.11 -0.08 -0.32 -0.09 -0.10 -0.13 
+utt>   325                  jerrin_1   93    0    52 10  1 3 1.468901e-12 5.069199e+00 4.714355e+02
+INFO: cmn.c(175): CMN:  9.54  0.25 -0.01  0.30  0.01 -0.18 -0.24 -0.20 -0.20 -0.43 -0.04 -0.13 -0.17 
+utt>   326                  jerrin_2   70    0    40 9  1 3 3.023571e-13 1.071011e+01 7.497074e+02
+INFO: cmn.c(175): CMN:  8.63 -0.29  0.04 -0.22 -0.21 -0.11 -0.07 -0.08 -0.16 -0.18  0.05 -0.13 -0.04 
+utt>   327                  jerrin_3   80    0    32 8  1 3 3.541385e-12 5.852831e+00 4.682265e+02
+INFO: cmn.c(175): CMN:  8.79 -0.12  0.20  0.18 -0.02 -0.11 -0.10 -0.13 -0.21 -0.23 -0.06 -0.15 -0.13 
+utt>   328                  jerrin_4   82    0    32 7  1 3 5.052869e-12 7.533017e+00 6.177074e+02
+INFO: cmn.c(175): CMN:  9.03  0.11  0.09 -0.06 -0.22 -0.00 -0.14 -0.19 -0.17 -0.20  0.04 -0.21 -0.07 
+utt>   329                  jerrin_5   75    0    40 9  1 3 2.759937e-12 6.279649e+00 4.709737e+02
+INFO: cmn.c(175): CMN:  9.04 -0.14  0.05  0.43 -0.08 -0.12 -0.23 -0.15 -0.12 -0.30 -0.02 -0.16 -0.08 
+utt>   330                  jerrin_6   65    0    40 9  1 3 5.825106e-12 8.177198e-01 5.315178e+01
+INFO: cmn.c(175): CMN:  9.91  0.40 -0.12  0.20 -0.05 -0.16 -0.25 -0.25 -0.15 -0.32  0.06 -0.24 -0.08 
+utt>   331                  jerrin_7   75    0    40 7  1 3 1.777413e-12 1.039914e+01 7.799354e+02
+INFO: cmn.c(175): CMN:  8.98 -0.11 -0.28 -0.28 -0.27  0.04 -0.16 -0.07 -0.18 -0.03  0.04 -0.05 -0.16 
+utt>   332                  jerrin_8   56    0    28 7  1 3 2.683517e-12 3.283159e+00 1.838569e+02
+INFO: cmn.c(175): CMN:  9.21  0.22 -0.19  0.20  0.06 -0.11 -0.35 -0.21 -0.13 -0.24  0.01 -0.15 -0.11 
+utt>   333                  jerrin_9   78    0    40 8  1 3 1.349057e-12 4.399135e+00 3.431325e+02
+INFO: cmn.c(175): CMN:  8.72 -0.18  0.04 -0.01 -0.05 -0.08 -0.19 -0.22 -0.14 -0.19  0.01 -0.21 -0.01 
+utt>   334                 jerrin_10   79    0    44 7  1 3 4.016799e-12 1.092260e+00 8.628856e+01
+INFO: cmn.c(175): CMN:  9.04  0.17 -0.05  0.07 -0.05 -0.10 -0.24 -0.23 -0.16 -0.21  0.09 -0.14 -0.12 
+utt>   335                 jerrin_11   85    0    48 9  2 3 4.147327e-12 7.990746e+00 6.792134e+02
+INFO: cmn.c(175): CMN:  9.44 -0.16  0.14  0.00 -0.10 -0.09 -0.09 -0.21 -0.17 -0.27 -0.02 -0.12 -0.09 
+utt>   336                 jerrin_12  102    0    52 8  1 3 1.224267e-12 3.246340e+00 3.311267e+02
+INFO: cmn.c(175): CMN:  8.13 -0.16 -0.02  0.18  0.00 -0.09 -0.16 -0.13 -0.15 -0.25 -0.01 -0.10 -0.08 
+utt>   337                 jerrin_13  315    0   108 9  1 2 1.445350e-12 8.583663e+00 2.703854e+03
+INFO: cmn.c(175): CMN:  8.32 -0.20 -0.08 -0.05 -0.12 -0.06 -0.12 -0.14 -0.14 -0.18  0.03 -0.15 -0.09 
+utt>   338                 jerrin_14  278    0    92 8  1 2 1.528939e-12 1.093040e+01 3.038650e+03
+INFO: cmn.c(175): CMN:  8.25 -0.27 -0.07  0.03 -0.07 -0.12 -0.15 -0.16 -0.10 -0.20  0.02 -0.13 -0.06 
+utt>   339                 jerrin_15  310    0    96 9  1 2 1.073434e-12 9.004258e+00 2.791320e+03
+INFO: cmn.c(175): CMN:  8.54 -0.14  0.02  0.00 -0.07 -0.08 -0.17 -0.18 -0.15 -0.19  0.02 -0.14 -0.07 
+utt>   340                 jerrin_16  328    0   128 9  1 2 2.972713e-12 7.286135e+00 2.389852e+03
+INFO: cmn.c(175): CMN:  8.24 -0.14 -0.06  0.18 -0.02 -0.14 -0.15 -0.13 -0.10 -0.22 -0.02 -0.12 -0.11 
+utt>   341                 jerrin_17  304    0   120 10  1 2 2.291214e-12 8.695028e+00 2.643289e+03
+INFO: cmn.c(175): CMN:  8.90  0.55  0.16  0.03 -0.20 -0.19  0.03 -0.17 -0.17 -0.40 -0.14 -0.13 -0.16 
+utt>   342                  jerrin_1   87    0    44 12  1 3 3.561311e-12 3.270702e+00 2.845511e+02
+INFO: cmn.c(175): CMN:  8.65 -0.17  0.15  0.43  0.07 -0.21 -0.17 -0.16 -0.05 -0.31 -0.11 -0.17 -0.18 
+utt>   343                  jerrin_2   82    0    48 8  1 3 2.864153e-12 8.923602e+00 7.317354e+02
+INFO: cmn.c(175): CMN:  7.42 -0.38  0.31  0.57  0.21 -0.15  0.04 -0.05 -0.07 -0.26 -0.09 -0.07 -0.23 
+utt>   344                  jerrin_3   44    0    16 7  1 2 3.477256e-13 1.075445e+01 4.731956e+02
+INFO: cmn.c(175): CMN:  8.30  0.20  0.39  0.35  0.06 -0.25  0.05 -0.08 -0.19 -0.31 -0.12 -0.17 -0.20 
+utt>   345                  jerrin_4   52    0    28 8  1 3 2.956887e-12 8.611561e+00 4.478012e+02
+INFO: cmn.c(175): CMN:  9.63  0.41 -0.09 -0.18 -0.16 -0.15 -0.15 -0.30 -0.12 -0.32  0.13 -0.13 -0.12 
+utt>   346                  jerrin_5  108    0    72 10  1 3 1.990654e-12 7.029627e+00 7.591997e+02
+INFO: cmn.c(175): CMN:  8.52 -0.03 -0.01  0.09 -0.07 -0.17 -0.15 -0.21 -0.09 -0.27  0.04 -0.14 -0.10 
+utt>   347                  jerrin_6  230    0   112 9  1 3 2.117965e-12 8.637882e+00 1.986713e+03
+INFO: cmn.c(175): CMN:  7.24 -0.16  0.14  0.13 -0.04 -0.14  0.02 -0.12 -0.10 -0.23 -0.06 -0.13 -0.12 
+utt>   348                  jerrin_7  277    0    72 11  1 2 1.609010e-12 1.121238e+01 3.105828e+03
+INFO: cmn.c(175): CMN:  8.52  0.07 -0.16 -0.11 -0.09 -0.13 -0.18 -0.22 -0.10 -0.22  0.09 -0.11 -0.09 
+utt>   349                  jerrin_8  216    0   108 9  1 3 2.353526e-12 9.340262e+00 2.017497e+03
+INFO: cmn.c(175): CMN:  9.00 -0.14 -0.36  0.11 -0.07 -0.17 -0.11 -0.07 -0.07 -0.09  0.02 -0.09 -0.06 
+utt>   350                 nishana_1   76    0    48 8  1 3 1.062361e-12 3.785899e+00 2.877284e+02
+INFO: cmn.c(175): CMN:  9.39  0.25 -0.44 -0.03 -0.05 -0.12 -0.16 -0.01 -0.01 -0.02 -0.04 -0.14 -0.05 
+utt>   351                 nishana_2   95    0    60 11  1 3 1.764304e-12 2.671566e+00 2.537987e+02
+INFO: cmn.c(175): CMN:  8.29 -0.36 -0.09  0.56 -0.13 -0.08 -0.10 -0.11 -0.19 -0.17 -0.01 -0.19 -0.08 
+utt>   352                 nishana_3   83    0    52 9  1 3 4.192271e-12 1.680331e-01 1.394675e+01
+INFO: cmn.c(175): CMN:  9.76  0.22 -0.63 -0.01 -0.22 -0.11 -0.25 -0.17 -0.00  0.02 -0.02 -0.17 -0.04 
+utt>   353                 nishana_4   90    0    72 12  2 3 3.244851e-12 8.211902e-01 7.390712e+01
+INFO: cmn.c(175): CMN:  9.80  0.35 -0.18 -0.13 -0.10 -0.16  0.01 -0.27 -0.02 -0.04 -0.03 -0.03 -0.20 
+utt>   354                 nishana_5   72    0    44 8  1 3 1.612684e-12 -2.339667e+00 -1.684560e+02
+INFO: cmn.c(175): CMN: 10.28  0.67  0.15 -0.17 -0.25 -0.20  0.11 -0.32 -0.13 -0.16 -0.08 -0.09 -0.13 
+utt>   355                 nishana_6   75    0    44 10  2 3 3.113593e-12 1.930673e+00 1.448005e+02
+INFO: cmn.c(175): CMN:  8.79  0.21 -0.41 -0.10 -0.09 -0.07 -0.14 -0.10 -0.12  0.05  0.02 -0.16 -0.05 
+utt>   356                 nishana_1   69    0    40 9  2 3 3.377409e-12 9.528770e+00 6.574851e+02
+INFO: cmn.c(175): CMN:  7.91 -0.23 -0.22  0.09 -0.10 -0.19 -0.13  0.00 -0.10 -0.00  0.00 -0.10 -0.01 
+utt>   357                 nishana_2   69    0    40 8  1 3 2.828663e-12 6.878467e+00 4.746142e+02
+INFO: cmn.c(175): CMN:  8.54 -0.10 -0.19  0.36  0.00 -0.37 -0.19  0.02 -0.23 -0.13 -0.02 -0.15 -0.05 
+utt>   358                 nishana_3   64    0    40 8  1 3 2.476071e-12 3.165583e+00 2.025973e+02
+INFO: cmn.c(175): CMN:  7.94 -0.04 -0.33  0.03  0.00 -0.19 -0.17 -0.08 -0.11 -0.08  0.00 -0.09 -0.05 
+utt>   359                 nishana_4   85    0    60 9  1 3 3.234630e-12 3.340136e+00 2.839116e+02
+INFO: cmn.c(175): CMN:  7.95 -0.05 -0.24  0.14 -0.02 -0.16 -0.18 -0.13 -0.14 -0.08 -0.01 -0.14 -0.06 
+utt>   360                 nishana_5   88    0    44 8  1 3 6.972369e-13 7.508917e+00 6.607847e+02
+INFO: cmn.c(175): CMN:  6.98 -0.33 -0.25 -0.11 -0.05 -0.12 -0.05 -0.04 -0.06 -0.05 -0.01 -0.09 -0.07 
+utt>   361                 nishana_6   62    0    28 7  1 3 4.777767e-12 6.624108e+00 4.106947e+02
+INFO: cmn.c(175): CMN:  8.39  0.06 -0.40 -0.13 -0.16 -0.14 -0.09 -0.04 -0.09  0.00 -0.03 -0.15 -0.09 
+utt>   362                 nishana_7   65    0    32 7  1 2 3.050192e-12 1.662357e+01 1.080532e+03
+INFO: cmn.c(175): CMN:  7.60 -0.14 -0.40 -0.16 -0.01 -0.13 -0.18 -0.05 -0.00 -0.03 -0.05 -0.13 -0.07 
+utt>   363                 nishana_8   87    0    44 8  1 3 4.403155e-12 5.373761e+00 4.675172e+02
+INFO: cmn.c(175): CMN:  8.47  0.19 -0.19 -0.01 -0.09 -0.16 -0.15 -0.02 -0.12 -0.03 -0.05 -0.14 -0.05 
+utt>   364                 nishana_9  107    0    48 8  1 2 1.316260e-12 1.050971e+01 1.124539e+03
+INFO: cmn.c(175): CMN:  8.48 -0.03 -0.14  0.18 -0.06 -0.23 -0.20 -0.08 -0.22 -0.08 -0.00 -0.11 -0.03 
+utt>   365                nishana_10   83    0    60 9  1 3 2.829866e-12 1.010007e+00 8.383058e+01
+INFO: cmn.c(175): CMN:  8.01 -0.15 -0.20 -0.01  0.02 -0.16 -0.13 -0.02 -0.07 -0.05 -0.01 -0.12 -0.04 
+utt>   366                nishana_11   81    0    48 8  1 3 1.543483e-12 8.665195e+00 7.018808e+02
+INFO: cmn.c(175): CMN:  7.83 -0.13 -0.27  0.04 -0.07 -0.17 -0.17 -0.07 -0.12 -0.07 -0.03 -0.14 -0.08 
+utt>   367                nishana_12  207    0   116 8  1 3 1.351121e-12 3.445222e+00 7.131610e+02
+INFO: cmn.c(175): CMN:  8.17 -0.03 -0.26  0.04 -0.06 -0.21 -0.19 -0.07 -0.16 -0.08 -0.02 -0.17 -0.07 
+utt>   368                nishana_13  228    0   100 9  1 2 1.368047e-12 1.021852e+01 2.329823e+03
+INFO: cmn.c(175): CMN:  8.28 -0.04 -0.30 -0.07 -0.07 -0.18 -0.22 -0.06 -0.12 -0.07 -0.03 -0.12 -0.06 
+utt>   369                nishana_14  156    0    96 9  1 3 1.970927e-12 3.336741e+00 5.205316e+02
+INFO: cmn.c(175): CMN:  8.36  0.22 -0.28 -0.07 -0.06 -0.16 -0.15 -0.02 -0.11 -0.03 -0.01 -0.17 -0.06 
+utt>   370                nishana_15  161    0    80 8  1 2 2.818399e-12 8.648774e+00 1.392453e+03
+INFO: cmn.c(175): CMN:  7.71 -0.25 -0.18  0.01 -0.08 -0.18 -0.11 -0.03 -0.09 -0.04 -0.01 -0.10 -0.04 
+utt>   371                nishana_16  156    0    80 8  1 3 1.574599e-12 8.685532e+00 1.354943e+03
+INFO: cmn.c(175): CMN:  9.12  0.00 -0.45 -0.01 -0.11 -0.16 -0.17 -0.04 -0.10  0.01 -0.05 -0.10 -0.00 
+utt>   372                 nishana_1  120    0    60 8  1 3 3.677639e-12 3.636012e+00 4.363215e+02
+INFO: cmn.c(175): CMN:  8.64 -0.28 -0.43 -0.12 -0.18 -0.06 -0.11 -0.13 -0.10 -0.03 -0.03 -0.15 -0.04 
+utt>   373                 nishana_2   66    0    28 7  1 3 3.091694e-12 4.801650e+00 3.169089e+02
+INFO: cmn.c(175): CMN:  8.27 -0.02 -0.29 -0.02 -0.17 -0.00 -0.13 -0.21 -0.11 -0.02  0.01 -0.14 -0.09 
+utt>   374                 nishana_3   63    0    20 7  1 2 7.948972e-13 5.162673e+00 3.252484e+02
+INFO: cmn.c(175): CMN:  8.72 -0.06 -0.52  0.01 -0.16 -0.06 -0.04 -0.10 -0.15  0.03 -0.07 -0.16 -0.04 
+utt>   375                 nishana_4   69    0    36 7  1 2 1.284049e-12 4.545304e+00 3.136259e+02
+INFO: cmn.c(175): CMN:  8.38 -0.24 -0.30  0.29 -0.08 -0.20 -0.22 -0.06 -0.18 -0.14  0.02 -0.13 -0.02 
+utt>   376                 nishana_5   61    0    40 8  1 3 3.562167e-12 4.423539e+00 2.698359e+02
+INFO: cmn.c(175): CMN:  8.79  0.21 -0.41 -0.10 -0.09 -0.07 -0.14 -0.10 -0.12  0.05  0.02 -0.16 -0.05 
+utt>   377                 nishana_6   69    0    40 9  2 3 3.377409e-12 9.528770e+00 6.574851e+02
+INFO: cmn.c(175): CMN:  7.91 -0.23 -0.22  0.09 -0.10 -0.19 -0.13  0.00 -0.10 -0.00  0.00 -0.10 -0.01 
+utt>   378                 nishana_7   69    0    40 8  1 3 2.828663e-12 6.878467e+00 4.746142e+02
+INFO: cmn.c(175): CMN:  8.54 -0.10 -0.19  0.36  0.00 -0.37 -0.19  0.02 -0.23 -0.13 -0.02 -0.15 -0.05 
+utt>   379                 nishana_8   64    0    40 8  1 3 2.476071e-12 3.165583e+00 2.025973e+02
+INFO: cmn.c(175): CMN:  7.94 -0.04 -0.33  0.03  0.00 -0.19 -0.17 -0.08 -0.11 -0.08  0.00 -0.09 -0.05 
+utt>   380                 nishana_9   85    0    60 9  1 3 3.234630e-12 3.340136e+00 2.839116e+02
+INFO: cmn.c(175): CMN:  7.95 -0.05 -0.24  0.14 -0.02 -0.16 -0.18 -0.13 -0.14 -0.08 -0.01 -0.14 -0.06 
+utt>   381                nishana_10   88    0    44 8  1 3 6.972369e-13 7.508917e+00 6.607847e+02
+INFO: cmn.c(175): CMN:  6.98 -0.33 -0.25 -0.11 -0.05 -0.12 -0.05 -0.04 -0.06 -0.05 -0.01 -0.09 -0.07 
+utt>   382                nishana_11   62    0    28 7  1 3 4.777767e-12 6.624108e+00 4.106947e+02
+INFO: cmn.c(175): CMN:  8.39  0.06 -0.40 -0.13 -0.16 -0.14 -0.09 -0.04 -0.09  0.00 -0.03 -0.15 -0.09 
+utt>   383                nishana_12   65    0    32 7  1 2 3.050192e-12 1.662357e+01 1.080532e+03
+INFO: cmn.c(175): CMN:  7.60 -0.14 -0.40 -0.16 -0.01 -0.13 -0.18 -0.05 -0.00 -0.03 -0.05 -0.13 -0.07 
+utt>   384                nishana_13   87    0    44 8  1 3 4.403155e-12 5.373761e+00 4.675172e+02
+INFO: cmn.c(175): CMN:  8.47  0.19 -0.19 -0.01 -0.09 -0.16 -0.15 -0.02 -0.12 -0.03 -0.05 -0.14 -0.05 
+utt>   385                nishana_14  107    0    48 8  1 2 1.316260e-12 1.050971e+01 1.124539e+03
+INFO: cmn.c(175): CMN:  8.48 -0.03 -0.14  0.18 -0.06 -0.23 -0.20 -0.08 -0.22 -0.08 -0.00 -0.11 -0.03 
+utt>   386                nishana_15   83    0    60 9  1 3 2.829866e-12 1.010007e+00 8.383058e+01
+INFO: cmn.c(175): CMN:  7.83 -0.13 -0.27  0.04 -0.07 -0.17 -0.17 -0.07 -0.12 -0.07 -0.03 -0.14 -0.08 
+utt>   387                nishana_16  207    0   116 8  1 3 1.351121e-12 3.445222e+00 7.131610e+02
+INFO: cmn.c(175): CMN:  8.17 -0.03 -0.26  0.04 -0.06 -0.21 -0.19 -0.07 -0.16 -0.08 -0.02 -0.17 -0.07 
+utt>   388                nishana_17  228    0   100 9  1 2 1.368047e-12 1.021852e+01 2.329823e+03
+INFO: cmn.c(175): CMN:  8.28 -0.04 -0.30 -0.07 -0.07 -0.18 -0.22 -0.06 -0.12 -0.07 -0.03 -0.12 -0.06 
+utt>   389                nishana_18  156    0    96 9  1 3 1.970927e-12 3.336741e+00 5.205316e+02
+INFO: cmn.c(175): CMN:  8.36  0.22 -0.28 -0.07 -0.06 -0.16 -0.15 -0.02 -0.11 -0.03 -0.01 -0.17 -0.06 
+utt>   390                nishana_19  161    0    80 8  1 2 2.818399e-12 8.648774e+00 1.392453e+03
+INFO: cmn.c(175): CMN:  7.71 -0.25 -0.18  0.01 -0.08 -0.18 -0.11 -0.03 -0.09 -0.04 -0.01 -0.10 -0.04 
+utt>   391                nishana_20  156    0    80 8  1 3 1.574599e-12 8.685532e+00 1.354943e+03
+INFO: cmn.c(175): CMN:  8.30 -0.15 -0.38 -0.10 -0.10 -0.08 -0.12 -0.07 -0.10 -0.04 -0.03 -0.12 -0.02 
+utt>   392                nishana_21  287    0   108 8  1 2 2.308216e-12 6.828517e+00 1.959784e+03
+INFO: cmn.c(175): CMN:  7.63 -0.27 -0.23  0.05 -0.10 -0.08 -0.13 -0.14 -0.14 -0.05  0.00 -0.09 -0.07 
+utt>   393                nishana_22  172    0    52 9  1 2 1.423697e-12 8.556849e+00 1.471778e+03
+INFO: cmn.c(175): CMN: 10.46  0.29  0.01 -0.09 -0.16 -0.17  0.12 -0.36 -0.03 -0.07 -0.10 -0.06 -0.18 
+utt>   394                nishana_23  129    0    72 9  1 3 3.258203e-12 2.537284e+00 3.273096e+02
+INFO: cmn.c(175): CMN:  8.31 -0.46 -0.11  0.55 -0.18 -0.05 -0.09 -0.08 -0.15 -0.17  0.02 -0.18 -0.07 
+utt>   395                 nishana_1   93    0    52 9  1 3 1.218080e-12 -8.409214e-01 -7.820569e+01
+INFO: cmn.c(175): CMN:  8.81 -0.16 -0.30  0.40 -0.16 -0.11 -0.16 -0.10 -0.21 -0.17 -0.00 -0.17 -0.05 
+utt>   396                 nishana_2   68    0    40 8  1 3 1.102977e-12 7.248580e+00 4.929035e+02
+INFO: cmn.c(175): CMN:  8.85 -0.38 -0.39 -0.17 -0.23 -0.08 -0.11 -0.05 -0.12 -0.03 -0.02 -0.13 -0.09 
+utt>   397                 nishana_3   70    0    32 8  1 3 7.512126e-13 4.851689e+00 3.396182e+02
+INFO: cmn.c(175): CMN:  8.75 -0.09 -0.17  0.15 -0.22 -0.19 -0.05 -0.08 -0.18 -0.08 -0.05 -0.16 -0.02 
+utt>   398                 nishana_4   69    0    32 8  1 3 3.228761e-13 2.883740e+00 1.989781e+02
+INFO: cmn.c(175): CMN:  9.02  0.01 -0.47 -0.04 -0.17 -0.06 -0.18 -0.03 -0.06 -0.02 -0.10 -0.18 -0.02 
+utt>   399                 nishana_5   68    0    40 8  1 3 3.454402e-12 -1.399400e+00 -9.515920e+01
+INFO: cmn.c(175): CMN:  9.08 -0.32 -0.24  0.39 -0.21 -0.13 -0.15 -0.15 -0.17 -0.09 -0.02 -0.14 -0.05 
+utt>   400                 nishana_6   63    0    40 9  1 3 3.047607e-12 -3.194523e+00 -2.012549e+02
+INFO: cmn.c(175): CMN:  9.51  0.13 -0.49  0.33 -0.22 -0.19 -0.21 -0.12 -0.15 -0.08  0.01 -0.11 -0.01 
+utt>   401                 nishana_7   72    0    40 7  1 3 3.595339e-12 7.580314e+00 5.457826e+02
+INFO: cmn.c(175): CMN:  8.66 -0.32 -0.54 -0.23 -0.15  0.00 -0.17 -0.07 -0.02 -0.02 -0.03 -0.11 -0.07 
+utt>   402                 nishana_8   54    0    28 7  1 3 2.285076e-12 2.683419e+00 1.449046e+02
+INFO: cmn.c(175): CMN:  9.43  0.08 -0.51  0.26 -0.16 -0.30 -0.26  0.01 -0.13 -0.11 -0.09 -0.18  0.02 
+utt>   403                 nishana_9   68    0    40 8  1 3 5.339829e-12 3.653419e+00 2.484325e+02
+INFO: cmn.c(175): CMN:  9.09 -0.25 -0.24  0.14 -0.14 -0.16 -0.19 -0.11 -0.10 -0.05 -0.09 -0.11  0.01 
+utt>   404                nishana_10   67    0    44 7  1 2 3.923901e-12 -2.171601e+00 -1.454973e+02
+INFO: cmn.c(175): CMN:  8.74 -0.03 -0.32  0.19 -0.12 -0.17 -0.23 -0.01 -0.09 -0.06 -0.01 -0.10  0.01 
+utt>   405                nishana_11   78    0    48 8  1 3 1.416932e-12 3.797615e+00 2.962140e+02
+INFO: cmn.c(175): CMN:  9.02 -0.27 -0.18  0.05 -0.19 -0.07 -0.17 -0.08 -0.15 -0.03 -0.02 -0.13  0.00 
+utt>   406                nishana_12   96    0    52 8  1 3 2.796269e-12 2.354984e+00 2.260785e+02
+INFO: cmn.c(175): CMN:  7.95 -0.29 -0.20  0.22 -0.13 -0.14 -0.12 -0.08 -0.13 -0.09 -0.02 -0.13 -0.04 
+utt>   407                nishana_13  282    0   108 10  1 3 2.392302e-12 7.300818e+00 2.058831e+03
+INFO: cmn.c(175): CMN:  7.56 -0.40 -0.30 -0.02 -0.09 -0.08 -0.13 -0.09 -0.12 -0.08 -0.05 -0.12 -0.04 
+utt>   408                nishana_14  306    0    92 9  1 2 1.455290e-12 8.375331e+00 2.562851e+03
+INFO: cmn.c(175): CMN:  8.02 -0.38 -0.31  0.08 -0.15 -0.15 -0.16 -0.06 -0.12 -0.06 -0.04 -0.14 -0.03 
+utt>   409                nishana_15  300    0    96 9  1 2 1.104020e-12 7.334510e+00 2.200353e+03
+INFO: cmn.c(175): CMN:  7.81 -0.38 -0.22 -0.00 -0.09 -0.11 -0.15 -0.05 -0.10 -0.05 -0.03 -0.11 -0.01 
+utt>   410                nishana_16  362    0   128 9  1 2 1.715902e-12 8.165408e+00 2.955878e+03
+INFO: cmn.c(175): CMN:  7.72 -0.40 -0.19  0.24 -0.11 -0.11 -0.11 -0.09 -0.13 -0.08 -0.03 -0.12 -0.04 
+utt>   411                nishana_17  308    0   120 11  1 2 2.393489e-12 5.767150e+00 1.776282e+03
+INFO: cmn.c(175): CMN:  8.94  0.18 -0.11  0.07 -0.21 -0.04 -0.03 -0.09 -0.20 -0.02 -0.05 -0.18 -0.02 
+utt>   412                 nishana_1   88    0    44 13  1 3 2.197641e-12 1.850983e+00 1.628865e+02
+INFO: cmn.c(175): CMN:  8.94 -0.19 -0.07  0.44 -0.15 -0.16 -0.12 -0.01 -0.16 -0.06  0.02 -0.14  0.00 
+utt>   413                 nishana_2   80    0    48 8  1 3 3.139920e-12 3.299586e+00 2.639669e+02
+INFO: cmn.c(175): CMN:  7.14 -0.52  0.09  0.42 -0.15 -0.04  0.06 -0.17 -0.15 -0.14 -0.02 -0.09 -0.01 
+utt>   414                 nishana_3   40    0    16 7  1 3 3.688892e-12 1.619277e+00 6.477109e+01
+INFO: cmn.c(175): CMN:  8.46  0.09  0.25  0.34 -0.16 -0.15 -0.01 -0.13 -0.29 -0.16 -0.10 -0.17  0.01 
+utt>   415                 nishana_4   47    0    28 10  1 2 3.147436e-12 2.921241e+00 1.372983e+02
+INFO: cmn.c(175): CMN:  9.38  0.25 -0.47 -0.02 -0.13 -0.05 -0.24 -0.14 -0.03  0.03 -0.04 -0.16 -0.02 
+utt>   416                 nishana_5   99    0    72 10  1 3 1.519404e-12 1.619441e+00 1.603247e+02
+INFO: cmn.c(175): CMN:  8.80 -0.10 -0.30  0.14 -0.14 -0.13 -0.21 -0.06 -0.10 -0.03 -0.05 -0.16 -0.03 
+utt>   417                 nishana_6  195    0   112 11  1 3 3.003459e-12 2.974755e+00 5.800772e+02
+INFO: cmn.c(175): CMN:  7.56 -0.19  0.01  0.14 -0.15 -0.09 -0.02 -0.09 -0.17 -0.08 -0.04 -0.13 -0.01 
+utt>   418                 nishana_7  216    0    72 13  1 3 1.465821e-12 5.768672e+00 1.246033e+03
+INFO: cmn.c(175): CMN:  8.13 -0.10 -0.34 -0.07 -0.10 -0.09 -0.19 -0.10 -0.07 -0.00 -0.05 -0.12 -0.04 
+utt>   419                 nishana_8  189    0   108 11  1 3 1.452436e-12 5.202265e+00 9.832281e+02
+INFO: cmn.c(175): CMN:  8.90 -0.16  0.02 -0.09 -0.12 -0.11 -0.20 -0.14 -0.19 -0.13  0.01 -0.18 -0.02 
+utt>   420                  deepak_1   90    0    48 8  2 3 1.250619e-12 9.970550e+00 8.973495e+02
+INFO: cmn.c(175): CMN: 10.08  0.14 -0.12 -0.26 -0.25  0.00 -0.28 -0.20 -0.14 -0.21  0.02 -0.26 -0.05 
+utt>   421                  deepak_2  108    0    60 9  1 3 3.146421e-12 5.217135e+00 5.634506e+02
+INFO: cmn.c(175): CMN:  8.44 -0.30 -0.03  0.44 -0.11 -0.08 -0.20 -0.04 -0.20 -0.21 -0.01 -0.23 -0.13 
+utt>   422                  deepak_3   93    0    52 10  1 3 3.587509e-12 5.106164e+00 4.748733e+02
+INFO: cmn.c(175): CMN:  9.93  0.36 -0.26 -0.39 -0.29  0.03 -0.34 -0.20 -0.11 -0.26  0.11 -0.18 -0.09 
+utt>   423                  deepak_4  104    0    72 11  2 3 3.079811e-12 7.135189e+00 7.420597e+02
+INFO: cmn.c(175): CMN:  9.39  0.21 -0.26  0.09 -0.33 -0.08 -0.21 -0.20 -0.21 -0.04  0.05 -0.07 -0.14 
+utt>   424                  deepak_5   66    0    44 8  1 3 1.609811e-12 4.045905e+00 2.670298e+02
+INFO: cmn.c(175): CMN: 10.16  0.53 -0.27  0.10 -0.52 -0.07 -0.09 -0.19 -0.25 -0.16  0.04 -0.07 -0.07 
+utt>   425                  deepak_6   73    0    44 10  2 3 1.535275e-12 3.393980e+00 2.477605e+02
+INFO: cmn.c(175): CMN:  9.10  0.33 -0.15 -0.23 -0.28  0.05 -0.19 -0.10 -0.32 -0.15 -0.02 -0.13 -0.08 
+utt>   426                  deepak_1   77    0    40 7  1 3 1.538894e-12 8.427879e+00 6.489467e+02
+INFO: cmn.c(175): CMN:  8.95 -0.11 -0.04  0.09 -0.23 -0.11 -0.23 -0.07 -0.31 -0.07 -0.12 -0.30 -0.01 
+utt>   427                  deepak_2   77    0    40 8  1 3 1.393675e-12 5.427344e+00 4.179055e+02
+INFO: cmn.c(175): CMN:  9.43 -0.21 -0.07  0.29 -0.10 -0.19 -0.37 -0.04 -0.24 -0.26 -0.04 -0.23 -0.03 
+utt>   428                  deepak_3   88    0    40 8  1 3 2.070257e-12 1.047114e+01 9.214606e+02
+INFO: cmn.c(175): CMN:  9.14  0.24 -0.36 -0.04 -0.31 -0.14 -0.35 -0.10 -0.16 -0.22  0.01 -0.13 -0.02 
+utt>   429                  deepak_4   95    0    60 8  1 3 1.373328e-12 7.666109e+00 7.282803e+02
+INFO: cmn.c(175): CMN:  9.88  0.33 -0.33 -0.05 -0.29 -0.12 -0.28 -0.16 -0.32 -0.19  0.01 -0.15 -0.07 
+utt>   430                  deepak_5   82    0    44 8  1 3 1.663193e-12 6.517527e+00 5.344373e+02
+INFO: cmn.c(175): CMN:  7.99  0.02 -0.18 -0.22 -0.29 -0.00 -0.07 -0.05 -0.16 -0.11  0.03 -0.17 -0.09 
+utt>   431                  deepak_6   64    0    28 8  1 2 2.948432e-12 6.767433e+00 4.331157e+02
+INFO: cmn.c(175): CMN:  9.65  0.19 -0.34 -0.12 -0.43 -0.03 -0.15  0.00 -0.26 -0.07 -0.02 -0.21 -0.05 
+utt>   432                  deepak_7   72    0    32 7  1 3 2.240503e-12 1.589437e+01 1.144394e+03
+INFO: cmn.c(175): CMN:  9.72  0.40 -0.62 -0.44 -0.31  0.03 -0.24 -0.05 -0.12 -0.15  0.09 -0.21 -0.13 
+utt>   433                  deepak_8   84    0    44 9  1 3 3.622062e-12 4.732788e+00 3.975542e+02
+INFO: cmn.c(175): CMN:  9.97  0.45 -0.14  0.01 -0.28 -0.08 -0.30 -0.08 -0.23 -0.17 -0.04 -0.28 -0.05 
+utt>   434                  deepak_9   94    0    48 8  1 3 7.704614e-13 1.030929e+01 9.690735e+02
+INFO: cmn.c(175): CMN:  9.65  0.02 -0.08  0.17 -0.17 -0.19 -0.28 -0.14 -0.26 -0.25 -0.05 -0.14 -0.01 
+utt>   435                 deepak_10   91    0    60 9  1 3 2.009756e-12 3.907603e+00 3.555919e+02
+INFO: cmn.c(175): CMN:  9.56 -0.03 -0.09 -0.07 -0.12 -0.08 -0.24 -0.04 -0.26 -0.14 -0.03 -0.18 -0.06 
+utt>   436                 deepak_11   76    0    48 8  1 3 2.161236e-12 6.400377e+00 4.864287e+02
+INFO: cmn.c(175): CMN:  8.29  0.02 -0.25 -0.13 -0.20 -0.06 -0.22 -0.03 -0.17 -0.15 -0.02 -0.15 -0.09 
+utt>   437                 deepak_12  301    0   116 8  1 2 1.031967e-12 8.852342e+00 2.664555e+03
+INFO: cmn.c(175): CMN:  8.88 -0.01 -0.19 -0.05 -0.19 -0.07 -0.27 -0.04 -0.23 -0.19 -0.00 -0.19 -0.04 
+utt>   438                 deepak_13  292    0   100 8  1 2 1.798591e-12 1.157435e+01 3.379711e+03
+INFO: cmn.c(175): CMN:  9.00  0.14 -0.29 -0.17 -0.20 -0.03 -0.30 -0.08 -0.19 -0.17  0.01 -0.17 -0.06 
+utt>   439                 deepak_14  195    0    96 9  1 3 2.072541e-12 5.230364e+00 1.019921e+03
+INFO: cmn.c(175): CMN:  9.70  0.38 -0.17 -0.13 -0.25 -0.06 -0.33 -0.04 -0.28 -0.18 -0.02 -0.25 -0.04 
+utt>   440                 deepak_15  179    0    80 7  1 2 2.891125e-12 6.119332e+00 1.095360e+03
+INFO: cmn.c(175): CMN:  8.63 -0.15 -0.04 -0.04 -0.15 -0.08 -0.23 -0.04 -0.22 -0.12 -0.05 -0.21 -0.04 
+utt>   441                 deepak_16  184    0    80 8  1 3 1.006498e-12 9.661580e+00 1.777731e+03
+INFO: cmn.c(175): CMN:  9.68  0.26 -0.15 -0.23 -0.20 -0.03 -0.30 -0.08 -0.23 -0.15  0.01 -0.29 -0.05 
+utt>   442                  deepak_1  113    0    60 9  1 3 4.989689e-12 6.198243e+00 7.004015e+02
+INFO: cmn.c(175): CMN:  9.03 -0.03 -0.13 -0.24 -0.20  0.01 -0.24 -0.06 -0.19 -0.11  0.02 -0.19 -0.06 
+utt>   443                  deepak_2   65    0    28 7  1 3 3.746448e-12 8.277593e+00 5.380436e+02
+INFO: cmn.c(175): CMN:  8.99  0.32  0.19  0.04 -0.35 -0.05 -0.27 -0.20 -0.11 -0.15 -0.11 -0.19 -0.05 
+utt>   444                  deepak_3   62    0    20 8  1 2 1.659648e-12 1.059246e+01 6.567325e+02
+INFO: cmn.c(175): CMN:  8.95  0.29 -0.26 -0.15 -0.17  0.01 -0.16 -0.08 -0.18 -0.15 -0.05 -0.22 -0.03 
+utt>   445                  deepak_4   75    0    36 7  1 3 2.507854e-12 4.665038e+00 3.498778e+02
+INFO: cmn.c(175): CMN:  9.64  0.06 -0.15  0.20 -0.25 -0.13 -0.37  0.00 -0.30 -0.21 -0.04 -0.20 -0.08 
+utt>   446                  deepak_5   71    0    40 8  2 3 1.569049e-12 7.331948e+00 5.205683e+02
+INFO: cmn.c(175): CMN:  9.10  0.33 -0.15 -0.23 -0.28  0.05 -0.19 -0.10 -0.32 -0.15 -0.02 -0.13 -0.08 
+utt>   447                  deepak_6   77    0    40 7  1 3 1.538894e-12 8.427879e+00 6.489467e+02
+INFO: cmn.c(175): CMN:  8.95 -0.11 -0.04  0.09 -0.23 -0.11 -0.23 -0.07 -0.31 -0.07 -0.12 -0.30 -0.01 
+utt>   448                  deepak_7   77    0    40 8  1 3 1.393675e-12 5.427344e+00 4.179055e+02
+INFO: cmn.c(175): CMN:  9.43 -0.21 -0.07  0.29 -0.10 -0.19 -0.37 -0.04 -0.24 -0.26 -0.04 -0.23 -0.03 
+utt>   449                  deepak_8   88    0    40 8  1 3 2.070257e-12 1.047114e+01 9.214606e+02
+INFO: cmn.c(175): CMN:  9.14  0.24 -0.36 -0.04 -0.31 -0.14 -0.35 -0.10 -0.16 -0.22  0.01 -0.13 -0.02 
+utt>   450                  deepak_9   95    0    60 8  1 3 1.373328e-12 7.666109e+00 7.282803e+02
+INFO: cmn.c(175): CMN:  9.88  0.33 -0.33 -0.05 -0.29 -0.12 -0.28 -0.16 -0.32 -0.19  0.01 -0.15 -0.07 
+utt>   451                 deepak_10   82    0    44 8  1 3 1.663193e-12 6.517527e+00 5.344373e+02
+INFO: cmn.c(175): CMN:  7.99  0.02 -0.18 -0.22 -0.29 -0.00 -0.07 -0.05 -0.16 -0.11  0.03 -0.17 -0.09 
+utt>   452                 deepak_11   64    0    28 8  1 2 2.948432e-12 6.767433e+00 4.331157e+02
+INFO: cmn.c(175): CMN:  9.65  0.19 -0.34 -0.12 -0.43 -0.03 -0.15  0.00 -0.26 -0.07 -0.02 -0.21 -0.05 
+utt>   453                 deepak_12   72    0    32 7  1 3 2.240503e-12 1.589437e+01 1.144394e+03
+INFO: cmn.c(175): CMN:  9.72  0.40 -0.62 -0.44 -0.31  0.03 -0.24 -0.05 -0.12 -0.15  0.09 -0.21 -0.13 
+utt>   454                 deepak_13   84    0    44 9  1 3 3.622062e-12 4.732788e+00 3.975542e+02
+INFO: cmn.c(175): CMN:  9.97  0.45 -0.14  0.01 -0.28 -0.08 -0.30 -0.08 -0.23 -0.17 -0.04 -0.28 -0.05 
+utt>   455                 deepak_14   94    0    48 8  1 3 7.704614e-13 1.030929e+01 9.690735e+02
+INFO: cmn.c(175): CMN:  9.65  0.02 -0.08  0.17 -0.17 -0.19 -0.28 -0.14 -0.26 -0.25 -0.05 -0.14 -0.01 
+utt>   456                 deepak_15   91    0    60 9  1 3 2.009756e-12 3.907603e+00 3.555919e+02
+INFO: cmn.c(175): CMN:  8.29  0.02 -0.25 -0.13 -0.20 -0.06 -0.22 -0.03 -0.17 -0.15 -0.02 -0.15 -0.09 
+utt>   457                 deepak_16  301    0   116 8  1 2 1.031967e-12 8.852342e+00 2.664555e+03
+INFO: cmn.c(175): CMN:  8.88 -0.01 -0.19 -0.05 -0.19 -0.07 -0.27 -0.04 -0.23 -0.19 -0.00 -0.19 -0.04 
+utt>   458                 deepak_17  292    0   100 8  1 2 1.798591e-12 1.157435e+01 3.379711e+03
+INFO: cmn.c(175): CMN:  9.00  0.14 -0.29 -0.17 -0.20 -0.03 -0.30 -0.08 -0.19 -0.17  0.01 -0.17 -0.06 
+utt>   459                 deepak_18  195    0    96 9  1 3 2.072541e-12 5.230364e+00 1.019921e+03
+INFO: cmn.c(175): CMN:  9.70  0.38 -0.17 -0.13 -0.25 -0.06 -0.33 -0.04 -0.28 -0.18 -0.02 -0.25 -0.04 
+utt>   460                 deepak_19  179    0    80 7  1 2 2.891125e-12 6.119332e+00 1.095360e+03
+INFO: cmn.c(175): CMN:  8.63 -0.15 -0.04 -0.04 -0.15 -0.08 -0.23 -0.04 -0.22 -0.12 -0.05 -0.21 -0.04 
+utt>   461                 deepak_20  184    0    80 8  1 3 1.006498e-12 9.661580e+00 1.777731e+03
+INFO: cmn.c(175): CMN:  8.83  0.02 -0.17 -0.19 -0.19  0.02 -0.24 -0.06 -0.18 -0.11 -0.02 -0.22 -0.06 
+utt>   462                 deepak_21  300    0   108 8  1 2 2.423684e-12 7.500791e+00 2.250237e+03
+INFO: cmn.c(175): CMN:  9.07 -0.00 -0.02  0.11 -0.27 -0.09 -0.31 -0.08 -0.20 -0.20 -0.06 -0.18 -0.04 
+utt>   463                 deepak_22  153    0    52 9  1 2 1.457508e-12 1.074879e+01 1.644565e+03
+INFO: cmn.c(175): CMN:  9.29  0.35  0.01  0.13 -0.36 -0.02 -0.22 -0.18 -0.19 -0.24  0.04 -0.14 -0.17 
+utt>   464                 deepak_23   98    0    72 10  2 4 2.770818e-12 3.582614e+00 3.510962e+02
+INFO: cmn.c(175): CMN:  9.00 -0.21  0.09  0.43 -0.11 -0.09 -0.19 -0.05 -0.19 -0.22 -0.04 -0.23 -0.14 
+utt>   465                  deepak_1  107    0    52 11  1 3 2.760506e-12 3.661340e+00 3.917634e+02
+INFO: cmn.c(175): CMN: 10.32 -0.08 -0.20  0.30 -0.27 -0.17 -0.39 -0.04 -0.30 -0.22  0.03 -0.23 -0.11 
+utt>   466                  deepak_2   71    0    40 8  1 3 1.851804e-12 1.186697e+01 8.425552e+02
+INFO: cmn.c(175): CMN:  9.67 -0.29 -0.10 -0.47 -0.26 -0.01 -0.23  0.02 -0.23 -0.07 -0.06 -0.18 -0.02 
+utt>   467                  deepak_3   79    0    32 7  1 3 1.523011e-12 7.433952e+00 5.872822e+02
+INFO: cmn.c(175): CMN:  9.38 -0.09  0.08  0.07 -0.24 -0.09 -0.26 -0.12 -0.28 -0.07 -0.08 -0.28  0.04 
+utt>   468                  deepak_4   78    0    32 8  1 3 1.949539e-12 3.881443e+00 3.027526e+02
+INFO: cmn.c(175): CMN:  9.53  0.04 -0.09 -0.20 -0.23  0.07 -0.35 -0.09 -0.21 -0.02 -0.08 -0.21 -0.06 
+utt>   469                  deepak_5   82    0    40 8  1 3 1.763524e-12 2.378472e+00 1.950347e+02
+INFO: cmn.c(175): CMN:  9.62 -0.07 -0.19  0.31 -0.23 -0.09 -0.22 -0.04 -0.24 -0.13 -0.07 -0.28 -0.11 
+utt>   470                  deepak_6   72    0    40 9  2 3 1.894548e-12 4.789353e+00 3.448334e+02
+INFO: cmn.c(175): CMN:  9.91  0.29 -0.30  0.13 -0.20 -0.03 -0.43 -0.09 -0.31 -0.10 -0.03 -0.25 -0.04 
+utt>   471                  deepak_7   87    0    40 7  1 3 3.865229e-12 1.093446e+01 9.512976e+02
+INFO: cmn.c(175): CMN:  9.03 -0.07 -0.32 -0.37 -0.27  0.03 -0.26 -0.03 -0.16 -0.02  0.02 -0.16 -0.10 
+utt>   472                  deepak_8   66    0    28 7  1 3 9.032399e-13 6.553214e+00 4.325121e+02
+INFO: cmn.c(175): CMN: 10.44  0.07 -0.35  0.15 -0.22 -0.11 -0.53 -0.03 -0.19 -0.16 -0.00 -0.27 -0.01 
+utt>   473                  deepak_9   78    0    40 9  1 3 3.229437e-12 5.098175e+00 3.976577e+02
+INFO: cmn.c(175): CMN:  8.93 -0.09 -0.05 -0.11 -0.11 -0.00 -0.31 -0.09 -0.21 -0.03 -0.13 -0.19  0.02 
+utt>   474                 deepak_10   87    0    44 8  1 3 1.214168e-12 3.074135e+00 2.674498e+02
+INFO: cmn.c(175): CMN:  9.32  0.01 -0.11 -0.09 -0.20 -0.07 -0.40 -0.05 -0.19 -0.07  0.02 -0.25 -0.09 
+utt>   475                 deepak_11   90    0    48 9  1 3 3.013365e-12 4.486171e+00 4.037554e+02
+INFO: cmn.c(175): CMN:  9.80 -0.15  0.15 -0.10 -0.17 -0.00 -0.28 -0.08 -0.28 -0.15 -0.05 -0.22 -0.04 
+utt>   476                 deepak_12   94    0    52 8  1 3 2.760968e-12 4.954963e+00 4.657665e+02
+INFO: cmn.c(175): CMN:  9.02 -0.10 -0.11  0.17 -0.18 -0.04 -0.27 -0.05 -0.24 -0.17 -0.02 -0.26 -0.05 
+utt>   477                 deepak_13  293    0   108 9  1 2 2.597144e-12 6.350930e+00 1.860822e+03
+INFO: cmn.c(175): CMN:  9.17 -0.12 -0.17 -0.13 -0.24  0.01 -0.29 -0.06 -0.20 -0.10 -0.01 -0.22 -0.08 
+utt>   478                 deepak_14  265    0    92 8  1 2 1.313180e-12 7.302064e+00 1.935047e+03
+INFO: cmn.c(175): CMN:  9.04 -0.17 -0.15 -0.02 -0.20 -0.07 -0.28  0.00 -0.21 -0.12 -0.03 -0.22 -0.06 
+utt>   479                 deepak_15  292    0    96 9  1 3 1.631674e-12 7.508083e+00 2.192360e+03
+INFO: cmn.c(175): CMN:  8.59 -0.14 -0.01 -0.12 -0.16 -0.01 -0.27 -0.08 -0.20 -0.11 -0.05 -0.17 -0.06 
+utt>   480                 deepak_16  336    0   128 9  1 2 1.533943e-12 6.441548e+00 2.164360e+03
+INFO: cmn.c(175): CMN:  8.74 -0.20 -0.13  0.09 -0.19 -0.04 -0.25 -0.04 -0.21 -0.13 -0.03 -0.23 -0.10 
+utt>   481                 deepak_17  320    0   120 11  1 2 1.797139e-12 5.209373e+00 1.666999e+03
+INFO: cmn.c(175): CMN:  8.41  0.29  0.18 -0.04 -0.30 -0.03 -0.10 -0.15 -0.24 -0.22 -0.09 -0.25 -0.06 
+utt>   482                  deepak_1  102    0    44 13  1 3 3.212205e-12 5.820720e+00 5.937135e+02
+INFO: cmn.c(175): CMN:  9.47 -0.28  0.10  0.35 -0.23 -0.14 -0.23 -0.19 -0.24 -0.19 -0.15 -0.16 -0.10 
+utt>   483                  deepak_2   79    0    48 9  1 3 4.362838e-12 4.604778e+00 3.637774e+02
+INFO: cmn.c(175): CMN:  7.65 -0.71  0.42  0.51 -0.04  0.06  0.05 -0.16 -0.20 -0.20 -0.13 -0.18 -0.10 
+utt>   484                  deepak_3   52    0    16 8  1 3 1.399065e-12 7.193383e+00 3.740559e+02
+INFO: cmn.c(175): CMN:  8.22 -0.25  0.32  0.31 -0.21 -0.12  0.00 -0.19 -0.25 -0.26 -0.11 -0.29 -0.14 
+utt>   485                  deepak_4   65    0    28 9  1 3 9.913798e-13 8.000070e+00 5.200045e+02
+INFO: cmn.c(175): CMN:  9.84  0.41 -0.32 -0.36 -0.24 -0.05 -0.29 -0.20 -0.15 -0.21  0.08 -0.19 -0.09 
+utt>   486                  deepak_5  104    0    72 11  1 3 3.631700e-12 4.656873e+00 4.843148e+02
+INFO: cmn.c(175): CMN:  8.94  0.04 -0.17 -0.09 -0.20 -0.08 -0.27 -0.15 -0.15 -0.20 -0.01 -0.19 -0.06 
+utt>   487                  deepak_6  207    0   112 11  1 3 1.292572e-12 8.200998e+00 1.697607e+03
+INFO: cmn.c(175): CMN:  7.51 -0.17  0.23  0.12 -0.17 -0.04 -0.03 -0.12 -0.20 -0.23 -0.07 -0.22 -0.08 
+utt>   488                  deepak_7  260    0    72 11  1 2 8.675670e-13 1.052809e+01 2.737303e+03
+INFO: cmn.c(175): CMN:  8.66  0.04 -0.23 -0.29 -0.23 -0.00 -0.29 -0.12 -0.12 -0.17  0.05 -0.18 -0.08 
+utt>   489                  deepak_8  222    0   108 10  1 3 2.429756e-12 7.375269e+00 1.637310e+03
+INFO: cmn.c(175): CMN:  8.93 -0.01 -0.35  0.14 -0.20 -0.10 -0.11 -0.28 -0.07 -0.16 -0.06 -0.12 -0.02 
+utt>   490                 anandhu_1   95    0    48 8  2 3 1.362556e-12 1.051027e+01 9.984756e+02
+INFO: cmn.c(175): CMN:  9.98  0.36 -0.51  0.08 -0.33 -0.15 -0.01 -0.43 -0.01 -0.16 -0.12 -0.14 -0.09 
+utt>   491                 anandhu_2  102    0    60 8  1 3 1.429511e-12 4.091274e+00 4.173099e+02
+INFO: cmn.c(175): CMN:  9.00  0.00 -0.42  0.60 -0.12 -0.28 -0.02 -0.26 -0.06 -0.22 -0.12 -0.17 -0.20 
+utt>   492                 anandhu_3   93    0    52 9  1 3 1.578844e-12 6.012308e+00 5.591446e+02
+INFO: cmn.c(175): CMN:  9.83  0.58 -0.64 -0.06 -0.33 -0.21 -0.05 -0.43 -0.10 -0.01 -0.02 -0.15 -0.10 
+utt>   493                 anandhu_4  112    0    72 11  2 4 3.686315e-12 6.122062e+00 6.856710e+02
+INFO: cmn.c(175): CMN:  9.58  0.24 -0.39  0.06 -0.08 -0.10 -0.23 -0.11 -0.16 -0.06 -0.02 -0.08 -0.11 
+utt>   494                 anandhu_5   80    0    44 8  1 3 2.797761e-12 6.545912e+00 5.236730e+02
+INFO: cmn.c(175): CMN:  9.91  0.61 -0.19  0.05 -0.21 -0.11 -0.04 -0.13 -0.27 -0.18  0.02  0.01 -0.15 
+utt>   495                 anandhu_6   87    0    44 10  1 3 1.076222e-12 9.423962e+00 8.198847e+02
+INFO: cmn.c(175): CMN:  9.43  0.35 -0.52  0.06 -0.26 -0.13  0.02 -0.37 -0.12 -0.20 -0.12 -0.12 -0.10 
+utt>   496                 anandhu_1   79    0    40 7  1 3 3.325834e-12 8.550545e+00 6.754931e+02
+INFO: cmn.c(175): CMN:  9.23  0.16 -0.39  0.29 -0.23 -0.13 -0.09 -0.28 -0.05 -0.20 -0.15 -0.22 -0.12 
+utt>   497                 anandhu_2   72    0    40 8  1 3 2.714515e-12 6.503896e+00 4.682805e+02
+INFO: cmn.c(175): CMN:  9.53 -0.02 -0.41  0.38 -0.15 -0.31 -0.18 -0.30 -0.02 -0.28 -0.09 -0.15 -0.06 
+utt>   498                 anandhu_3   79    0    40 9  1 3 2.686307e-12 7.345457e+00 5.802911e+02
+INFO: cmn.c(175): CMN:  9.76  0.49 -0.72  0.17 -0.28 -0.33 -0.11 -0.30 -0.10 -0.15 -0.03 -0.10 -0.12 
+utt>   499                 anandhu_4   84    0    60 8  1 3 1.458380e-12 3.918605e+00 3.291628e+02
+INFO: cmn.c(175): CMN:  9.64  0.43 -0.67  0.16 -0.16 -0.30 -0.11 -0.35 -0.11 -0.13 -0.05 -0.20 -0.14 
+utt>   500                 anandhu_5   79    0    44 8  1 3 4.450232e-12 7.952129e+00 6.282182e+02
+INFO: cmn.c(175): CMN:  8.39  0.27 -0.41 -0.13 -0.27 -0.14  0.07 -0.20 -0.10 -0.13 -0.09 -0.18 -0.12 
+utt>   501                 anandhu_6   63    0    28 7  1 3 1.351532e-12 6.328463e+00 3.986931e+02
+INFO: cmn.c(175): CMN: 10.28  0.59 -0.83 -0.03 -0.39 -0.28  0.11 -0.33 -0.03 -0.11 -0.10 -0.13 -0.16 
+utt>   502                 anandhu_7   64    0    32 7  1 3 7.773736e-14 1.404658e+01 8.989811e+02
+INFO: cmn.c(175): CMN: 10.00  0.56 -0.93 -0.08 -0.33 -0.23 -0.08 -0.28  0.03  0.01 -0.07 -0.20 -0.20 
+utt>   503                 anandhu_8   79    0    44 8  1 3 3.197230e-12 4.137476e+00 3.268606e+02
+INFO: cmn.c(175): CMN:  9.59  0.69 -0.43  0.13 -0.21 -0.26 -0.17 -0.33 -0.07 -0.16 -0.10 -0.16 -0.08 
+utt>   504                 anandhu_9   91    0    48 8  1 3 1.239481e-12 7.883307e+00 7.173810e+02
+INFO: cmn.c(175): CMN:  9.26 -0.03 -0.26  0.18 -0.15 -0.29 -0.12 -0.30 -0.11 -0.25 -0.13 -0.10 -0.05 
+utt>   505                anandhu_10   86    0    60 10  1 3 2.195148e-12 -9.548091e-01 -8.211359e+01
+INFO: cmn.c(175): CMN:  8.41  0.14 -0.12 -0.07 -0.11 -0.09 -0.11 -0.29 -0.06 -0.11 -0.05 -0.08 -0.09 
+utt>   506                anandhu_11   65    0    48 11  1 3 2.589914e-12 4.231668e+00 2.750584e+02
+INFO: cmn.c(175): CMN:  8.26  0.14 -0.46 -0.01 -0.21 -0.16 -0.00 -0.22 -0.03 -0.11 -0.08 -0.14 -0.13 
+utt>   507                anandhu_12  288    0   116 8  1 2 2.104121e-12 6.681240e+00 1.924197e+03
+INFO: cmn.c(175): CMN:  9.11  0.13 -0.47  0.13 -0.19 -0.23 -0.04 -0.30 -0.04 -0.18 -0.11 -0.16 -0.11 
+utt>   508                anandhu_13  271    0   100 8  1 2 2.067167e-12 8.884106e+00 2.407593e+03
+INFO: cmn.c(175): CMN:  9.02  0.09 -0.49  0.00 -0.18 -0.24 -0.11 -0.23 -0.02 -0.12 -0.07 -0.13 -0.11 
+utt>   509                anandhu_14  196    0    96 9  1 2 1.997769e-12 5.664750e+00 1.110291e+03
+INFO: cmn.c(175): CMN:  8.68  0.36 -0.38  0.01 -0.18 -0.16 -0.10 -0.27 -0.10 -0.15 -0.10 -0.14 -0.09 
+utt>   510                anandhu_15  195    0    80 7  1 2 1.954563e-12 9.346157e+00 1.822501e+03
+INFO: cmn.c(175): CMN:  8.45  0.06 -0.28  0.07 -0.17 -0.13 -0.17 -0.25 -0.05 -0.19 -0.12 -0.16 -0.05 
+utt>   511                anandhu_16  172    0    80 8  1 2 2.989089e-12 8.975767e+00 1.543832e+03
+INFO: cmn.c(175): CMN:  9.41  0.41 -0.39  0.01 -0.25 -0.13 -0.10 -0.42 -0.06 -0.09 -0.16 -0.14 -0.03 
+utt>   512                 anandhu_1   95    0    60 10  1 3 2.521468e-12 5.019650e+00 4.768668e+02
+INFO: cmn.c(175): CMN:  9.12  0.19 -0.58 -0.01 -0.36 -0.08 -0.03 -0.31  0.00 -0.03 -0.11 -0.16 -0.14 
+utt>   513                 anandhu_2   52    0    28 7  1 3 2.433515e-12 1.017570e+01 5.291364e+02
+INFO: cmn.c(175): CMN:  9.57  0.42 -0.29  0.25 -0.38 -0.00 -0.07 -0.54 -0.04 -0.17 -0.14 -0.16 -0.07 
+utt>   514                 anandhu_3   62    0    20 8  1 2 7.322345e-14 9.491882e+00 5.884967e+02
+INFO: cmn.c(175): CMN:  9.21  0.31 -0.62 -0.03 -0.30  0.02 -0.01 -0.27 -0.04 -0.12 -0.15 -0.15 -0.10 
+utt>   515                 anandhu_4   71    0    36 7  1 3 4.347095e-12 1.132564e+01 8.041208e+02
+INFO: cmn.c(175): CMN:  9.27  0.16 -0.41  0.46 -0.18 -0.32 -0.25 -0.30 -0.07 -0.26 -0.07 -0.16 -0.04 
+utt>   516                 anandhu_5   55    0    40 13  2 4 3.309103e-12 5.473369e+00 3.010353e+02
+INFO: cmn.c(175): CMN:  9.43  0.35 -0.52  0.06 -0.26 -0.13  0.02 -0.37 -0.12 -0.20 -0.12 -0.12 -0.10 
+utt>   517                 anandhu_6   79    0    40 7  1 3 3.325834e-12 8.550545e+00 6.754931e+02
+INFO: cmn.c(175): CMN:  9.23  0.16 -0.39  0.29 -0.23 -0.13 -0.09 -0.28 -0.05 -0.20 -0.15 -0.22 -0.12 
+utt>   518                 anandhu_7   72    0    40 8  1 3 2.714515e-12 6.503896e+00 4.682805e+02
+INFO: cmn.c(175): CMN:  9.53 -0.02 -0.41  0.38 -0.15 -0.31 -0.18 -0.30 -0.02 -0.28 -0.09 -0.15 -0.06 
+utt>   519                 anandhu_8   79    0    40 9  1 3 2.686307e-12 7.345457e+00 5.802911e+02
+INFO: cmn.c(175): CMN:  9.76  0.49 -0.72  0.17 -0.28 -0.33 -0.11 -0.30 -0.10 -0.15 -0.03 -0.10 -0.12 
+utt>   520                 anandhu_9   84    0    60 8  1 3 1.458380e-12 3.918605e+00 3.291628e+02
+INFO: cmn.c(175): CMN:  9.64  0.43 -0.67  0.16 -0.16 -0.30 -0.11 -0.35 -0.11 -0.13 -0.05 -0.20 -0.14 
+utt>   521                anandhu_10   79    0    44 8  1 3 4.450232e-12 7.952129e+00 6.282182e+02
+INFO: cmn.c(175): CMN:  8.39  0.27 -0.41 -0.13 -0.27 -0.14  0.07 -0.20 -0.10 -0.13 -0.09 -0.18 -0.12 
+utt>   522                anandhu_11   63    0    28 7  1 3 1.351532e-12 6.328463e+00 3.986931e+02
+INFO: cmn.c(175): CMN: 10.28  0.59 -0.83 -0.03 -0.39 -0.28  0.11 -0.33 -0.03 -0.11 -0.10 -0.13 -0.16 
+utt>   523                anandhu_12   64    0    32 7  1 3 7.773736e-14 1.404658e+01 8.989811e+02
+INFO: cmn.c(175): CMN: 10.00  0.56 -0.93 -0.08 -0.33 -0.23 -0.08 -0.28  0.03  0.01 -0.07 -0.20 -0.20 
+utt>   524                anandhu_13   79    0    44 8  1 3 3.197230e-12 4.137476e+00 3.268606e+02
+INFO: cmn.c(175): CMN:  9.59  0.69 -0.43  0.13 -0.21 -0.26 -0.17 -0.33 -0.07 -0.16 -0.10 -0.16 -0.08 
+utt>   525                anandhu_14   91    0    48 8  1 3 1.239481e-12 7.883307e+00 7.173810e+02
+INFO: cmn.c(175): CMN:  9.26 -0.03 -0.26  0.18 -0.15 -0.29 -0.12 -0.30 -0.11 -0.25 -0.13 -0.10 -0.05 
+utt>   526                anandhu_15   86    0    60 10  1 3 2.195148e-12 -9.548091e-01 -8.211359e+01
+INFO: cmn.c(175): CMN:  8.26  0.14 -0.46 -0.01 -0.21 -0.16 -0.00 -0.22 -0.03 -0.11 -0.08 -0.14 -0.13 
+utt>   527                anandhu_16  288    0   116 8  1 2 2.104121e-12 6.681240e+00 1.924197e+03
+INFO: cmn.c(175): CMN:  9.11  0.13 -0.47  0.13 -0.19 -0.23 -0.04 -0.30 -0.04 -0.18 -0.11 -0.16 -0.11 
+utt>   528                anandhu_17  271    0   100 8  1 2 2.067167e-12 8.884106e+00 2.407593e+03
+INFO: cmn.c(175): CMN:  9.02  0.09 -0.49  0.00 -0.18 -0.24 -0.11 -0.23 -0.02 -0.12 -0.07 -0.13 -0.11 
+utt>   529                anandhu_18  196    0    96 9  1 2 1.997769e-12 5.664750e+00 1.110291e+03
+INFO: cmn.c(175): CMN:  8.68  0.36 -0.38  0.01 -0.18 -0.16 -0.10 -0.27 -0.10 -0.15 -0.10 -0.14 -0.09 
+utt>   530                anandhu_19  195    0    80 7  1 2 1.954563e-12 9.346157e+00 1.822501e+03
+INFO: cmn.c(175): CMN:  8.45  0.06 -0.28  0.07 -0.17 -0.13 -0.17 -0.25 -0.05 -0.19 -0.12 -0.16 -0.05 
+utt>   531                anandhu_20  172    0    80 8  1 2 2.989089e-12 8.975767e+00 1.543832e+03
+INFO: cmn.c(175): CMN:  8.16  0.02 -0.42 -0.04 -0.22 -0.05 -0.06 -0.25 -0.03 -0.09 -0.10 -0.12 -0.07 
+utt>   532                anandhu_21  281    0   108 8  1 2 2.016460e-12 1.024017e+01 2.877489e+03
+INFO: cmn.c(175): CMN:  8.12 -0.02 -0.28  0.18 -0.26 -0.11 -0.12 -0.27 -0.06 -0.15 -0.08 -0.14 -0.07 
+utt>   533                anandhu_22  158    0    52 9  1 2 1.048238e-12 1.099153e+01 1.736662e+03
+INFO: cmn.c(175): CMN: 10.27  0.25 -0.15 -0.06 -0.29  0.03 -0.11 -0.24 -0.14 -0.17  0.01 -0.21 -0.09 
+utt>   534                anandhu_23  119    0    72 8  1 3 3.555013e-12 3.560005e+00 4.236406e+02
+INFO: cmn.c(175): CMN:  8.52 -0.06 -0.35  0.47 -0.07 -0.30 -0.06 -0.18 -0.08 -0.23 -0.10 -0.20 -0.13 
+utt>   535                 anandhu_1   90    0    52 8  1 3 2.308351e-12 6.607421e+00 5.946679e+02
+INFO: cmn.c(175): CMN:  9.76  0.09 -0.56  0.43 -0.29 -0.25 -0.17 -0.27 -0.03 -0.26 -0.07 -0.24 -0.10 
+utt>   536                 anandhu_2   71    0    40 8  1 3 3.524949e-13 9.750921e+00 6.923154e+02
+INFO: cmn.c(175): CMN:  8.87 -0.08 -0.32 -0.29 -0.28 -0.12 -0.01 -0.22 -0.05 -0.08 -0.05 -0.14 -0.11 
+utt>   537                 anandhu_3   75    0    32 7  1 3 1.915440e-12 7.332113e+00 5.499085e+02
+INFO: cmn.c(175): CMN:  9.24  0.17 -0.37  0.27 -0.25 -0.19 -0.07 -0.34 -0.05 -0.20 -0.08 -0.16 -0.11 
+utt>   538                 anandhu_4   75    0    32 7  1 3 2.024855e-12 6.571118e+00 4.928339e+02
+INFO: cmn.c(175): CMN:  9.52  0.33 -0.62 -0.04 -0.31 -0.13 -0.11 -0.33 -0.02 -0.02 -0.13 -0.14 -0.09 
+utt>   539                 anandhu_5   79    0    40 9  2 3 2.916024e-12 6.173115e+00 4.876761e+02
+INFO: cmn.c(175): CMN:  9.10 -0.01 -0.44  0.45 -0.23 -0.25 -0.08 -0.27 -0.02 -0.19 -0.15 -0.17 -0.08 
+utt>   540                 anandhu_6   72    0    40 9  1 3 1.556356e-12 3.064558e+00 2.206481e+02
+INFO: cmn.c(175): CMN:  9.53  0.34 -0.69  0.29 -0.25 -0.21 -0.11 -0.35 -0.07 -0.08 -0.12 -0.17 -0.07 
+utt>   541                 anandhu_7   79    0    40 8  1 3 1.486108e-12 9.736161e+00 7.691567e+02
+INFO: cmn.c(175): CMN:  8.86  0.04 -0.61 -0.24 -0.36 -0.11 -0.11 -0.25  0.09  0.01 -0.03 -0.16 -0.08 
+utt>   542                 anandhu_8   68    0    28 8  1 3 3.423993e-12 5.092099e+00 3.462627e+02
+INFO: cmn.c(175): CMN:  9.29  0.16 -0.63  0.35 -0.21 -0.16 -0.11 -0.31  0.02 -0.17 -0.11 -0.16 -0.10 
+utt>   543                 anandhu_9   83    0    40 8  1 3 2.420834e-12 9.336407e+00 7.749217e+02
+INFO: cmn.c(175): CMN:  8.93  0.07 -0.25  0.02 -0.19 -0.15 -0.08 -0.35 -0.07 -0.08 -0.13 -0.13 -0.03 
+utt>   544                anandhu_10   82    0    44 7  1 3 2.654336e-12 4.927602e+00 4.040633e+02
+INFO: cmn.c(175): CMN:  9.08  0.35 -0.50  0.15 -0.23 -0.13 -0.10 -0.33 -0.03 -0.07 -0.10 -0.18 -0.09 
+utt>   545                anandhu_11   92    0    48 9  1 3 1.717779e-12 8.249188e+00 7.589253e+02
+INFO: cmn.c(175): CMN:  8.85  0.05 -0.05 -0.01 -0.24 -0.07  0.01 -0.31 -0.11 -0.14 -0.12 -0.13 -0.07 
+utt>   546                anandhu_12   98    0    52 8  1 3 1.919686e-12 3.382558e+00 3.314907e+02
+INFO: cmn.c(175): CMN:  8.37 -0.06 -0.38  0.26 -0.18 -0.17 -0.05 -0.26 -0.04 -0.17 -0.08 -0.15 -0.11 
+utt>   547                anandhu_13  324    0   108 9  1 2 1.762614e-12 8.514257e+00 2.758619e+03
+INFO: cmn.c(175): CMN:  8.28 -0.03 -0.45  0.03 -0.27 -0.17 -0.11 -0.30 -0.02 -0.08 -0.07 -0.12 -0.09 
+utt>   548                anandhu_14  288    0    92 9  1 2 1.436203e-12 9.502097e+00 2.736604e+03
+INFO: cmn.c(175): CMN:  8.04 -0.08 -0.37  0.02 -0.17 -0.16 -0.08 -0.19 -0.01 -0.10 -0.11 -0.13 -0.05 
+utt>   549                anandhu_15  289    0    96 9  1 2 2.573232e-12 9.117036e+00 2.634823e+03
+INFO: cmn.c(175): CMN:  8.39 -0.02 -0.23  0.04 -0.17 -0.13 -0.07 -0.27 -0.07 -0.11 -0.13 -0.13 -0.05 
+utt>   550                anandhu_16  309    0   128 9  1 3 2.761496e-12 5.741085e+00 1.773995e+03
+INFO: cmn.c(175): CMN:  8.31 -0.04 -0.37  0.27 -0.17 -0.21 -0.02 -0.23 -0.02 -0.15 -0.10 -0.17 -0.11 
+utt>   551                anandhu_17  307    0   120 10  1 2 2.425402e-12 6.149372e+00 1.887857e+03
+INFO: cmn.c(175): CMN:  8.79  0.22 -0.10  0.27 -0.27 -0.15  0.14 -0.34 -0.15 -0.28 -0.18 -0.18 -0.14 
+utt>   552                 anandhu_1   98    0    44 12  2 3 3.159138e-12 3.379524e+00 3.311934e+02
+INFO: cmn.c(175): CMN:  8.95 -0.09 -0.18  0.47 -0.07 -0.18 -0.18 -0.29 -0.06 -0.26 -0.13 -0.13 -0.03 
+utt>   553                 anandhu_2   85    0    48 8  1 3 2.573498e-12 7.598623e+00 6.458830e+02
+INFO: cmn.c(175): CMN:  7.51 -0.35  0.12  0.69  0.10 -0.19  0.16 -0.25 -0.14 -0.20 -0.18 -0.16 -0.19 
+utt>   554                 anandhu_3   58    0    16 7  1 2 3.320243e-12 1.168911e+01 6.779686e+02
+INFO: cmn.c(175): CMN:  8.63  0.05  0.06  0.46 -0.10 -0.23  0.10 -0.25 -0.20 -0.32 -0.19 -0.20 -0.14 
+utt>   555                 anandhu_4   71    0    28 9  1 3 2.590969e-12 7.902473e+00 5.610756e+02
+INFO: cmn.c(175): CMN:  9.84  0.46 -0.66 -0.05 -0.31 -0.19 -0.05 -0.48 -0.09 -0.06 -0.03 -0.17 -0.12 
+utt>   556                 anandhu_5  108    0    72 11  2 4 4.421806e-12 6.782695e+00 7.325311e+02
+INFO: cmn.c(175): CMN:  8.70  0.09 -0.41  0.14 -0.19 -0.18 -0.09 -0.34 -0.05 -0.10 -0.07 -0.12 -0.07 
+utt>   557                 anandhu_6  232    0   112 10  1 3 2.210315e-12 8.825406e+00 2.047494e+03
+INFO: cmn.c(175): CMN:  7.40 -0.21 -0.01  0.28 -0.14 -0.14  0.07 -0.23 -0.10 -0.20 -0.13 -0.14 -0.12 
+utt>   558                 anandhu_7  325    0    72 11  1 2 1.261966e-12 1.114663e+01 3.622654e+03
+INFO: cmn.c(175): CMN:  8.85  0.20 -0.56 -0.05 -0.28 -0.16 -0.03 -0.37 -0.05 -0.08 -0.02 -0.15 -0.10 
+utt>   559                 anandhu_8  242    0   108 9  1 3 1.325088e-12 7.592236e+00 1.837321e+03
+overall> stats 71131 (-0) 7.031564e+00 5.001622e+05
+
+INFO: s3mixw_io.c(232): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1/mixw_counts [335x1x4 array]
+INFO: s3tmat_io.c(174): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1/tmat_counts [45x3x4 array]
+INFO: s3gau_io.c(478): Wrote /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1/gauden_counts with means with vars (2pass) [335x1x4 vector arrays]
+INFO: main.c(1014): Counts saved to /home/jerrin/Documents/project/main upload/chakka/trained data builds/tuttorialchakka_1/chakka/bwaccumdir/chakka_buff_1
+Sat Mar 30 00:24:27 2013
