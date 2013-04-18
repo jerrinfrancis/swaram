@@ -25,17 +25,19 @@ http://cmusphinx.sourceforge.net/sphinx4/doc/ProgrammersGuide.html
 Directory Structure of Swaram
 
 				 Swaram
-			__________| |______________	
-		       /                           \    	
-             	      /		     		    \	
-		Application   	         	  Database	
-    ________________||________	  	  ___________||________	
-   /      /                   \		 /  	  /	       \	
- App1   App2    .......	     AppN     	/        /              \ 
-                                       /        /		 \ 					    App1_db   App2_db  ...... AppN_db       		                   ___________||__________________________
-		          /         /	    \ 	           \
-		         /         /	     \		    \
-                       etc      wav	    Scripts .....  Model_Parameters
+			__________| |_________________	
+		       |                              | 	
+             	       |	     		      |	
+		  Application            	  Database	
+    _________________||________	  	_____________||_________
+   |      |                    |       |  	 | 	        |
+ App1   App2    .......	     AppN      |         |              |
+                                       |         |  	        |
+                                     App1_db   App2_db  ...... AppN_db
+                          ____________||____________________________
+		         |       |  	      |	                   |
+		         |       |  	      |		           |
+                       etc      wav	    Scripts  ....  Model_Parameters
 
 
 
